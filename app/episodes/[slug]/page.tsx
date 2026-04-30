@@ -70,8 +70,8 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             <div
               style={{
                 flexShrink: 0,
-                width: 160,
-                height: 160,
+                width: 180,
+                height: 180,
                 backgroundColor: 'var(--color-navy)',
                 border: '0.5px solid var(--color-navy-mid)',
                 overflow: 'hidden',
@@ -93,12 +93,12 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               <p
                 style={{
                   fontFamily: 'var(--font-body)',
-                  fontSize: 9,
+                  fontSize: 12,
                   fontWeight: 300,
                   letterSpacing: '0.3em',
                   textTransform: 'uppercase',
                   color: 'var(--color-cobalt-glow)',
-                  marginBottom: 8,
+                  marginBottom: 10,
                 }}
               >
                 Episode {String(episode.number).padStart(2, '0')} · {episode.duration}
@@ -107,11 +107,11 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               <h1
                 style={{
                   fontFamily: 'var(--font-ui)',
-                  fontSize: 44,
+                  fontSize: 56,
                   letterSpacing: '0.08em',
                   textTransform: 'uppercase',
                   color: 'var(--color-white)',
-                  margin: '0 0 12px',
+                  margin: '0 0 14px',
                 }}
               >
                 {episode.title}
@@ -120,11 +120,11 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               <p
                 style={{
                   fontFamily: 'var(--font-body)',
-                  fontSize: 15,
+                  fontSize: 17,
                   fontWeight: 300,
                   color: 'var(--color-silver)',
                   lineHeight: 1.72,
-                  margin: '0 0 16px',
+                  margin: '0 0 18px',
                 }}
               >
                 {episode.description}
@@ -137,13 +137,13 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                       key={tag}
                       style={{
                         fontFamily: 'var(--font-body)',
-                        fontSize: 9,
+                        fontSize: 11,
                         fontWeight: 300,
                         letterSpacing: '0.2em',
                         textTransform: 'uppercase',
                         color: 'var(--color-cobalt-glow)',
                         border: '0.5px solid var(--color-cobalt)',
-                        padding: '2px 8px',
+                        padding: '3px 10px',
                       }}
                     >
                       {tag}
@@ -171,7 +171,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               <div
                 style={{
                   fontFamily: 'var(--font-body)',
-                  fontSize: 15,
+                  fontSize: 17,
                   fontWeight: 300,
                   color: 'var(--color-silver)',
                   lineHeight: 1.72,
