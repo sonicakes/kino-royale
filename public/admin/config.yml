@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/covers
+public_folder: /covers
+
+collections:
+  - name: episodes
+    label: Episodes
+    label_singular: Episode
+    folder: content/episodes
+    create: true
+    slug: "{{slug}}"
+    identifier_field: slug
+    fields:
+      - { label: "ID",           name: id,          widget: string }
+      - { label: "Slug",         name: slug,         widget: string,
+          hint: "URL-safe, e.g. heretic-2024. No spaces." }
+      - { label: "Episode No.",  name: number,       widget: number }
+      - { label: "Title",        name: title,        widget: string }
+      - { label: "Date",         name: date,         widget: datetime,
+          format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+      - { label: "Duration",     name: duration,     widget: string,
+          hint: "Format: MM:SS e.g. 44:12" }
+      - { label: "Description",  name: description,  widget: text,
+          hint: "1–2 sentence summary shown on cards and in RSS feed" }
+      - { label: "Show Notes",   name: body,         widget: markdown,
+          hint: "Full show notes. Supports Markdown formatting." }
+      - { label: "Audio URL",    name: audioUrl,     widget: string,
+          required: false,
+          hint: "Cloudflare R2 public URL, e.g. https://pub-xxxx.r2.dev/ep02.mp3. Leave blank until audio is uploaded." }
+      - { label: "Cover Art",    name: coverArt,     widget: image,
+          required: false }
+      - { label: "Tags",         name: tags,         widget: list,
+          hint: "e.g. Horror, 2024, Hugh Grant" }
+      - { label: "Blog URL",     name: blogUrl,      widget: string,
+          required: false,
+          hint: "Link to the Cinefile Blog review for this episode" }
+      - { label: "Simulator ID", name: simulatorId,  widget: string,
+          required: false,
+          hint: "The ID of the Royal Simulator scenario for this episode" }

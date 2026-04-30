@@ -1,0 +1,196 @@
+import { notFound } from 'next/navigation'
+import Image from 'next/image'
+import { getAllEpisodes, getEpisodeBySlug } from '@/lib/episodes'
+import { Nav } from '@/components/Nav/Nav'
+import { AudioPlayer } from '@/components/AudioPlayer/AudioPlayer'
+import { UnholyTrinity } from '@/components/UnholyTrinity/UnholyTrinity'
+import { SectionHeader } from '@/components/SectionHeader/SectionHeader'
+import { TargetMotif } from '@/components/TargetMotif/TargetMotif'
+import { DiamondDivider } from '@/components/DiamondDivider/DiamondDivider'
+import { Footer } from '@/components/Footer/Footer'
+
+export function generateStaticParams() {
+  return getAllEpisodes().map((ep) => ({ slug: ep.slug }))
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const episode = getEpisodeBySlug(slug)
+  if (!episode) return {}
+  return {
+    title: `${episode.title} — Kino Royale`,
+    description: episode.description,
+  }
+}
+
+export default async function EpisodePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const episode = getEpisodeBySlug(slug)
+  if (!episode) return notFound()
+
+  return (
+    <>
+      <Nav />
+      <main>
+        {/* Episode hero */}
+        <section
+          style={{
+            backgroundColor: 'var(--color-deep)',
+            borderBottom: '0.5px solid var(--color-navy-mid)',
+            position: 'relative',
+            overflow: 'hidden',
+          }}
+        >
+          {/* Target motif in background */}
+          <div
+            style={{
+              position: 'absolute',
+              right: -80,
+              top: '50%',
+              transform: 'translateY(-50%)',
+              pointerEvents: 'none',
+            }}
+          >
+            <TargetMotif size={400} opacity={0.06} />
+          </div>
+
+          <div
+            style={{
+              maxWidth: 900,
+              margin: '0 auto',
+              padding: '56px 64px',
+              display: 'flex',
+              gap: 48,
+              alignItems: 'flex-start',
+              position: 'relative',
+              zIndex: 1,
+            }}
+          >
+            {/* Cover art */}
+            <div
+              style={{
+                flexShrink: 0,
+                width: 160,
+                height: 160,
+                backgroundColor: 'var(--color-navy)',
+                border: '0.5px solid var(--color-navy-mid)',
+                overflow: 'hidden',
+                position: 'relative',
+              }}
+            >
+              {episode.coverArt && (
+                <Image
+                  src={episode.coverArt}
+                  alt={episode.title}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
+              )}
+            </div>
+
+            {/* Episode meta */}
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <p
+                style={{
+                  fontFamily: 'var(--font-body)',
+                  fontSize: 9,
+                  fontWeight: 300,
+                  letterSpacing: '0.3em',
+                  textTransform: 'uppercase',
+                  color: 'var(--color-cobalt-glow)',
+                  marginBottom: 8,
+                }}
+              >
+                Episode {String(episode.number).padStart(2, '0')} · {episode.duration}
+              </p>
+
+              <h1
+                style={{
+                  fontFamily: 'var(--font-ui)',
+                  fontSize: 44,
+                  letterSpacing: '0.08em',
+                  textTransform: 'uppercase',
+                  color: 'var(--color-white)',
+                  margin: '0 0 12px',
+                }}
+              >
+                {episode.title}
+              </h1>
+
+              <p
+                style={{
+                  fontFamily: 'var(--font-body)',
+                  fontSize: 15,
+                  fontWeight: 300,
+                  color: 'var(--color-silver)',
+                  lineHeight: 1.72,
+                  margin: '0 0 16px',
+                }}
+              >
+                {episode.description}
+              </p>
+
+              {episode.tags.length > 0 && (
+                <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+                  {episode.tags.map(tag => (
+                    <span
+                      key={tag}
+                      style={{
+                        fontFamily: 'var(--font-body)',
+                        fontSize: 9,
+                        fontWeight: 300,
+                        letterSpacing: '0.2em',
+                        textTransform: 'uppercase',
+                        color: 'var(--color-cobalt-glow)',
+                        border: '0.5px solid var(--color-cobalt)',
+                        padding: '2px 8px',
+                      }}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Audio player */}
+          <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 64px 40px' }}>
+            <AudioPlayer audioUrl={episode.audioUrl} title={episode.title} />
+          </div>
+        </section>
+
+        {/* Show notes + Unholy Trinity */}
+        <div style={{ maxWidth: 900, margin: '0 auto', padding: '48px 64px' }}>
+
+          {episode.showNotes.trim() && (
+            <>
+              <div style={{ marginBottom: 24 }}>
+                <SectionHeader>Show Notes</SectionHeader>
+              </div>
+              <div
+                style={{
+                  fontFamily: 'var(--font-body)',
+                  fontSize: 15,
+                  fontWeight: 300,
+                  color: 'var(--color-silver)',
+                  lineHeight: 1.72,
+                  whiteSpace: 'pre-wrap',
+                }}
+              >
+                {episode.showNotes}
+              </div>
+              <DiamondDivider />
+            </>
+          )}
+
+          <div style={{ marginBottom: 24 }}>
+            <SectionHeader>The Unholy Trinity</SectionHeader>
+          </div>
+          <UnholyTrinity episode={episode} />
+        </div>
+      </main>
+      <Footer />
+    </>
+  )
+}

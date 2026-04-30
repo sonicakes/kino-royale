@@ -1,26 +1,45 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Backgrounds — darkest to lightest */
+  --color-midnight:    #020810;
+  --color-deep:        #060D1A;
+  --color-navy:        #0C1828;
+  --color-navy-mid:    #1A3A50;
+
+  /* Cobalt — structural accent, gun barrel blue */
+  --color-cobalt:      #1A4A8A;
+  --color-cobalt-mid:  #2860B0;
+  --color-cobalt-glow: #4A8AD4;
+
+  /* Teal — primary interactive accent */
+  --color-teal:        #7DD4D0;
+  --color-teal-dim:    #3A7878;
+
+  /* Type */
+  --color-silver:      #C8DCE0;
+  --color-silver-dim:  #4A6878;
+  --color-white:       #EEF6FA;
+
+  /* Typography */
+  --font-display: 'DM Serif Display', serif;
+  --font-ui:      'Bebas Neue', sans-serif;
+  --font-body:    'Barlow Condensed', sans-serif;
+  --font-voice:   'Cormorant Garamond', serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background-color: #020810;
+  color: #C8DCE0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
 }

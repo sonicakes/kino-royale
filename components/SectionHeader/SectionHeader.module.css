@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label {
+  font-family: var(--font-ui);
+  font-size: 17px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-cobalt-glow);
+}
+
+.dividerIcon {
+  color: var(--color-cobalt-glow);
+  opacity: 0.5;
+  font-size: 12px;
+}

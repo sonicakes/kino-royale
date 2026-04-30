@@ -1,0 +1,59 @@
+.footer {
+  background-color: var(--color-deep);
+  border-top: 0.5px solid var(--color-navy-mid);
+  padding: 40px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.logoBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.logoDisplay {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 24px;
+  color: var(--color-white);
+  line-height: 1;
+}
+
+.logoUi {
+  font-family: var(--font-ui);
+  font-size: 12px;
+  letter-spacing: 0.44em;
+  color: var(--color-cobalt-glow);
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.link {
+  font-family: var(--font-ui);
+  font-size: 14px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-silver-dim);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.link:hover {
+  color: var(--color-silver);
+}
+
+.copy {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--color-silver-dim);
+  opacity: 0.5;
+}

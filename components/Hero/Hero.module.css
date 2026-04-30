@@ -1,0 +1,118 @@
+.hero {
+  position: relative;
+  min-height: 600px;
+  overflow: hidden;
+  background-color: var(--color-midnight);
+  display: flex;
+  align-items: center;
+}
+
+.inner {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0 80px 64px;
+}
+
+.silhouette {
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  height: 580px;
+  width: auto;
+  z-index: 5;
+  pointer-events: none;
+  user-select: none;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  z-index: 10;
+  max-width: 480px;
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-cobalt-glow);
+  margin-bottom: 8px;
+}
+
+.titleKino {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 110px;
+  font-weight: 400;
+  line-height: 0.85;
+  color: var(--color-white);
+  margin: 0;
+}
+
+.titleRoyale {
+  font-family: var(--font-ui);
+  font-size: 36px;
+  letter-spacing: 0.44em;
+  color: var(--color-cobalt-glow);
+  margin: 0;
+  padding-left: 4px;
+}
+
+.tagline {
+  font-family: var(--font-voice);
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--color-silver-dim);
+  margin-top: 20px;
+  text-align: left;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.ctaPrimary {
+  font-family: var(--font-ui);
+  font-size: 16px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--color-teal);
+  color: var(--color-midnight);
+  padding: 12px 32px;
+  transition: opacity 0.15s ease;
+}
+
+.ctaPrimary:hover {
+  opacity: 0.85;
+}
+
+.ctaGhost {
+  font-family: var(--font-ui);
+  font-size: 16px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0.5px solid var(--color-navy-mid);
+  color: var(--color-silver-dim);
+  padding: 12px 32px;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.ctaGhost:hover {
+  border-color: var(--color-silver-dim);
+  color: var(--color-silver);
+}

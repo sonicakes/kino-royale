@@ -1,0 +1,116 @@
+.card {
+  background-color: var(--color-navy);
+  border: 0.5px solid var(--color-navy-mid);
+  border-left: 2px solid var(--color-teal);
+  padding: 24px 28px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.card:hover {
+  border-color: var(--color-teal);
+  background-color: #0F2035;
+}
+
+.number {
+  font-family: var(--font-ui);
+  font-size: 44px;
+  color: var(--color-cobalt-mid);
+  line-height: 1;
+  min-width: 56px;
+  flex-shrink: 0;
+}
+
+.body {
+  flex: 1;
+  min-width: 0;
+}
+
+.titleRow {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-family: var(--font-ui);
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.meta {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-cobalt-glow);
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--color-silver-dim);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.tags {
+  display: flex;
+  gap: 6px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-cobalt-glow);
+  border: 0.5px solid var(--color-cobalt);
+  padding: 3px 10px;
+}
+
+.playBtn {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--color-teal-dim);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease;
+  cursor: pointer;
+}
+
+.playBtn:hover {
+  background-color: var(--color-teal);
+}
+
+.playBtn:hover .playIcon {
+  fill: var(--color-midnight);
+}
+
+.playBtnDisabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.playIcon {
+  fill: var(--color-teal);
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
+}

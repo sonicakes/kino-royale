@@ -1,0 +1,68 @@
+.root {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  background-color: var(--color-navy);
+  border: 0.5px solid var(--color-navy-mid);
+  padding: 24px 22px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: background-color 0.15s ease;
+}
+
+.card:hover {
+  background-color: #0F2035;
+}
+
+.tealTop {
+  border-top: 2px solid var(--color-teal);
+}
+
+.cobaltTop {
+  border-top: 2px solid var(--color-cobalt-glow);
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-cobalt-glow);
+}
+
+.title {
+  font-family: var(--font-ui);
+  font-size: 18px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.meta {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--color-silver-dim);
+}
+
+.link {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  color: var(--color-teal);
+  margin-top: auto;
+  padding-top: 6px;
+}
+
+.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
