@@ -7,10 +7,10 @@ import clsx from 'clsx'
 import { CrownIcon } from '@/components/CrownIcon/CrownIcon'
 
 const links = [
+  { label: 'Home', href: '/' },
   { label: 'Episodes', href: '/episodes' },
   { label: 'The Story', href: '/story' },
   { label: 'Film Lady', href: '/story#film-lady' },
-  { label: 'Universe', href: '/#universe' },
 ]
 
 export function Nav() {

@@ -61,3 +61,14 @@
   margin-top: auto;
   padding-top: 8px;
 }
+
+@media (max-width: 640px) {
+  .card {
+    min-width: 100%;
+    padding: 20px 18px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}

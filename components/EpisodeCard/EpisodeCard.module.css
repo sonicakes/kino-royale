@@ -108,6 +108,26 @@
   cursor: not-allowed;
 }
 
+@media (max-width: 768px) {
+  .card {
+    padding: 16px 18px;
+    gap: 14px;
+  }
+
+  .number {
+    font-size: 36px;
+    min-width: 40px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+
 .playIcon {
   fill: var(--color-cobalt-glow);
   width: 16px;

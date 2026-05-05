@@ -55,16 +55,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
           </div>
 
           <div
-            style={{
-              maxWidth: 900,
-              margin: '0 auto',
-              padding: '56px 64px',
-              display: 'flex',
-              gap: 48,
-              alignItems: 'flex-start',
-              position: 'relative',
-              zIndex: 1,
-            }}
+            className="max-w-[900px] mx-auto px-4 py-10 md:px-16 md:py-14 flex flex-wrap gap-8 md:gap-12 items-start relative z-10"
           >
             {/* Cover art */}
             <div
@@ -107,7 +98,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               <h1
                 style={{
                   fontFamily: 'var(--font-ui)',
-                  fontSize: 56,
+                  fontSize: 'clamp(30px, 6vw, 56px)',
                   letterSpacing: '0.08em',
                   textTransform: 'uppercase',
                   color: 'var(--color-white)',
@@ -155,13 +146,13 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
           </div>
 
           {/* Audio player */}
-          <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 64px 40px' }}>
+          <div className="max-w-[900px] mx-auto px-4 pb-10 md:px-16 md:pb-10">
             <AudioPlayer audioUrl={episode.audioUrl} title={episode.title} />
           </div>
         </section>
 
         {/* Show notes + Unholy Trinity */}
-        <div style={{ maxWidth: 900, margin: '0 auto', padding: '48px 64px' }}>
+        <div className="max-w-[900px] mx-auto px-4 py-10 md:px-16 md:py-12">
 
           {episode.showNotes.trim() && (
             <>

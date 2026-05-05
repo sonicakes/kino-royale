@@ -68,5 +68,24 @@
 }
 
 .ctaGhost:hover {
-opacity: 0.85;
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 0 16px;
+    gap: 0;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .logoKino {
+    font-size: 28px;
+  }
+
+  .logoRoyale {
+    font-size: 13px;
+  }
 }

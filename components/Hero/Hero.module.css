@@ -20,18 +20,108 @@
   padding: 80px 64px 30px 30px;
 }
 
+.bondFigure {
+  position: absolute;
+  right: 0;
+  top: 3rem;
+  width: 25rem;
+  z-index: 4;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.4;
+  transform: rotate(-25deg);
+  transform-origin: center bottom;
+  filter: drop-shadow(0 0 18px rgba(74, 138, 212, 0.4)) drop-shadow(0 0 48px rgba(125, 212, 208, 0.18));
+}
+
+.bubblesRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 48%;
+  z-index: 6;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .inner {
+    padding: 40px 20px 20px 16px;
+  }
+
+  .silhouette {
+    width: 44vw;
+    left: -1vw;
+    bottom: 10vw;
+  }
+
+  .titleBlock {
+    flex: 1;
+    max-width: 50%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+  }
+
+  .inner {
+    padding: 20px 16px 24px 16px;
+    align-items: flex-end;
+  }
+
+  .titleBlock {
+    max-width: 100%;
+  }
+
+  .titleKino {
+    font-size: 56px;
+  }
+
+  .titleRoyale {
+    font-size: 20px;
+    letter-spacing: 0.3em;
+  }
+
+  .tagline {
+    font-size: 14px;
+  }
+
+  .silhouette {
+    position: relative;
+    width: 34vw;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(-1);
+    align-self: flex-end;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .bondFigure {
+    display: none;
+  }
+
+  .bubblesRight {
+    display: none;
+  }
+}
+
 .silhouette {
   position: relative;
-  left: -35px;
+  left: -3vw;
+  bottom: 16vw;
+  width: 42vw;
   height: auto;
-  width: auto;
+  flex-shrink: 0;
   z-index: 5;
   pointer-events: none;
   user-select: none;
   align-self: flex-start;
-  width: 50%;
-  scale: 0.88;
-  bottom: 10rem;
 }
 
 .titleBlock {
@@ -40,7 +130,7 @@
   align-items: flex-start;
   gap: 0;
   z-index: 10;
-  max-width: 480px;
+  max-width: 580px;
 }
 
 .eyebrow {
@@ -77,7 +167,7 @@
   font-style: italic;
   font-size: 19px;
   font-weight: 300;
-  color: var(--color-silver-dim);
+  color: var(--color-silver);
   margin-top: 20px;
   text-align: left;
 }

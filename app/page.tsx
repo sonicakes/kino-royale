@@ -9,22 +9,22 @@ import { Footer } from '@/components/Footer/Footer'
 import { WaterBackground } from '@/components/Hero/WaterBackground'
 
 export default function HomePage() {
-  const episodes = getAllEpisodes().slice(0, 2)
+  const allEpisodes = getAllEpisodes()
+  const previewEpisode = allEpisodes.find(ep => ep.preview)
+  const episodes = allEpisodes.filter(ep => !ep.preview).slice(0, 2)
 
   return (
     <>
       <Nav />
       <main>
-                    {/* <WaterBackground /> */}
-
         <Hero
-          audioUrl={episodes[0]?.audioUrl ?? ''}
-          title={episodes[0]?.title ?? ''}
-          duration={episodes[0]?.duration}
+          audioUrl={previewEpisode?.audioUrl ?? ''}
+          title={previewEpisode?.title ?? ''}
+          duration={previewEpisode?.duration}
         />
 
         {/* Latest Episodes */}
-        <section className="max-w-4xl mx-auto px-8 py-20">
+        <section className="max-w-4xl mx-auto px-4 py-12 md:px-8 md:py-20">
           <div className="mb-8">
             <SectionHeader>Latest Episodes</SectionHeader>
           </div>
@@ -43,7 +43,7 @@ export default function HomePage() {
         <DiamondDivider />
 
         {/* Universe strip */}
-        <section id="universe" className="max-w-4xl mx-auto px-8 pb-20">
+        <section id="universe" className="max-w-4xl mx-auto px-4 pb-12 md:px-8 md:pb-20">
           <div className="mb-8">
             <SectionHeader>The Unholy Trinity</SectionHeader>
           </div>

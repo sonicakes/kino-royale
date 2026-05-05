@@ -18,6 +18,7 @@ export interface Episode {
   tags: string[]
   blogUrl: string
   simulatorId: string
+  preview?: boolean
 }
 
 export function getAllEpisodes(): Episode[] {

@@ -11,7 +11,7 @@ export default function StoryPage() {
   return (
     <>
       <Nav />
-      <main style={{ maxWidth: 900, margin: '0 auto', padding: '64px' }}>
+      <main className="max-w-[900px] mx-auto px-4 py-10 md:px-16 md:py-16">
 
         {/* Page header */}
         <div style={{ marginBottom: 48 }}>
@@ -32,7 +32,7 @@ export default function StoryPage() {
             style={{
               fontFamily: 'var(--font-display)',
               fontStyle: 'italic',
-              fontSize: 68,
+              fontSize: 'clamp(38px, 8vw, 68px)',
               fontWeight: 400,
               color: 'var(--color-white)',
               lineHeight: 0.9,
@@ -64,7 +64,7 @@ export default function StoryPage() {
         />
 
         {/* Two-column layout */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64 }}>
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-16">
 
           {/* Left: Pull quote */}
           <div>
@@ -204,7 +204,7 @@ export default function StoryPage() {
           >
             About Kino Royale
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 40 }}>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
             <p
               style={{
                 fontFamily: 'var(--font-body)',
