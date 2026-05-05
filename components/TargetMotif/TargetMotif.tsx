@@ -28,7 +28,7 @@ export function TargetMotif({ size = 200, opacity = 0.06, className }: Props) {
           strokeWidth={i > 5 ? 1.5 : 0.5}
         />
       ))}
-      <circle cx={cx} cy={cx} r={size * 0.025} fill="#3A7878" opacity={0.5} />
+      <circle cx={cx} cy={cx} r={size * 0.05} fill="#c1272d" />
       <line x1={cx} y1={0} x2={cx} y2={cx * 0.88} stroke="#0C1828" strokeWidth={0.5} />
       <line x1={cx} y1={cx * 1.12} x2={cx} y2={size} stroke="#0C1828" strokeWidth={0.5} />
       <line x1={0} y1={cx} x2={cx * 0.88} y2={cx} stroke="#0C1828" strokeWidth={0.5} />

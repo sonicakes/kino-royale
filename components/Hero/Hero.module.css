@@ -1,10 +1,11 @@
 .hero {
   position: relative;
-  min-height: 600px;
   overflow: hidden;
   background-color: var(--color-midnight);
   display: flex;
   align-items: center;
+  padding-bottom: 12vh;
+  max-height: 100vh;
 }
 
 .inner {
@@ -16,18 +17,21 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 80px 0 80px 64px;
+  padding: 80px 64px 30px 30px;
 }
 
 .silhouette {
-  position: absolute;
-  left: 20%;
-  bottom: 0;
-  height: 580px;
+  position: relative;
+  left: -35px;
+  height: auto;
   width: auto;
   z-index: 5;
   pointer-events: none;
   user-select: none;
+  align-self: flex-start;
+  width: 50%;
+  scale: 0.88;
+  bottom: 10rem;
 }
 
 .titleBlock {
@@ -41,7 +45,7 @@
 
 .eyebrow {
   font-family: var(--font-body);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -52,7 +56,7 @@
 .titleKino {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 110px;
+  font-size: 124px;
   font-weight: 400;
   line-height: 0.85;
   color: var(--color-white);
@@ -61,9 +65,9 @@
 
 .titleRoyale {
   font-family: var(--font-ui);
-  font-size: 36px;
+  font-size: 42px;
   letter-spacing: 0.44em;
-  color: var(--color-cobalt-glow);
+  color: var(--color-steel);
   margin: 0;
   padding-left: 4px;
 }
@@ -71,7 +75,7 @@
 .tagline {
   font-family: var(--font-voice);
   font-style: italic;
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 300;
   color: var(--color-silver-dim);
   margin-top: 20px;
@@ -86,7 +90,7 @@
 
 .ctaPrimary {
   font-family: var(--font-ui);
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   text-decoration: none;
@@ -102,7 +106,7 @@
 
 .ctaGhost {
   font-family: var(--font-ui);
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   text-decoration: none;

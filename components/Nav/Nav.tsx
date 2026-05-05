@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './Nav.module.css'
 import clsx from 'clsx'
+import { CrownIcon } from '@/components/CrownIcon/CrownIcon'
 
 const links = [
   { label: 'Episodes', href: '/episodes' },
@@ -17,10 +18,7 @@ export function Nav() {
 
   return (
     <nav className={styles.nav}>
-      <Link href="/" className={styles.logo}>
-        <span className={styles.logoDisplay}>Kino</span>
-        <span className={styles.logoUi}>Royale</span>
-      </Link>
+      <Link href="/" className={styles.logoKino}>Kino</Link>
       <div className={styles.links}>
         {links.map((link) => (
           <Link
@@ -36,7 +34,10 @@ export function Nav() {
           </Link>
         ))}
       </div>
-      <Link href="/episodes" className={styles.cta}>Listen</Link>
+      <Link href="/episodes" className={styles.ctaGhost}>Listen</Link>
+      <Link href="/" className={styles.logoRoyale} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+        <CrownIcon size={12} />ROYALE
+      </Link>
     </nav>
   )
 }

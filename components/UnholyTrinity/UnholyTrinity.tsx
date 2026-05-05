@@ -13,7 +13,7 @@ export function UnholyTrinity({ episode }: Props) {
   return (
     <div className={styles.root}>
       {/* Current podcast — this page */}
-      <div className={clsx(styles.card, styles.cobaltTop)}>
+      <div className={clsx(styles.card, styles.redTop)}>
         <span className={styles.eyebrow}>Now Playing</span>
         <span className={styles.title}>Kino Royale</span>
         <span className={styles.meta}>Ep. {String(episode.number).padStart(2, '0')} — {episode.title}</span>

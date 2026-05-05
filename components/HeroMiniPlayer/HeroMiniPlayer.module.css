@@ -1,0 +1,122 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+  max-width: 380px;
+  background-color: var(--color-navy);
+  border: 0.5px solid var(--color-navy-mid);
+  border-left: 2px solid var(--color-cobalt-glow);
+  padding: 16px 20px;
+}
+
+.body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.titleRow {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-family: var(--font-ui);
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-white);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+}
+
+.meta {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-cobalt-glow);
+  white-space: nowrap;
+}
+
+.progressTrack {
+  height: 2px;
+  background: var(--color-navy-mid);
+  cursor: pointer;
+  position: relative;
+}
+
+.progressTrack:hover {
+  background: var(--color-cobalt);
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--color-cobalt-glow);
+  transition: width 0.1s linear;
+}
+
+.timeRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--color-silver-dim);
+}
+
+.comingSoon {
+  font-family: var(--font-voice);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--color-silver-dim);
+}
+
+.playBtn {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--color-cobalt);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.playBtn:hover:not(.disabled) {
+  background-color: var(--color-cobalt-glow);
+}
+
+.playBtn:hover:not(.disabled) .icon {
+  fill: var(--color-midnight);
+}
+
+.playBtn.disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.icon {
+  fill: var(--color-cobalt-glow);
+  width: 14px;
+  height: 14px;
+  margin-left: 2px;
+}
+
+.icon.pause {
+  margin-left: 0;
+}

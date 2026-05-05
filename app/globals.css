@@ -12,7 +12,10 @@
   --color-cobalt-mid:  #2860B0;
   --color-cobalt-glow: #4A8AD4;
 
-  /* Teal — primary interactive accent */
+  /* Steel — ROYALE text, lighter periwinkle blue */
+  --color-steel:       #8099C8;
+
+  /* Teal — primary interactive accent (CTA buttons only) */
   --color-teal:        #7DD4D0;
   --color-teal-dim:    #3A7878;
 

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './Footer.module.css'
+import { CrownIcon } from '@/components/CrownIcon/CrownIcon'
 
 export function Footer() {
   return (
@@ -23,7 +24,8 @@ export function Footer() {
         </a>
       </div>
 
-      <span className={styles.copy}>
+      <span className={styles.copy} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+        <CrownIcon size={13} />
         © {new Date().getFullYear()} Film Lady Productions
       </span>
     </footer>

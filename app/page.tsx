@@ -6,6 +6,7 @@ import { SectionHeader } from '@/components/SectionHeader/SectionHeader'
 import { DiamondDivider } from '@/components/DiamondDivider/DiamondDivider'
 import { UniverseCard } from '@/components/UniverseCard/UniverseCard'
 import { Footer } from '@/components/Footer/Footer'
+import { WaterBackground } from '@/components/Hero/WaterBackground'
 
 export default function HomePage() {
   const episodes = getAllEpisodes().slice(0, 2)
@@ -14,7 +15,13 @@ export default function HomePage() {
     <>
       <Nav />
       <main>
-        <Hero />
+                    {/* <WaterBackground /> */}
+
+        <Hero
+          audioUrl={episodes[0]?.audioUrl ?? ''}
+          title={episodes[0]?.title ?? ''}
+          duration={episodes[0]?.duration}
+        />
 
         {/* Latest Episodes */}
         <section className="max-w-4xl mx-auto px-8 py-20">
@@ -54,7 +61,7 @@ export default function HomePage() {
               title="Kino Royale"
               description="You're already here. Cinema criticism with absolutely no restraint."
               href="/episodes"
-              accent="cobalt"
+              accent="red"
             />
             <UniverseCard
               eyebrow="Interactive Scenario"

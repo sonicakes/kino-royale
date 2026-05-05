@@ -6,32 +6,28 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 32px;
-  height: 68px;
+  height: 64px;
   background-color: var(--color-deep);
+  border-top: 1.5px solid transparent;
+  border-image: linear-gradient(90deg, var(--color-teal), var(--color-cobalt-mid), var(--color-teal)) 1;
   border-bottom: 0.5px solid var(--color-navy-mid);
 }
 
-.logo {
-  display: flex;
-  flex-direction: column;
-  line-height: 1;
-  text-decoration: none;
-  gap: 0;
-}
-
-.logoDisplay {
+.logoKino {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 28px;
+  font-size: 36px;
   color: var(--color-white);
+  text-decoration: none;
   line-height: 1;
 }
 
-.logoUi {
+.logoRoyale {
   font-family: var(--font-ui);
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.44em;
-  color: var(--color-cobalt-glow);
+  color: var(--color-steel);
+  text-decoration: none;
   line-height: 1;
 }
 
@@ -43,7 +39,7 @@
 
 .link {
   font-family: var(--font-ui);
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 0.18em;
   color: var(--color-silver-dim);
   text-decoration: none;
@@ -56,21 +52,21 @@
 }
 
 .active {
-  color: var(--color-teal);
+  color: var(--color-cobalt-glow);
 }
 
-.cta {
+.ctaGhost {
   font-family: var(--font-ui);
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: var(--color-teal);
   color: var(--color-midnight);
+  background: var(--color-teal);
   padding: 8px 22px;
-  transition: opacity 0.15s ease;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.cta:hover {
-  opacity: 0.85;
+.ctaGhost:hover {
+opacity: 0.85;
 }

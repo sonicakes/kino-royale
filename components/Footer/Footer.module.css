@@ -18,16 +18,16 @@
 .logoDisplay {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 24px;
+  font-size: 27px;
   color: var(--color-white);
   line-height: 1;
 }
 
 .logoUi {
   font-family: var(--font-ui);
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.44em;
-  color: var(--color-cobalt-glow);
+  color: var(--color-steel);
 }
 
 .links {
@@ -38,7 +38,7 @@
 
 .link {
   font-family: var(--font-ui);
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--color-silver-dim);
@@ -52,7 +52,7 @@
 
 .copy {
   font-family: var(--font-body);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   color: var(--color-silver-dim);
   opacity: 0.5;

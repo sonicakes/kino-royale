@@ -6,7 +6,7 @@ interface Props {
   title: string
   description: string
   href: string
-  accent?: 'teal' | 'cobalt'
+  accent?: 'teal' | 'cobalt' | 'red'
   external?: boolean
 }
 
@@ -16,7 +16,7 @@ export function UniverseCard({ eyebrow, title, description, href, accent = 'coba
       href={href}
       className={clsx(
         styles.card,
-        accent === 'teal' ? styles.topBorderTeal : styles.topBorderCobalt,
+        accent === 'teal' ? styles.topBorderTeal : accent === 'red' ? styles.topBorderRed : styles.topBorderCobalt,
       )}
       target={external ? '_blank' : undefined}
       rel={external ? 'noopener noreferrer' : undefined}
