@@ -1,36 +1,145 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kino Royale
 
-## Getting Started
+Podcast website for **Film Lady Productions** — the audio home of a film criticism show pairing each episode with a written review on the Cinefile Blog and a scenario in the Royal Simulator app.
 
-First, run the development server:
+**The Unholy Trinity:**
+- [Cinefile Blog](https://cinefile-blog.netlify.app) — written film reviews
+- **Kino Royale** — this project — podcast episodes
+- Royal Simulator — interactive horror scenario generator
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 15, App Router, static export |
+| Language | TypeScript |
+| Styling | Tailwind v4 + CSS Modules |
+| Fonts | Google Fonts via `next/font` |
+| Audio | Cloudflare R2 (zero egress fees) |
+| CMS | Decap CMS (git-based, no database) |
+| Deployment | Netlify |
+
+---
+
+## Running Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+kino-royale/
+├── app/                        Next.js App Router pages
+│   ├── page.tsx                Homepage
+│   ├── episodes/page.tsx       Episode archive
+│   ├── episodes/[slug]/        Individual episode pages
+│   ├── story/page.tsx          The Film Lady
+│   ├── feed.xml/route.ts       Podcast RSS feed
+│   └── globals.css             Tailwind theme + base styles
+├── components/                 All UI components
+├── content/episodes/           Markdown episode files (Decap CMS managed)
+├── lib/episodes.ts             Episode data helpers (getAllEpisodes, getEpisodeBySlug)
+├── public/
+│   ├── silhouette.svg          Homepage hero figure
+│   ├── covers/                 Episode cover art
+│   └── admin/                  Decap CMS admin UI
+├── TODO.md                     Outstanding content & setup tasks
+└── kino-royale-claude-code-brief.md   Full design brief & rationale
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Design System
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Aesthetic:** Iridescent Midnight — inspired by the Thunderball (1965) and The Living Daylights (1987) Bond film posters.
 
-## Deploy on Vercel
+### Colours
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```css
+--color-midnight:    #020810;   /* page background */
+--color-deep:        #060D1A;   /* sections */
+--color-navy:        #0C1828;   /* cards */
+--color-navy-mid:    #1A3A50;   /* borders */
+--color-cobalt-glow: #4A8AD4;   /* labels, metadata */
+--color-teal:        #7DD4D0;   /* CTAs, play buttons */
+--color-silver:      #C8DCE0;   /* body text */
+--color-white:       #EEF6FA;   /* headings */
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Red (`#c1272d`) is never a token — used only as a hardcoded accent in the silhouette SVG lips, CrownIcon, DiamondDivider bubbles, and the Royal Simulator card border.
+
+### Fonts
+
+| Variable | Face | Role |
+|---|---|---|
+| `--font-display` | DM Serif Display italic | Hero title, pull quotes |
+| `--font-ui` | Bebas Neue | Nav, headings, CTAs, metadata |
+| `--font-body` | Barlow Condensed 300 | Descriptions, body text |
+| `--font-voice` | Cormorant Garamond italic | Film Lady voice only |
+
+---
+
+## Adding Episodes
+
+Episodes are Markdown files in `content/episodes/` with YAML frontmatter. The easiest way is via the Decap CMS admin UI at `/admin` — no code required.
+
+**Manually**, create a file like `content/episodes/ep-03-title.md`:
+
+```markdown
+---
+id: ep-03
+slug: your-slug
+number: 3
+title: Episode Title
+date: 2025-06-01
+duration: "42:00"
+description: One or two sentence summary.
+audioUrl: https://pub-xxxx.r2.dev/ep03.mp3
+coverArt: /covers/ep03.jpg
+tags:
+  - Horror
+  - 2025
+blogUrl: https://cinefile-blog.netlify.app/your-review
+simulatorId: your-scenario-id
+---
+
+Show notes in Markdown go here.
+```
+
+Leave `audioUrl` empty until the audio is uploaded to R2 — the player will render in a disabled "coming soon" state automatically.
+
+---
+
+## Audio (Cloudflare R2)
+
+1. Create a bucket in Cloudflare R2, enable public access
+2. Upload `.mp3` file
+3. Copy the public URL (`https://pub-xxxx.r2.dev/ep03.mp3`)
+4. Paste into the episode's `audioUrl` frontmatter field
+
+Zero egress fees. Free tier covers ~200 episodes at 50MB each.
+
+---
+
+## CMS (Decap)
+
+Visit `/admin` to manage episodes via a web form — no VS Code or git required. Requires Netlify Identity to be enabled in the Netlify dashboard (see `kino-royale-claude-code-brief.md` §12 for setup steps).
+
+---
+
+## Deployment
+
+Deploys to Netlify automatically on every push to `main`. Build config is in `netlify.toml`.
+
+**Before going live**, update `SITE_URL` in `app/feed.xml/route.ts` to the real domain, then submit the RSS feed to Apple Podcasts and Spotify.
+
+See `TODO.md` for all outstanding setup tasks.

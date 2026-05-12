@@ -1,0 +1,30 @@
+# Kino Royale — Outstanding Items
+
+All code is complete. Everything below is content and external setup.
+
+---
+
+## Content
+
+- [ ] **Cover art — Pilot (ep01)** — add image to `public/covers/ep01.jpg`
+- [ ] **Cover art — Heretic (ep02)** — add image to `public/covers/ep02.jpg`
+- [ ] **Audio — Pilot** — upload `.mp3` to R2, paste URL into `content/episodes/ep-01-pilot.md` → `audioUrl`
+- [ ] **Audio — Heretic** — upload `.mp3` to R2, paste URL into `content/episodes/ep-02-heretic.md` → `audioUrl`
+- [ ] **Show notes — Pilot** — replace placeholder text in `content/episodes/ep-01-pilot.md`
+- [ ] **Show notes — Heretic** — replace placeholder text in `content/episodes/ep-02-heretic.md`
+- [ ] **Blog URL — Pilot** — add Cinefile Blog link to `content/episodes/ep-01-pilot.md` → `blogUrl` when review is published
+
+---
+
+## Infrastructure
+
+- [ ] **Cloudflare R2** — create bucket `kino-royale-audio`, enable public access, configure CORS (see brief §10)
+- [ ] **Netlify Identity** — enable Identity + Git Gateway in Netlify dashboard, set registration to Invite Only, invite yourself (see brief §12)
+- [ ] **Update site URL** — once domain is confirmed, update `SITE_URL` in `app/feed.xml/route.ts` (currently `https://kinoroyale.com`)
+
+---
+
+## When you're ready to go live
+
+- [ ] Submit RSS feed to Apple Podcasts — `https://kinoroyale.com/feed.xml`
+- [ ] Submit RSS feed to Spotify

@@ -156,8 +156,9 @@ export function Hero({ audioUrl = '', title = '', duration }: Props) {
           <h1 className={styles.titleKino}>Kino</h1>
           <p className={styles.titleRoyale}>Royale</p>
           <p className={styles.tagline}>
-            I know you expected podcast about James Bond movies. Instead, you get discussions about dark films, TV & literature, as deep as the Thunderball.
+            Admit it - you expected podcast about James Bond movies. Instead, you get discussions about dark films, TV & literature, as deep as the Thunderball goes.
           </p>
+           
           <HeroMiniPlayer audioUrl={audioUrl} title={title} duration={duration} />
         </div>
       </div>
