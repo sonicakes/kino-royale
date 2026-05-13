@@ -15,12 +15,12 @@ export function Footer() {
         <Link href="/story" className={styles.link}>The Story</Link>
         <a href="/feed.xml" className={styles.link}>RSS</a>
         <a
-          href="https://bsky.app"
+          href="https://github.com/sonicakes/kino-royale"
           className={styles.link}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Bluesky
+          Github
         </a>
       </div>
 
