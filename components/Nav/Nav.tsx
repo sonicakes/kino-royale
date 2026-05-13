@@ -1,5 +1,6 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './Nav.module.css'
@@ -15,29 +16,71 @@ const links = [
 
 export function Nav() {
   const pathname = usePathname()
+  const [open, setOpen] = useState(false)
+
+  useEffect(() => { setOpen(false) }, [pathname])
+
+  useEffect(() => {
+    document.body.style.overflow = open ? 'hidden' : ''
+    return () => { document.body.style.overflow = '' }
+  }, [open])
 
   return (
-    <nav className={styles.nav}>
-      <Link href="/" className={styles.logoKino}>Kino</Link>
-      <div className={styles.links}>
-        {links.map((link) => (
-          <Link
-            key={link.href}
-            href={link.href}
-            className={clsx(
-              styles.link,
-              pathname === link.href && styles.active,
-              link.href === '/episodes' && pathname.startsWith('/episodes') && styles.active,
-            )}
-          >
-            {link.label}
+    <>
+      <nav className={styles.nav}>
+        <Link href="/" className={styles.logoKino}>Kino</Link>
+        <div className={styles.links}>
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={clsx(
+                styles.link,
+                pathname === link.href && styles.active,
+                link.href === '/episodes' && pathname.startsWith('/episodes') && styles.active,
+              )}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </div>
+        <Link href="/episodes" className={styles.ctaGhost}>Listen</Link>
+        <Link href="/" className={styles.logoRoyale} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <CrownIcon size={12} />ROYALE
+        </Link>
+        <button
+          className={styles.hamburger}
+          onClick={() => setOpen(o => !o)}
+          aria-label={open ? 'Close menu' : 'Open menu'}
+          aria-expanded={open}
+        >
+          <span className={clsx(styles.bar, open && styles.bar1Open)} />
+          <span className={clsx(styles.bar, open && styles.bar2Open)} />
+          <span className={clsx(styles.bar, open && styles.bar3Open)} />
+        </button>
+      </nav>
+
+      {open && (
+        <div className={styles.mobileMenu}>
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={clsx(
+                styles.mobileLink,
+                pathname === link.href && styles.mobileLinkActive,
+                link.href === '/episodes' && pathname.startsWith('/episodes') && styles.mobileLinkActive,
+              )}
+              onClick={() => setOpen(false)}
+            >
+              {link.label}
+            </Link>
+          ))}
+          <Link href="/episodes" className={styles.mobileCta} onClick={() => setOpen(false)}>
+            Listen Now
           </Link>
-        ))}
-      </div>
-      <Link href="/episodes" className={styles.ctaGhost}>Listen</Link>
-      <Link href="/" className={styles.logoRoyale} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-        <CrownIcon size={12} />ROYALE
-      </Link>
-    </nav>
+        </div>
+      )}
+    </>
   )
 }

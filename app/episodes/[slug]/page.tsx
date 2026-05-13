@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import Link from 'next/link'
 import Image from 'next/image'
 import { getAllEpisodes, getEpisodeBySlug } from '@/lib/episodes'
 import { Nav } from '@/components/Nav/Nav'
@@ -54,6 +55,22 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             <TargetMotif size={400} opacity={0.06} />
           </div>
 
+          <div className="max-w-[900px] mx-auto px-4 pt-6 md:px-16 relative z-10">
+            <Link
+              href="/episodes"
+              style={{
+                fontFamily: 'var(--font-ui)',
+                fontSize: 11,
+                letterSpacing: '0.2em',
+                textTransform: 'uppercase',
+                color: 'var(--color-silver-dim)',
+                textDecoration: 'none',
+              }}
+            >
+              ← All Episodes
+            </Link>
+          </div>
+
           <div
             className="max-w-[900px] mx-auto px-4 py-10 md:px-16 md:py-14 flex flex-wrap gap-8 md:gap-12 items-start relative z-10"
           >
@@ -61,8 +78,8 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             <div
               style={{
                 flexShrink: 0,
-                width: 180,
-                height: 180,
+                width: 250,
+                height: 250,
                 backgroundColor: 'var(--color-navy)',
                 border: '0.5px solid var(--color-navy-mid)',
                 overflow: 'hidden',
@@ -80,7 +97,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             </div>
 
             {/* Episode meta */}
-            <div style={{ flex: 1, minWidth: 0 }}>
+            <div style={{ flex: 1, minWidth: 0, height: 250, overflowY: 'auto' }}>
               <p
                 style={{
                   fontFamily: 'var(--font-body)',
@@ -103,6 +120,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                   textTransform: 'uppercase',
                   color: 'var(--color-white)',
                   margin: '0 0 14px',
+                  lineHeight: 1
                 }}
               >
                 {episode.title}

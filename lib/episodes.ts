@@ -21,10 +21,9 @@ export interface Episode {
   preview?: boolean
 }
 
-export function getAllEpisodes(): Episode[] {
-  const files = fs.readdirSync(EPISODES_DIR).filter(f => f.endsWith('.md'))
-
-  return files
+function readAllEpisodes(): Episode[] {
+  return fs.readdirSync(EPISODES_DIR)
+    .filter(f => f.endsWith('.md'))
     .map(filename => {
       const raw = fs.readFileSync(path.join(EPISODES_DIR, filename), 'utf8')
       const { data, content } = matter(raw)
@@ -33,9 +32,14 @@ export function getAllEpisodes(): Episode[] {
         showNotes: content,
       }
     })
+}
+
+export function getAllEpisodes(): Episode[] {
+  return readAllEpisodes()
+    .filter(ep => !ep.preview)
     .sort((a, b) => b.number - a.number)
 }
 
 export function getEpisodeBySlug(slug: string): Episode | undefined {
-  return getAllEpisodes().find(ep => ep.slug === slug)
+  return readAllEpisodes().find(ep => ep.slug === slug)
 }

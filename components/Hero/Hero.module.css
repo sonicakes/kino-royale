@@ -79,7 +79,7 @@
 @media (max-width: 768px) {
   .hero {
     max-height: none;
-    min-height: 100svh;
+    min-height: 0;
     align-items: flex-start;
   }
 

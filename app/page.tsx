@@ -1,4 +1,4 @@
-import { getAllEpisodes } from '@/lib/episodes'
+import { getAllEpisodes, getEpisodeBySlug } from '@/lib/episodes'
 import { Nav } from '@/components/Nav/Nav'
 import { Hero } from '@/components/Hero/Hero'
 import { EpisodeGrid } from '@/components/EpisodeGrid/EpisodeGrid'
@@ -9,9 +9,8 @@ import { Footer } from '@/components/Footer/Footer'
 import { WaterBackground } from '@/components/Hero/WaterBackground'
 
 export default function HomePage() {
-  const allEpisodes = getAllEpisodes()
-  const previewEpisode = allEpisodes.find(ep => ep.preview)
-  const episodes = allEpisodes.filter(ep => !ep.preview).slice(0, 2)
+  const previewEpisode = getEpisodeBySlug('preview')
+  const episodes = getAllEpisodes().slice(0, 2)
 
   return (
     <>

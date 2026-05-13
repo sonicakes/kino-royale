@@ -3,17 +3,36 @@ id: ep-02
 slug: heretic-2024
 number: 2
 title: Heretic
-date: 2025-01-15
-duration: "44:12"
+date: 2026-04-03
+duration: "45:15"
 description: Faith, manipulation, and two missionaries in a very suspicious house. Hugh Grant at his most unsettling.
 audioUrl: ""
-coverArt: /covers/ep02.jpg
+coverArt: /covers/ep02.png
 tags:
   - Horror
   - "2024"
   - Hugh Grant
 blogUrl: https://cinefile-blog.netlify.app/heretic
-simulatorId: heretic
+simulatorId: ""
 ---
+Religion: opium for the people. C*ntrol (spelt with U not O) for Mr. Reid. 9/10 Blueberry-Pie-Scented Candles.
+In the second episode of Kino Royale, the Film Lady knocks on the wrong door and gets trapped in a two-hour theological debate with Hugh Grant.
+Links:
+⁠Heretic review⁠ @ The Cinefile Blog
+⁠Everything Is a Remix⁠ — Kirby Ferguson (YouTube)
+The Whorrors — ⁠Episode 164: Heretic (2024)⁠
+Hack or Slash — ⁠Episode 407: Heretic (2024)⁠
+Dead Meat Podcast —⁠ Episode 227: Heretic⁠
 
-Show notes for this episode go here.
+Find me:
+@filmladyroyal at Bsky & Letterboxd
+Music: royalty free via Free Music Archive (⁠https://freemusicarchive.org/⁠), license type: CC BY
+Geoff Keston - Discordant Horror Strings
+Jake Hunter - Scary Cinematic Background Piano
+Kirk Osamayo - (Ambient) Horror Sounds
+PCxTC - Treehouse Of Horror
+Universfield - Creepy Horror Background
+Universfield - Mystery Horror
+Universfield - Paranormal Horror Background
+Yuri Megis - Horror Piano Trailer
+Joseph R. Lilore - NOVEMBER
