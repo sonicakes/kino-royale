@@ -2,11 +2,11 @@
 id: ep-03
 slug: rebecca
 number: 3
-title: Rebecca the Movie (1940) & Rebecca the Novel (1938)
+title: "Rebecca: Movie(1940) & Novel(1938)"
 date: 2026-04-17
-duration: 105:00
-description: In the 3d episode Film Lady moves into Manderley estate and tries
-  to replace the ghostly Rebecca with the manners she learnt from Hyacinth
+duration: '"105:00"'
+description: In the third episode Film Lady moves into Manderley estate and
+  tries to replace the ghostly Rebecca with the manners she learnt from Hyacinth
   Bucket.
 coverArt: /covers/ep03.png
 tags:
