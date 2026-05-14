@@ -1,0 +1,45 @@
+.pageWrap {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Shared Bond watermark base */
+.sil1, .sil2, .sil3 {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  mix-blend-mode: screen;
+  opacity: 0.38;
+}
+
+/* Large, top-right, slight clockwise lean */
+.sil1 {
+  width: 22vw;
+  right: -4vw;
+  top: 4%;
+  transform: rotate(6deg);
+}
+
+/* Smaller, mid-left, flipped + tilted back */
+.sil2 {
+  width: 14vw;
+  left: -4vw;
+  top: 38%;
+  opacity: 0.26;
+  transform: scaleX(-1) rotate(-10deg);
+}
+
+/* Medium, lower-right, more rotation */
+.sil3 {
+  width: 17vw;
+  right: -3vw;
+  bottom: 8%;
+  opacity: 0.30;
+  transform: rotate(14deg);
+}
+
+@media (max-width: 768px) {
+  .sil1 { width: 40vw; }
+  .sil2 { display: none; }
+  .sil3 { width: 32vw; }
+}
