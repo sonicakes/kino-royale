@@ -3,19 +3,20 @@ id: ep-01
 slug: pilot
 number: 1
 title: Mother of Flies
-date: 2026-25-03
-duration: "31:36"
-description: "In the pilot episode, Film Lady goes into the woods to eat some canker babies & meet the Witch who is also mothering some flies."
-audioUrl: "https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep5-edited-mothers.mp3"
+date: 2026-03-25
+duration: 31:36
+description: In the pilot episode, Film Lady goes into the woods to eat some
+  canker babies & meet the Witch who is also mothering some flies.
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/kino-royale-ep1-mother-of-flies.mp3
 coverArt: /covers/ep01.png
 tags:
   - Pilot
   - Folk Horror
   - Deep Dive
-blogUrl: "https://cinefileblog.com/blog/mother-of-flies"
+blogUrl: https://cinefileblog.com/blog/mother-of-flies
 simulatorId: ""
 ---
-Immaculate Crab Conception: 9/10 Zoombies.
+Immaculate Crab Conception: **9/10 Zoombies.**
 
 In the first ever Kino Royale episode, the Film Lady turns to alternative medicine in the 2025 Adams Family folk horror, Mother of Flies.
 
@@ -31,4 +32,3 @@ Universfield - Creepy Tension Background
 Universfield - Dark Mystery Atmosphere
 Universfield - Mysterious Dark Background
 Universfield - Spirit Horror
-
