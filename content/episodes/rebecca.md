@@ -2,7 +2,7 @@
 id: ep-03
 slug: rebecca
 number: 3
-title: "Rebecca: Movie(1940) & Novel(1938)"
+title: Rebecca
 date: 2026-04-17
 duration: 105:00
 description: In the third episode Film Lady moves into Manderley estate and
