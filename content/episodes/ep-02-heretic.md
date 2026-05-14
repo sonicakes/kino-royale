@@ -13,7 +13,7 @@ tags:
   - Horror
   - A24
   - Hugh Grant
-blogUrl: https://cinefile-blog.netlify.app/heretic
+blogUrl: https://cinefileblog.com/heretic
 simulatorId: ""
 ---
 Religion: opium for the people. C*ntrol (spelt with U not O) for Mr. Reid. **9/10 Blueberry-Pie-Scented Candles.**

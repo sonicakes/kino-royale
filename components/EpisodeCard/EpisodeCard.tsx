@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 import type { Episode } from '@/lib/episodes'
@@ -15,15 +16,23 @@ interface Props {
 export function EpisodeCard({ episode }: Props) {
   return (
     <Link href={`/episodes/${episode.slug}`} className={styles.card}>
-      <span className={styles.number}>
-        {String(episode.number).padStart(2, '0')}
-      </span>
+      <div className={styles.cover}>
+        {episode.coverArt && (
+          <Image
+            src={episode.coverArt}
+            alt={episode.title}
+            fill
+            style={{ objectFit: 'cover' }}
+            sizes="200px"
+          />
+        )}
+      </div>
 
       <div className={styles.body}>
         <div className={styles.titleRow}>
           <span className={styles.title}>{episode.title}</span>
-          <span className={styles.meta}>{episode.duration} · {fmtDate(episode.date)}</span>
         </div>
+        <span className={styles.meta}>EP {String(episode.number).padStart(2, '0')} · {episode.duration} · {fmtDate(episode.date)}</span>
         <p className={styles.description}>{episode.description}</p>
         {episode.tags.length > 0 && (
           <div className={styles.tags}>

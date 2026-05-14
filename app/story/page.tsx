@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Nav } from '@/components/Nav/Nav'
 import { CornerBox } from '@/components/CornerBox/CornerBox'
 import { DiamondDivider } from '@/components/DiamondDivider/DiamondDivider'
@@ -14,45 +15,54 @@ export default function StoryPage() {
       <main className="max-w-[900px] mx-auto px-4 py-10 md:px-16 md:py-16">
 
         {/* Page header */}
-        <div style={{ marginBottom: 48 }}>
-          <p
-            style={{
-              fontFamily: 'var(--font-body)',
-              fontSize: 12,
-              fontWeight: 300,
-              letterSpacing: '0.3em',
-              textTransform: 'uppercase',
-              color: 'var(--color-cobalt-glow)',
-              marginBottom: 12,
-            }}
-          >
-            Film Lady Productions
-          </p>
-          <h1
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontStyle: 'italic',
-              fontSize: 'clamp(38px, 8vw, 68px)',
-              fontWeight: 400,
-              color: 'var(--color-white)',
-              lineHeight: 0.9,
-              margin: '0 0 16px',
-            }}
-          >
-            The Story
-          </h1>
-          <p
-            style={{
-              fontFamily: 'var(--font-voice)',
-              fontStyle: 'italic',
-              fontSize: 20,
-              fontWeight: 400,
-              color: '#B4CCEC',
-              margin: 0,
-            }}
-          >
-            Shaken, not stirred.
-          </p>
+        <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 32, marginBottom: 48 }}>
+          <div>
+            <p
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: 12,
+                fontWeight: 300,
+                letterSpacing: '0.3em',
+                textTransform: 'uppercase',
+                color: 'var(--color-cobalt-glow)',
+                marginBottom: 12,
+              }}
+            >
+              Film Lady Productions
+            </p>
+            <h1
+              style={{
+                fontFamily: 'var(--font-display)',
+                fontStyle: 'italic',
+                fontSize: 'clamp(38px, 8vw, 68px)',
+                fontWeight: 400,
+                color: 'var(--color-white)',
+                lineHeight: 0.9,
+                margin: '0 0 16px',
+              }}
+            >
+              The Story
+            </h1>
+            <p
+              style={{
+                fontFamily: 'var(--font-voice)',
+                fontStyle: 'italic',
+                fontSize: 20,
+                fontWeight: 400,
+                color: '#B4CCEC',
+                margin: 0,
+              }}
+            >
+              Even though this is not James Bond saga pod, I would love to hear about your favourite Bond movie & actor.
+            </p>
+          </div>
+          <Image
+            src="/cover-art-pod.png"
+            alt="Kino Royale podcast cover art"
+            width={200}
+            height={200}
+            style={{ objectFit: 'cover', border: '0.5px solid var(--color-navy-mid)', flexShrink: 0 }}
+          />
         </div>
 
         <div
@@ -68,12 +78,34 @@ export default function StoryPage() {
 
           {/* Left: Cover art + pull quote */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 28 }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/cover-art-pod.png"
-              alt="Kino Royale podcast cover art"
-              style={{ width: '100%', display: 'block', border: '0.5px solid var(--color-navy-mid)' }}
-            />
+            <div style={{ position: 'relative', width: '100%', aspectRatio: '1 / 1', overflow: 'hidden', border: '0.5px solid var(--color-navy-mid)' }}>
+              <Image
+                src="/me.png"
+                alt="The Film Lady"
+                fill
+                style={{ objectFit: 'cover', objectPosition: 'bottom', filter: 'saturate(0.75) brightness(0.9)' }}
+              />
+              <div style={{
+                position: 'absolute',
+                inset: 0,
+                backgroundColor: 'var(--color-cobalt)',
+                mixBlendMode: 'color',
+                opacity: 0.4,
+                pointerEvents: 'none',
+              }} />
+            </div>
+            <p style={{
+              fontFamily: 'var(--font-body)',
+              fontSize: 11,
+              fontWeight: 300,
+              fontStyle: 'italic',
+              letterSpacing: '0.15em',
+              color: 'var(--color-silver-dim)',
+              margin: '-18px 0 0',
+              textAlign: 'right',
+            }}>
+              Gemini-modified picture by Film Lady herself
+            </p>
             <CornerBox>
               <p
                 style={{
@@ -233,7 +265,7 @@ export default function StoryPage() {
               marginBottom: 20,
             }}
           >
-            who is your favourite Bond?
+            Shaken, not stirred.
           </p>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
             <p

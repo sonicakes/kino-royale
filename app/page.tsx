@@ -51,7 +51,7 @@ export default function HomePage() {
               eyebrow="Written Review"
               title="Cinefile Blog"
               description="Film criticism in long form — essays, reviews, and takes worth arguing about."
-              href="https://cinefile-blog.netlify.app"
+              href="https://cinefileblog.com"
               accent="teal"
               external
             />

@@ -55,7 +55,17 @@
   font-size: 16px;
   font-weight: 300;
   color: var(--color-silver-dim);
-  opacity: 0.5;
+}
+
+.copyLink {
+  color: var(--color-cobalt-glow);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+.copyLink:hover {
+  color: var(--color-silver);
 }
 
 @media (max-width: 768px) {

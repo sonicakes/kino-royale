@@ -25,7 +25,7 @@ export function Footer() {
 
       <span className={styles.copy} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
         <CrownIcon size={13} />
-        © {new Date().getFullYear()} Film Lady Productions
+        © {new Date().getFullYear()} <a href="https://filmladyproductions.netlify.app/" target="_blank" rel="noopener noreferrer" className={styles.copyLink}>Film Lady Productions</a>
       </span>
     </footer>
   )

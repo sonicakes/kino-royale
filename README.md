@@ -3,7 +3,7 @@
 Podcast website for **Film Lady Productions** — the audio home of a film criticism show pairing each episode with a written review on the Cinefile Blog and a scenario in the Royal Simulator app.
 
 **The Unholy Trinity:**
-- [Cinefile Blog](https://cinefile-blog.netlify.app) — written film reviews
+- [Cinefile Blog](https://cinefileblog.com) — written film reviews
 - **Kino Royale** — this project — podcast episodes
 - Royal Simulator — interactive horror scenario generator
 
@@ -108,7 +108,7 @@ coverArt: /covers/ep03.jpg
 tags:
   - Horror
   - 2025
-blogUrl: https://cinefile-blog.netlify.app/your-review
+blogUrl: https://cinefileblog.com/your-review
 simulatorId: your-scenario-id
 ---
 
