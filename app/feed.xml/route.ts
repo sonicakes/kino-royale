@@ -1,6 +1,6 @@
 import { getAllEpisodes } from '@/lib/episodes'
 
-const SITE_URL = 'https://kinoroyale.com'
+const SITE_URL = 'https://kino-royale.netlify.app/'
 
 export async function GET() {
   const episodes = getAllEpisodes()

@@ -608,7 +608,7 @@ links, bold, lists, etc.
 
 ### Adding a new episode (with Decap CMS)
 
-1. Go to `kinoroyale.com/admin`
+1. Go to `https://kino-royale.netlify.app/admin`
 2. Log in with your GitHub account
 3. Click **New Episode**
 4. Fill in the form fields
@@ -991,7 +991,7 @@ When the Next.js site (on Netlify) loads audio from R2, the browser will check C
 ```json
 [
   {
-    "AllowedOrigins": ["https://kinoroyale.com", "http://localhost:3000"],
+    "AllowedOrigins": ["https://kino-royale.netlify.app", "http://localhost:3000"],
     "AllowedMethods": ["GET", "HEAD"],
     "AllowedHeaders": ["*"],
     "MaxAgeSeconds": 3600
@@ -1012,7 +1012,7 @@ Create `app/feed.xml/route.ts`:
 ```ts
 import { getAllEpisodes } from '@/lib/episodes'
 
-const SITE_URL = 'https://kinoroyale.com' // update when domain is known
+const SITE_URL = 'https://kino-royale.netlify.app/'
 
 export async function GET() {
   const episodes = getAllEpisodes()
@@ -1052,7 +1052,7 @@ export async function GET() {
 ```
 
 **How to submit to podcast directories:**
-- Apple Podcasts: [podcastsconnect.apple.com](https://podcastsconnect.apple.com) — paste `https://kinoroyale.com/feed.xml`
+- Apple Podcasts: [podcastsconnect.apple.com](https://podcastsconnect.apple.com) — paste `https://kino-royale.netlify.app/feed.xml`
 - Spotify: [podcasters.spotify.com](https://podcasters.spotify.com) — same URL
 
 ---
@@ -1073,7 +1073,7 @@ Decap CMS (formerly Netlify CMS) is an open-source, git-based content management
 
 ### How it feels to use
 
-1. Visit `https://kinoroyale.com/admin`
+1. Visit `https://kino-royale.netlify.app/admin`
 2. Click **Login with GitHub**
 3. See a list of your episodes
 4. Click **New Episode** — a form appears with fields for every piece of episode data
@@ -1245,7 +1245,7 @@ After deploying to Netlify:
 2. Click **Invite users**
 3. Enter your own email address
 4. You will receive an invitation email — click the link to set a password
-5. Visit `https://kinoroyale.com/admin` and log in
+5. Visit `https://kino-royale.netlify.app/admin` and log in
 
 > **Important:** Set registration to **Invite only** before deploying, otherwise anyone can create an account.
 
