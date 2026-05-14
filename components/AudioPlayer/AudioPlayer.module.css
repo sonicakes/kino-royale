@@ -79,6 +79,48 @@
   letter-spacing: 0.1em;
 }
 
+.volumeGroup {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.volumeIcon {
+  width: 14px;
+  height: 14px;
+  color: var(--color-silver-dim);
+  flex-shrink: 0;
+}
+
+.volumeSlider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 72px;
+  height: 3px;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-teal);
+  cursor: pointer;
+}
+
+.volumeSlider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-teal);
+  border: none;
+  cursor: pointer;
+}
+
 .comingSoon {
   font-family: var(--font-body);
   font-size: 13px;

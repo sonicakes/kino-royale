@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(Get-ChildItem \"C:\\\\Users\\\\sonia\\\\Documents\\\\projects-2026\\\\kino-royale\")",
+      "Bash(Select-Object Name)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\sonia\\\\Documents\\\\projects-2026\\\\kino-royale\" -Recurse -Directory)",
+      "Bash(Select-Object -First 50 FullName)",
+      "PowerShell(Head *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git *)"
     ]
   }
 }

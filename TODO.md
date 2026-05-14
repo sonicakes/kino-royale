@@ -6,13 +6,13 @@ All code is complete. Everything below is content and external setup.
 
 ## Content
 
-- [ ] **Cover art — Pilot (ep01)** — add image to `public/covers/ep01.jpg`
-- [ ] **Cover art — Heretic (ep02)** — add image to `public/covers/ep02.jpg`
+- [V] **Cover art — Pilot (ep01)** — add image to `public/covers/ep01.jpg`
+- [V] **Cover art — Heretic (ep02)** — add image to `public/covers/ep02.jpg`
 - [ ] **Audio — Pilot** — upload `.mp3` to R2, paste URL into `content/episodes/ep-01-pilot.md` → `audioUrl`
 - [ ] **Audio — Heretic** — upload `.mp3` to R2, paste URL into `content/episodes/ep-02-heretic.md` → `audioUrl`
-- [ ] **Show notes — Pilot** — replace placeholder text in `content/episodes/ep-01-pilot.md`
-- [ ] **Show notes — Heretic** — replace placeholder text in `content/episodes/ep-02-heretic.md`
-- [ ] **Blog URL — Pilot** — add Cinefile Blog link to `content/episodes/ep-01-pilot.md` → `blogUrl` when review is published
+- [V] **Show notes — Pilot** — replace placeholder text in `content/episodes/ep-01-pilot.md`
+- [V] **Show notes — Heretic** — replace placeholder text in `content/episodes/ep-02-heretic.md`
+- [V] **Blog URL — Pilot** — add Cinefile Blog link to `content/episodes/ep-01-pilot.md` → `blogUrl` when review is published
 
 ---
 
@@ -27,5 +27,5 @@ All code is complete. Everything below is content and external setup.
 
 ## When you're ready to go live
 
-- [ ] Submit RSS feed to Apple Podcasts — `https://kinoroyale.com/feed.xml`
-- [ ] Submit RSS feed to Spotify
+- [V] Submit RSS feed to Apple Podcasts — `https://kinoroyale.com/feed.xml`
+- [ ] Submit RSS feed to other platforms

@@ -6,7 +6,7 @@ title: Mother of Flies
 date: 2026-25-03
 duration: "31:36"
 description: "In the pilot episode, Film Lady goes into the woods to eat some canker babies & meet the Witch who is also mothering some flies."
-audioUrl: ""
+audioUrl: "https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep5-edited-mothers.mp3"
 coverArt: /covers/ep01.png
 tags:
   - Pilot

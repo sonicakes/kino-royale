@@ -9,7 +9,7 @@ interface Props {
 }
 
 export function AudioPlayer({ audioUrl, title }: Props) {
-  const { audioRef, isPlaying, progress, currentTime, duration, toggle, seek, isDisabled } =
+  const { audioRef, isPlaying, progress, currentTime, duration, toggle, seek, volume, setVolume, isDisabled } =
     useAudioPlayer(audioUrl)
 
   const handleProgressClick = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -59,6 +59,23 @@ export function AudioPlayer({ audioUrl, title }: Props) {
             </div>
             <div className={styles.timeRow}>
               <span className={styles.time}>{currentTime}</span>
+              <div className={styles.volumeGroup}>
+                <svg className={styles.volumeIcon} viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M1 5.5h3l4-3.5v12L4 10.5H1V5.5z" />
+                  <path d="M10 4.5a4.5 4.5 0 010 7" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+                </svg>
+                <input
+                  type="range"
+                  min={0}
+                  max={1}
+                  step={0.02}
+                  value={volume}
+                  onChange={e => setVolume(Number(e.target.value))}
+                  className={styles.volumeSlider}
+                  style={{ background: `linear-gradient(to right, var(--color-teal) ${volume * 100}%, var(--color-navy-mid) ${volume * 100}%)` }}
+                  aria-label="Volume"
+                />
+              </div>
               <span className={styles.time}>{duration}</span>
             </div>
           </>

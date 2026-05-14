@@ -8,6 +8,7 @@ export function useAudioPlayer(audioUrl: string) {
   const [progress, setProgress] = useState(0)
   const [currentTime, setCurrentTime] = useState(0)
   const [duration, setDuration] = useState(0)
+  const [volume, setVolumeState] = useState(1)
 
   useEffect(() => {
     const audio = audioRef.current
@@ -43,6 +44,12 @@ export function useAudioPlayer(audioUrl: string) {
     setIsPlaying(prev => !prev)
   }, [audioUrl, isPlaying])
 
+  const setVolume = useCallback((val: number) => {
+    const audio = audioRef.current
+    if (audio) audio.volume = val
+    setVolumeState(val)
+  }, [])
+
   const seek = useCallback((percent: number) => {
     const audio = audioRef.current
     if (!audio || !duration) return
@@ -63,6 +70,8 @@ export function useAudioPlayer(audioUrl: string) {
     duration: formatTime(duration),
     toggle,
     seek,
+    volume,
+    setVolume,
     isDisabled: !audioUrl,
   }
 }
