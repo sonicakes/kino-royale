@@ -2,7 +2,7 @@
 id: ep-05
 slug: mothers-day
 number: 5
-title: Best Mother's Day Horror
+title: Mother's Day Horror
 date: 2026-05-08
 duration: 102:00
 description: Happy Mothers & Others! FL goes on a rant on how good is to be a
