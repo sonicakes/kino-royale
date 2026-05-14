@@ -169,8 +169,8 @@
   font-family: var(--font-voice);
   font-style: italic;
   font-size: 19px;
-  font-weight: 300;
-  color: var(--color-silver);
+  font-weight: 400;
+  color: #B4CCEC;
   margin-top: 20px;
   text-align: left;
 }

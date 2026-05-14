@@ -146,6 +146,17 @@
   line-height: 1.65;
 }
 
+.artDesc a {
+  color: var(--color-teal);
+  text-decoration: none;
+  border-bottom: 0.5px solid var(--color-teal-dim);
+  transition: opacity 0.15s ease;
+}
+
+.artDesc a:hover {
+  opacity: 0.75;
+}
+
 .imageSlot {
   background: var(--color-navy);
   border: 0.5px solid var(--color-navy-mid);

@@ -46,12 +46,12 @@ export default function StoryPage() {
               fontFamily: 'var(--font-voice)',
               fontStyle: 'italic',
               fontSize: 20,
-              fontWeight: 300,
-              color: 'var(--color-silver-dim)',
+              fontWeight: 400,
+              color: '#B4CCEC',
               margin: 0,
             }}
           >
-            Why cinema? Why a podcast? Why all of this?
+            Shaken, not stirred.
           </p>
         </div>
 
@@ -66,21 +66,27 @@ export default function StoryPage() {
         {/* Two-column layout */}
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-16">
 
-          {/* Left: Pull quote */}
-          <div>
+          {/* Left: Cover art + pull quote */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 28 }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/cover-art-pod.png"
+              alt="Kino Royale podcast cover art"
+              style={{ width: '100%', display: 'block', border: '0.5px solid var(--color-navy-mid)' }}
+            />
             <CornerBox>
               <p
                 style={{
                   fontFamily: 'var(--font-voice)',
                   fontStyle: 'italic',
                   fontSize: 26,
-                  fontWeight: 300,
-                  color: 'var(--color-silver)',
+                  fontWeight: 400,
+                  color: '#B4CCEC',
                   lineHeight: 1.5,
                   margin: 0,
                 }}
               >
-                "Cinema is not just what we watch — it's how we learn to see."
+                "Podcasting with a thick accent - what can go wrong?"
               </p>
               <p
                 style={{
@@ -112,7 +118,7 @@ export default function StoryPage() {
                 marginBottom: 16,
               }}
             >
-              About The Film Lady
+              Name is Lady. FILM LADY.
             </p>
             <p
               style={{
@@ -136,15 +142,25 @@ export default function StoryPage() {
                 marginBottom: 16,
               }}
             >
-              Sometimes an episode pairs a film with a written review on the Cinefile Blog and an interactive horror scenario in the Royal Simulator. Three ways into the same film. The Unholy Trinity. Some other times, we do one-movie deep-dives, double-bills, book VS movie reviews, or even discuss movies lists.
+              Sometimes an episode pairs a film with a written review on the Cinefile Blog and an interactive horror scenario in the Royal Simulator. Three ways into the same film. The Unholy Trinity. 
             </p>
+            <p 
+            style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: 17,
+                fontWeight: 300,
+                color: 'var(--color-silver)',
+                lineHeight: 1.72,
+                marginBottom: 16,
+              }}
+            >Some other times, we do one-movie deep-dives, double-bills, book VS movie reviews, or even perouse movies lists. Occasionaly, we <span className='line-through font-bold text-[#c1272d]'>f</span><span className='font-bold italic pl-px text-[#c1272d]'>m</span>uck around & talk sh*t - this is an explicit pod!</p>
             <p
               style={{
                 fontFamily: 'var(--font-voice)',
                 fontStyle: 'italic',
                 fontSize: 17,
-                fontWeight: 300,
-                color: 'var(--color-silver-dim)',
+                fontWeight: 400,
+                color: '#B4CCEC',
                 lineHeight: 1.72,
               }}
             >
@@ -217,7 +233,7 @@ export default function StoryPage() {
               marginBottom: 20,
             }}
           >
-            About Kino Royale
+            who is your favourite Bond?
           </p>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
             <p

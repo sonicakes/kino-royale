@@ -167,7 +167,7 @@ export default function BlueprintPage() {
           marginBottom: 56,
           marginTop: 8,
         }}>
-          Artwork by <a href="ARTIST_LINK_HERE" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-cobalt-glow)', textDecoration: 'none' }}>Artist Name</a>
+          Artwork by <a href="https://unsplash.com/illustrations/person-wearing-vr-headset-submerged-in-water-A62qYyCVdG8" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-cobalt-glow)', textDecoration: 'none' }}>Haerul Ambiya, Unsplash</a>
         </p>
 
         {/* Palette */}
@@ -235,7 +235,7 @@ export default function BlueprintPage() {
           <SectionHeader>The Silhouettes</SectionHeader>
         </div>
         <p style={{ fontFamily: 'var(--font-body)', fontSize: 17, fontWeight: 300, color: 'var(--color-silver-dim)', lineHeight: 1.72, marginBottom: 32 }}>
-          Three figures. Each one placed differently — in the hero, in the logo, in the wider world of the site.
+          Three figures. Each one placed differently — in the hero, in the logo, in the wider world of the site. All illustrations used under the Unsplash Licence.
         </p>
         <div className={styles.artGallery}>
 
@@ -247,7 +247,8 @@ export default function BlueprintPage() {
             </div>
             <span className={styles.artLabel}>The Figure · Homepage hero</span>
             <p className={styles.artDesc}>
-              Found on Unsplash — a proper illustrated poster artwork, not a flat silhouette. The original amber palette was re-coloured to the site's cool blue-midnight tones. She is under water, absorbing light from above. The bubbles rise.
+              Made by  
+<a href="https://unsplash.com/illustrations/stylized-profile-of-a-womans-face-in-orange-XBwYBCsIs-A"> gilang yuda alyahya on Unsplash</a> — a proper illustrated poster artwork, not a flat silhouette. The original amber palette was re-coloured to the site's cool blue-midnight tones. She is under water, absorbing light from above. The bubbles rise.
             </p>
           </div>
 
@@ -255,11 +256,12 @@ export default function BlueprintPage() {
           <div className={styles.artItem}>
             <div className={styles.artImageSlot}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/blueprint/silhouette-cover.svg" alt="Logo silhouette" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src="/blueprint/og-cover.svg" alt="Logo silhouette" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
             <span className={styles.artLabel}>The Logo · Nav &amp; podcast cover</span>
             <p className={styles.artDesc}>
-              The same artist, a different figure — more mysterious, more still. Used as the nav logo mark and on every episode's podcast cover art. Navy and cobalt, no amber.
+              The same artist, a different figure —   Made by  
+<a href="https://unsplash.com/illustrations/abstract-profile-of-a-womans-face-with-red-lips-Ot8ZfxddEzw"> gilang yuda alyahya on Unsplash</a>: more mysterious, more still. Used as the nav logo mark and on every episode's podcast cover art. Recolored to cobalt blues. The OG red lips made me inspired to include the red highlight in my site.
             </p>
           </div>
 
@@ -271,7 +273,8 @@ export default function BlueprintPage() {
             </div>
             <span className={styles.artLabel}>The Reference · Bond</span>
             <p className={styles.artDesc}>
-              The third piece from the same collection. Warm amber and deep navy — the original palette before the re-colour. Kept here as a reference for where the site's visual tension between heat and cold originally came from.
+              The third piece is by <a href="https://unsplash.com/illustrations/a-scuba-diver-is-floating-in-the-ocean-jtBdNWat7No" target="_blank">
+Muhammad Afandi on Unsplash</a>. Warm amber and deep navy — the original palette before the re-colour into cobalts & teals. Added some drop shadows to highlight our boy James & included a few bubbles to keep him alive & kicking.
             </p>
           </div>
 

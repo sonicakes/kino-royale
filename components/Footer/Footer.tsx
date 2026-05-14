@@ -11,8 +11,7 @@ export function Footer() {
       </div>
 
       <div className={styles.links}>
-        <Link href="/episodes" className={styles.link}>Episodes</Link>
-        <Link href="/story" className={styles.link}>The Story</Link>
+        <a href="mailto:kinoroyalepodcast@gmail.com" className={styles.link}>kinoroyalepodcast@gmail.com</a>
         <a href="/feed.xml" className={styles.link}>RSS</a>
         <a
           href="https://github.com/sonicakes/kino-royale"
