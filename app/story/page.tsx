@@ -154,7 +154,7 @@ export default function StoryPage() {
             {/* External links */}
             <div style={{ display: 'flex', gap: 16, marginTop: 28, flexWrap: 'wrap' }}>
               <a
-                href="https://letterboxd.com"
+                href="https://letterboxd.com/filmladyroyal/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -169,7 +169,7 @@ export default function StoryPage() {
                 Letterboxd →
               </a>
               <a
-                href="https://bsky.app"
+                href="https://bsky.app/profile/filmladyroyal.bsky.social"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -182,6 +182,21 @@ export default function StoryPage() {
                 }}
               >
                 Bluesky →
+              </a>
+                 <a
+                href="https://www.instagram.com/filmladyroyal/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  fontFamily: 'var(--font-ui)',
+                  fontSize: 14,
+                  letterSpacing: '0.18em',
+                  textTransform: 'uppercase',
+                  color: 'var(--color-teal)',
+                  textDecoration: 'none',
+                }}
+              >
+                Instagram →
               </a>
             </div>
           </div>
