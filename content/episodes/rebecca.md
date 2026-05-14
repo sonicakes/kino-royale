@@ -1,7 +1,7 @@
 ---
 id: ep-03
 slug: rebecca
-number: 2
+number: 3
 title: Rebecca the Movie (1940) & Rebecca the Novel (1938)
 date: 2026-04-17
 duration: 105:00
