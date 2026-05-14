@@ -124,7 +124,7 @@ export default function StoryPage() {
                 marginBottom: 16,
               }}
             >
-              Kino Royale is a film criticism podcast from Sydney, Australia, hosted by the Film Lady — a writer, cinephile, and dedicated overthinker of things that were probably meant to be just entertainment.
+              Kino Royale is a dark films criticism podcast from Sydney, Australia, hosted by the Film Lady — a writer, cinephile, Imperialist Russia exile, and dedicated overthinker of things that were probably meant to be just entertainment.
             </p>
             <p
               style={{
@@ -136,7 +136,7 @@ export default function StoryPage() {
                 marginBottom: 16,
               }}
             >
-              Each episode pairs a film with a written review on the Cinefile Blog and an interactive horror scenario in the Royal Simulator. Three ways into the same film. The Unholy Trinity.
+              Sometimes an episode pairs a film with a written review on the Cinefile Blog and an interactive horror scenario in the Royal Simulator. Three ways into the same film. The Unholy Trinity. Some other times, we do one-movie deep-dives, double-bills, book VS movie reviews, or even discuss movies lists.
             </p>
             <p
               style={{
@@ -230,7 +230,7 @@ export default function StoryPage() {
                 margin: 0,
               }}
             >
-              Kino Royale launched in late 2024 as the audio component of Film Lady Productions — a platform that approaches each film from three angles simultaneously. The podcast is where the thinking happens out loud: messy, opinionated, occasionally wrong, and always worth arguing about.
+              Kino Royale launched in late 2025 as the audio component of Film Lady Productions — a platform that approaches each film from three angles simultaneously. The podcast is where the thinking happens out loud: messy, opinionated, occasionally wrong, and always worth arguing about.
             </p>
             <p
               style={{

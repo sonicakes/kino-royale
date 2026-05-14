@@ -13,22 +13,43 @@
   border-bottom: 0.5px solid var(--color-navy-mid);
 }
 
+.logoGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.logoSilhouette {
+  height: 64px;
+  width: auto;
+  opacity: 0.92;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
 .logoKino {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 36px;
+  font-size: 28px;
   color: var(--color-white);
-  text-decoration: none;
   line-height: 1;
 }
 
 .logoRoyale {
   font-family: var(--font-ui);
-  font-size: 16px;
+  font-size: 13px;
   letter-spacing: 0.44em;
-  color: var(--color-steel);
-  text-decoration: none;
+  color: var(--color-silver-dim);
   line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .links {
@@ -176,11 +197,15 @@
     display: flex;
   }
 
+  .logoSilhouette {
+    height: 38px;
+  }
+
   .logoKino {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .logoRoyale {
-    font-size: 13px;
+    font-size: 11px;
   }
 }

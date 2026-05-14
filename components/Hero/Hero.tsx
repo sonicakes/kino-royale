@@ -45,7 +45,7 @@ export function Hero({ audioUrl = '', title = '', duration }: Props) {
         <circle cx="720"  cy="1350" r="20" fill="none" stroke="#c1272d" strokeWidth="2" opacity="0.35" />
         <circle cx="900"  cy="1420" r="11" fill="none" stroke="#4A8AD4" strokeWidth="2" opacity="0.25" />
 
-        {/* art.svg — muted navy palette, 65% opacity so background bleeds through */}
+        {/* silhouette — blue/navy palette */}
         <g opacity="0.85">
           <path fill="#1A3A50" d="m809.13,1367.8s75.37-19.71,96.97,45.47c0,0-23.68,24.82-12.13,41.87l22.9,32.05s31.1,22.9,44.74,45.07c0,0,28.61,46.42-21.22,79.96l-29.75,19.89-137.18,68.02-84.51,46.42s-34.29,27.09-46.61,46.23c-12.32,19.14-35.43,46.99-52.86,82.61l-22.74,42.11-39.03-1s60.26-160.64,104.97-160.47l122.02-154.99,54.42-233.24Z"/>
           <path fill="#1A3A50" d="m774.43,1248.58l30.69.06s43.2,25.71,22.74,62.08l-18.44,38.15s-5.7,9.45-2.35,22.28c0,0-31.33,8.22-26.12-21.05,0,0,.17-16.89,26.94-50.49l-33.47-51.03Z"/>
