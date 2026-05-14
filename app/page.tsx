@@ -66,7 +66,7 @@ export default function HomePage() {
               eyebrow="Interactive Scenario"
               title="Royal Simulator"
               description="Horror scenario generator. Play the film. Make the wrong choices."
-              href="https://royalsimulator.netlify.app"
+              href="https://royal-simulator.netlify.app"
               accent="cobalt"
               external
             />
