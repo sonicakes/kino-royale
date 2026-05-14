@@ -8,6 +8,7 @@ duration: 105:00
 description: In the third episode Film Lady moves into Manderley estate and
   tries to replace the ghostly Rebecca with the manners she learnt from Hyacinth
   Bucket.
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/kino-3-rebecca-edited-upload.mp3
 coverArt: /covers/ep03.png
 tags:
   - gothic
