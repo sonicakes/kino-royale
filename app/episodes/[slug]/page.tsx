@@ -1,7 +1,9 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
+import { marked } from 'marked'
 import { getAllEpisodes, getEpisodeBySlug } from '@/lib/episodes'
+import styles from './episode.module.css'
 import { Nav } from '@/components/Nav/Nav'
 import { AudioPlayer } from '@/components/AudioPlayer/AudioPlayer'
 import { UnholyTrinity } from '@/components/UnholyTrinity/UnholyTrinity'
@@ -28,6 +30,20 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
   const { slug } = await params
   const episode = getEpisodeBySlug(slug)
   if (!episode) return notFound()
+
+  const renderer = new marked.Renderer()
+  renderer.link = ({ href, title, text }) => {
+    let url = href ?? ''
+    if (url && !url.startsWith('http') && !url.startsWith('/') && !url.startsWith('#') && !url.startsWith('mailto:')) {
+      url = `https://${url}`
+    }
+    const external = url.startsWith('http')
+    const titleAttr = title ? ` title="${title}"` : ''
+    const targetAttr = external ? ' target="_blank" rel="noopener noreferrer"' : ''
+    return `<a href="${url}"${titleAttr}${targetAttr}>${text}</a>`
+  }
+
+  const showNotesHtml = marked.parse(episode.showNotes.trim(), { renderer })
 
   return (
     <>
@@ -178,17 +194,9 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                 <SectionHeader>Show Notes</SectionHeader>
               </div>
               <div
-                style={{
-                  fontFamily: 'var(--font-body)',
-                  fontSize: 17,
-                  fontWeight: 300,
-                  color: 'var(--color-silver)',
-                  lineHeight: 1.72,
-                  whiteSpace: 'pre-wrap',
-                }}
-              >
-                {episode.showNotes}
-              </div>
+                className={styles.prose}
+                dangerouslySetInnerHTML={{ __html: showNotesHtml }}
+              />
               <DiamondDivider />
             </>
           )}

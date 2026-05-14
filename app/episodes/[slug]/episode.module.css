@@ -1,0 +1,104 @@
+.prose {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--color-silver);
+  line-height: 1.72;
+}
+
+.prose p {
+  margin: 0 0 1.2em;
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.prose h2 {
+  font-family: var(--font-ui);
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin: 1.8em 0 0.6em;
+}
+
+.prose h3 {
+  font-family: var(--font-ui);
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-cobalt-glow);
+  margin: 1.4em 0 0.5em;
+}
+
+.prose strong {
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.prose em {
+  font-style: italic;
+  color: var(--color-silver);
+}
+
+.prose a {
+  color: var(--color-teal);
+  text-decoration: none;
+}
+
+.prose a:hover {
+  text-decoration: underline;
+}
+
+.prose ul,
+.prose ol {
+  margin: 0 0 1.2em;
+  padding-left: 1.4em;
+}
+
+.prose ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prose ul li::before {
+  content: '—';
+  color: var(--color-cobalt-glow);
+  margin-right: 0.5em;
+}
+
+.prose ol {
+  list-style: decimal;
+}
+
+.prose ol li::marker {
+  color: var(--color-cobalt-glow);
+}
+
+.prose li {
+  margin-bottom: 0.4em;
+}
+
+.prose blockquote {
+  border-left: 2px solid var(--color-cobalt-mid);
+  margin: 1.4em 0;
+  padding: 0.2em 0 0.2em 1.2em;
+  color: var(--color-silver-dim);
+  font-style: italic;
+}
+
+.prose code {
+  font-family: monospace;
+  font-size: 14px;
+  background: var(--color-navy);
+  color: var(--color-cobalt-glow);
+  padding: 1px 6px;
+  border-radius: 2px;
+}
+
+.prose hr {
+  border: none;
+  border-top: 0.5px solid var(--color-navy-mid);
+  margin: 2em 0;
+}

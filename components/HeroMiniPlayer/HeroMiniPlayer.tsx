@@ -56,7 +56,7 @@ export function HeroMiniPlayer({ audioUrl, title, duration }: Props) {
                   aria-label="Volume"
                 />
               </div>
-              <span className={styles.time}>{isPlaying ? 'Now Playing' : 'Play Me'}</span>
+              <span className={styles.time}>{isPlaying ? 'Now Playing' : 'GO ON NOW'}</span>
             </div>
           </>
         )}
