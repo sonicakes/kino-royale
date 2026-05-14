@@ -287,7 +287,7 @@ Muhammad Afandi on Unsplash</a>. Warm amber and deep navy — the original palet
           <SectionHeader>The References</SectionHeader>
         </div>
         <p style={{ fontFamily: 'var(--font-body)', fontSize: 17, fontWeight: 300, color: 'var(--color-silver-dim)', lineHeight: 1.72, marginBottom: 40 }}>
-          Two Bond film posters. That's where this entire visual language came from.
+          Two Bond film posters - sourced from IMDB website. That's where this entire visual language came from.
         </p>
         <div className={styles.refGrid} style={{ marginBottom: 0 }}>
           {references.map(({ film, year, contribution, body, imageFile }) => (
