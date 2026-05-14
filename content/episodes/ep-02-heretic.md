@@ -11,7 +11,7 @@ audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/kino-royale-ep2-he
 coverArt: /covers/ep02.png
 tags:
   - Horror
-  - "2024"
+  - A24
   - Hugh Grant
 blogUrl: https://cinefile-blog.netlify.app/heretic
 simulatorId: ""
