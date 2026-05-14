@@ -21,6 +21,16 @@ export interface Episode {
   preview?: boolean
 }
 
+function coerceDuration(val: unknown): string {
+  if (typeof val === 'string') return val
+  if (typeof val === 'number') {
+    const m = Math.floor(val / 60)
+    const s = val % 60
+    return `${m}:${s.toString().padStart(2, '0')}`
+  }
+  return String(val)
+}
+
 function readAllEpisodes(): Episode[] {
   return fs.readdirSync(EPISODES_DIR)
     .filter(f => f.endsWith('.md'))
@@ -29,6 +39,7 @@ function readAllEpisodes(): Episode[] {
       const { data, content } = matter(raw)
       return {
         ...(data as Omit<Episode, 'showNotes'>),
+        duration: coerceDuration(data.duration),
         showNotes: content,
       }
     })
