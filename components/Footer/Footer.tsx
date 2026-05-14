@@ -12,7 +12,7 @@ export function Footer() {
 
       <div className={styles.links}>
         <a href="mailto:kinoroyalepodcast@gmail.com" className={styles.link}>kinoroyalepodcast@gmail.com</a>
-        <a href="/feed.xml" className={styles.link}>RSS</a>
+        <a href="https://anchor.fm/s/1105f4e3c/podcast/rss" className={styles.link} target="_blank" rel="noopener noreferrer">RSS</a>
         <a
           href="https://github.com/sonicakes/kino-royale"
           className={styles.link}
