@@ -12,10 +12,13 @@ coverArt: /covers/ep04.png
 tags:
   - folk
   - cult
+  - paganism
 blogUrl: https://cinefileblog.com/posts/the-wicker-man
 simulatorId: the-wicker-man
 ---
+I would like to acknowledge that I live, work, and learn on the traditional lands of the **Dharug** and **Darkinjung** peoples. I pay my respects to their Elders past and present, and extend that respect to all Aboriginal and Torres Strait Islander peoples here today. 
 
+\*\**
 
 Who would the Film Lady put inside her Wicker Man? **8/10 Rowan Hares** for 1973 folk horror classic - The Wicker Man.
 
@@ -23,65 +26,30 @@ In the fourth episode of Kino Royale, The Film Lady goes deeper — into the anc
 
 **Links:**
 
-*   [⁠Visual Companion⁠](https://cinefileblog.com/posts/the-wicker-man)
-
-   on The Cinefile Blog 
-*   [⁠The Wicker Man ⁠](https://royal-simulator.netlify.app/scenarios/the-wicker-man)
-
-   Scenario on Royal Simulator App
-* YT - 
-
-  [⁠Ivan Kupala - Kolyada (Zainka)⁠](https://www.youtube.com/watch?v=3YVbbZ3UBWU)
-
-
-* YT - 
-
-  [⁠Ivan Kupala - Pchyoly (Bees)⁠](https://www.youtube.com/watch?v=OV2o2FykHQg⁠)
-
-
-*   [⁠The Collected Tales of Nikolai Gogol⁠](https://www.goodreads.com/book/show/252981.The_Collected_Tales_of_Nikolai_Gogol)
-
-
-* Horror Movie 'Viy' based on Gogol's tale, watch in full on YT 
-
-  [⁠here⁠](https://www.youtube.com/watch?v=4YmQn6q36HQ)
-
-
-* Film Lady Productions portfolio 
-
-  [⁠here⁠](https://filmladyproductions.netlify.app/)
-
-
-* Comprehensive 
-
-  [⁠book on Slavic Paganism⁠](https://www.amazon.com.au/gp/aw/d/B0DBDL74VN)
-
-  , Amazon
+* [⁠Visual Companion⁠ ](https://cinefileblog.com/posts/the-wicker-man)on The Cinefile Blog 
+* [⁠The Wicker Man ⁠](https://royal-simulator.netlify.app/scenarios/the-wicker-man)Scenario on Royal Simulator App
+* YT - [⁠Ivan Kupala - Pchyoly (Bees)⁠](https://www.youtube.com/watch?v=OV2o2FykHQg⁠)
+* YT - [⁠Ivan Kupala - Kolyada (Zainka)⁠](https://www.youtube.com/watch?v=3YVbbZ3UBWU)
+* [⁠The Collected Tales of Nikolai Gogol⁠](https://www.goodreads.com/book/show/252981.The_Collected_Tales_of_Nikolai_Gogol)
+* Horror Movie 'Viy' based on Gogol's tale, watch in full on YT [⁠here⁠](https://www.youtube.com/watch?v=4YmQn6q36HQ)
+* Film Lady Productions portfolio [⁠here⁠](https://filmladyproductions.netlify.app/)
+* Comprehensive [book on Slavic Paganism⁠](https://www.amazon.com.au/gp/aw/d/B0DBDL74VN), Amazon
 
 **Follow me:**
 
-* Letterboxd: @filmladyroyal
-* Bluesky: @filmladyroyal
+@filmladyroyal on Bluesky, Instagram & Letterboxd
 
 **Drop me a line:** kinoroyalepodcast@gmail.com
 
 **Sources used in prep for the ep - especially 2d part, Studies:**
 
-* Aitamurto, Kaarina — 
-
-  *Paganism, Traditionalism, Nationalism: Narratives of Russian Rodnoverie*
-
-   (Routledge, 2016)
+* Aitamurto, Kaarina — *Paganism, Traditionalism, Nationalism: Narratives of Russian Rodnoverie* (Routledge, 2016)
 * Beliefnet — "The Pagan Origins of May Day": beliefnet.com
 * Boston Public Library Blog — "Origins and Practices of Holidays: Beltane": bpl.org
 * Britannica — "Paganism": britannica.com/topic/paganism
 * Celebrate Pagan Holidays — Statistics and Studies: celebratepaganholidays.com
 * Cultural Atlas — Russian Religion: culturalatlas.sbs.com.au
-* Davies, Owen — 
-
-  *Paganism: A Very Short Introduction*
-
-   (Oxford University Press, 2011)
+* Davies, Owen — *Paganism: A Very Short Introduction* (Oxford University Press, 2011)
 * List25 — "25 Popular Holidays With Surprisingly Pagan Origins": list25.com
 * neo-paganism.org — Pagan Demographics & Culture
 * Online Etymology Dictionary: etymonline.com/word/paganism
