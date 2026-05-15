@@ -1,3 +1,35 @@
+/* Episode hero layout */
+.heroLayout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.heroCover {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color-navy);
+  border: 0.5px solid var(--color-navy-mid);
+  overflow: hidden;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .heroLayout {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  .heroCover {
+    flex-shrink: 0;
+    width: 250px;
+    height: 250px;
+    aspect-ratio: unset;
+  }
+}
+
 .prose {
   font-family: var(--font-body);
   font-size: 17px;

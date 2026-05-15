@@ -13,11 +13,6 @@ export function HeroMiniPlayer({ audioUrl, title, duration }: Props) {
   const { audioRef, isPlaying, progress, currentTime, duration: elapsed, toggle, seek, volume, setVolume, isDisabled } =
     useAudioPlayer(audioUrl)
 
-  const handleProgressClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    const rect = e.currentTarget.getBoundingClientRect()
-    seek(((e.clientX - rect.left) / rect.width) * 100)
-  }
-
   return (
     <div className={styles.card}>
       {audioUrl && (
@@ -34,9 +29,17 @@ export function HeroMiniPlayer({ audioUrl, title, duration }: Props) {
           <span className={styles.comingSoon}>Audio coming soon</span>
         ) : (
           <>
-            <div className={styles.progressTrack} onClick={handleProgressClick}>
-              <div className={styles.progressFill} style={{ width: `${progress}%` }} />
-            </div>
+            <input
+              type="range"
+              min={0}
+              max={100}
+              step={0.1}
+              value={progress}
+              onChange={e => seek(Number(e.target.value))}
+              className={styles.progressTrack}
+              style={{ background: `linear-gradient(to right, var(--color-cobalt-glow) ${progress}%, var(--color-navy-mid) ${progress}%)` }}
+              aria-label="Seek"
+            />
             <div className={styles.timeRow}>
               <span className={styles.time}>{elapsed}</span>
               <div className={styles.volumeGroup}>

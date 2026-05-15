@@ -9,7 +9,7 @@ export function SectionHeader({ children }: Props) {
   return (
     <div className={styles.root}>
       <TargetMotif size={32} opacity={0.5} />
-      <span className={styles.label}>{children}</span>
+      <h2 className={styles.label}>{children}</h2>
     </div>
   )
 }

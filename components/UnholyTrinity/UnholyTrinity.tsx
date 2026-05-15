@@ -21,30 +21,48 @@ export function UnholyTrinity({ episode }: Props) {
       </div>
 
       {/* Blog review */}
-      <a
-        href={episode.blogUrl || '#'}
-        className={clsx(styles.card, styles.tealTop, !hasBlog && styles.disabled)}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className={styles.eyebrow}>Written Review</span>
-        <span className={styles.title}>Cinefile Blog</span>
-        <span className={styles.meta}>{hasBlog ? 'Read the full review' : 'Review coming soon'}</span>
-        <span className={styles.link}>{hasBlog ? 'Read →' : '—'}</span>
-      </a>
+      {hasBlog ? (
+        <a
+          href={episode.blogUrl}
+          className={clsx(styles.card, styles.tealTop)}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className={styles.eyebrow}>Written Review</span>
+          <span className={styles.title}>Cinefile Blog</span>
+          <span className={styles.meta}>Read the full review</span>
+          <span className={styles.link}>Read →</span>
+        </a>
+      ) : (
+        <div className={clsx(styles.card, styles.tealTop, styles.disabled)} aria-hidden="true">
+          <span className={styles.eyebrow}>Written Review</span>
+          <span className={styles.title}>Cinefile Blog</span>
+          <span className={styles.meta}>Review coming soon</span>
+          <span className={styles.link}>—</span>
+        </div>
+      )}
 
       {/* Royal Simulator */}
-      <a
-        href={hasSimulator ? `https://royal-simulator.netlify.app/scenarios/${episode.simulatorId}` : '#'}
-        className={clsx(styles.card, styles.cobaltTop, !hasSimulator && styles.disabled)}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className={styles.eyebrow}>Interactive Scenario</span>
-        <span className={styles.title}>Royal Simulator</span>
-        <span className={styles.meta}>{hasSimulator ? 'Play the scenario' : 'Scenario coming soon'}</span>
-        <span className={styles.link}>{hasSimulator ? 'Play →' : '—'}</span>
-      </a>
+      {hasSimulator ? (
+        <a
+          href={`https://royal-simulator.netlify.app/scenarios/${episode.simulatorId}`}
+          className={clsx(styles.card, styles.cobaltTop)}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className={styles.eyebrow}>Interactive Scenario</span>
+          <span className={styles.title}>Royal Simulator</span>
+          <span className={styles.meta}>Play the scenario</span>
+          <span className={styles.link}>Play →</span>
+        </a>
+      ) : (
+        <div className={clsx(styles.card, styles.cobaltTop, styles.disabled)} aria-hidden="true">
+          <span className={styles.eyebrow}>Interactive Scenario</span>
+          <span className={styles.title}>Royal Simulator</span>
+          <span className={styles.meta}>Scenario coming soon</span>
+          <span className={styles.link}>—</span>
+        </div>
+      )}
     </div>
   )
 }
