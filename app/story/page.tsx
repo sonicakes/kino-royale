@@ -15,7 +15,7 @@ export default function StoryPage() {
       <main className="max-w-[900px] mx-auto px-4 py-10 md:px-16 md:py-16">
 
         {/* Page header */}
-        <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 32, marginBottom: 48 }}>
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8 mb-12">
           <div>
             <p
               style={{
@@ -56,13 +56,15 @@ export default function StoryPage() {
               Even though this is not James Bond saga pod, I would love to hear about your favourite Bond movie & actor.
             </p>
           </div>
-          <Image
-            src="/cover-art-pod.png"
-            alt="Kino Royale podcast cover art"
-            width={200}
-            height={200}
-            style={{ objectFit: 'cover', border: '0.5px solid var(--color-navy-mid)', flexShrink: 0 }}
-          />
+          <div className="relative w-full md:w-[200px] md:flex-shrink-0" style={{ aspectRatio: '1 / 1' }}>
+            <Image
+              src="/cover-art-pod.png"
+              alt="Kino Royale podcast cover art"
+              fill
+              style={{ objectFit: 'cover', border: '0.5px solid var(--color-navy-mid)' }}
+              sizes="(max-width: 768px) 100vw, 200px"
+            />
+          </div>
         </div>
 
         <div

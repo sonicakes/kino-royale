@@ -115,11 +115,14 @@
   .card {
     padding: 16px 18px;
     gap: 14px;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .cover {
-    width: 110px;
-    height: 110px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 
   .title {
@@ -128,6 +131,10 @@
 
   .description {
     font-size: 15px;
+  }
+
+  .playBtn {
+    align-self: flex-end;
   }
 }
 
