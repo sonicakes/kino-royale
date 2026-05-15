@@ -92,95 +92,85 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             </Link>
           </div>
 
-          <div
-            className="max-w-[900px] mx-auto px-4 py-10 md:px-16 md:py-14 flex flex-wrap gap-8 md:gap-12 items-start relative z-10"
-          >
-            {/* Cover art */}
-            <div
-              style={{
-                flexShrink: 0,
-                width: 250,
-                height: 250,
-                backgroundColor: 'var(--color-navy)',
-                border: '0.5px solid var(--color-navy-mid)',
-                overflow: 'hidden',
-                position: 'relative',
-              }}
-            >
-              {episode.coverArt && (
-                <Image
-                  src={episode.coverArt}
-                  alt={episode.title}
-                  fill
-                  style={{ objectFit: 'cover' }}
-                />
-              )}
-            </div>
+          <div className="max-w-[900px] mx-auto px-4 py-10 md:px-16 md:py-14 relative z-10">
+            <div className={styles.heroLayout}>
+              {/* Cover art */}
+              <div className={styles.heroCover}>
+                {episode.coverArt && (
+                  <Image
+                    src={episode.coverArt}
+                    alt={episode.title}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                )}
+              </div>
 
-            {/* Episode meta */}
-            <div style={{ flex: 1, minWidth: 0, height: 250, overflowY: 'auto' }}>
-              <p
-                style={{
-                  fontFamily: 'var(--font-body)',
-                  fontSize: 12,
-                  fontWeight: 300,
-                  letterSpacing: '0.3em',
-                  textTransform: 'uppercase',
-                  color: 'var(--color-cobalt-glow)',
-                  marginBottom: 10,
-                }}
-              >
-                Episode {String(episode.number).padStart(2, '0')} · {episode.duration} · {fmtDate(episode.date)}
-              </p>
+              {/* Episode meta */}
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <p
+                  style={{
+                    fontFamily: 'var(--font-body)',
+                    fontSize: 12,
+                    fontWeight: 300,
+                    letterSpacing: '0.3em',
+                    textTransform: 'uppercase',
+                    color: 'var(--color-cobalt-glow)',
+                    marginBottom: 10,
+                  }}
+                >
+                  Episode {String(episode.number).padStart(2, '0')} · {episode.duration} · {fmtDate(episode.date)}
+                </p>
 
-              <h1
-                style={{
-                  fontFamily: 'var(--font-ui)',
-                  fontSize: 'clamp(30px, 6vw, 56px)',
-                  letterSpacing: '0.08em',
-                  textTransform: 'uppercase',
-                  color: 'var(--color-white)',
-                  margin: '0 0 14px',
-                  lineHeight: 1
-                }}
-              >
-                {episode.title}
-              </h1>
+                <h1
+                  style={{
+                    fontFamily: 'var(--font-ui)',
+                    fontSize: 'clamp(30px, 6vw, 56px)',
+                    letterSpacing: '0.08em',
+                    textTransform: 'uppercase',
+                    color: 'var(--color-white)',
+                    margin: '0 0 14px',
+                    lineHeight: 1,
+                  }}
+                >
+                  {episode.title}
+                </h1>
 
-              <p
-                style={{
-                  fontFamily: 'var(--font-body)',
-                  fontSize: 17,
-                  fontWeight: 300,
-                  color: 'var(--color-silver)',
-                  lineHeight: 1.72,
-                  margin: '0 0 18px',
-                }}
-              >
-                {episode.description}
-              </p>
+                <p
+                  style={{
+                    fontFamily: 'var(--font-body)',
+                    fontSize: 17,
+                    fontWeight: 300,
+                    color: 'var(--color-silver)',
+                    lineHeight: 1.72,
+                    margin: '0 0 18px',
+                  }}
+                >
+                  {episode.description}
+                </p>
 
-              {episode.tags.length > 0 && (
-                <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-                  {episode.tags.map(tag => (
-                    <span
-                      key={tag}
-                      style={{
-                        fontFamily: 'var(--font-body)',
-                        fontSize: 11,
-                        fontWeight: 300,
-                        letterSpacing: '0.2em',
-                        textTransform: 'uppercase',
-                        color: 'var(--color-cobalt-glow)',
-                        border: '0.5px solid var(--color-cobalt)',
-                        padding: '3px 10px',
-                      }}
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              )}
+                {episode.tags.length > 0 && (
+                  <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+                    {episode.tags.map(tag => (
+                      <span
+                        key={tag}
+                        style={{
+                          fontFamily: 'var(--font-body)',
+                          fontSize: 11,
+                          fontWeight: 300,
+                          letterSpacing: '0.2em',
+                          textTransform: 'uppercase',
+                          color: 'var(--color-cobalt-glow)',
+                          border: '0.5px solid var(--color-cobalt)',
+                          padding: '3px 10px',
+                        }}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
           </div>
 

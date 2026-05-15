@@ -84,31 +84,24 @@
   padding: 3px 10px;
 }
 
-.playBtn {
+.listenPill {
   flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  border: 1px solid var(--color-cobalt);
-  background: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.15s ease;
-  cursor: pointer;
+  align-self: flex-end;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-teal);
+  transition: opacity 0.15s ease;
 }
 
-.playBtn:hover {
-  background-color: var(--color-cobalt-glow);
+.card:hover .listenPill {
+  opacity: 0.75;
 }
 
-.playBtn:hover .playIcon {
-  fill: var(--color-midnight);
-}
-
-.playBtnDisabled {
-  opacity: 0.35;
-  cursor: not-allowed;
+.listenPillDisabled {
+  color: var(--color-silver-dim);
+  opacity: 0.5;
 }
 
 @media (max-width: 768px) {
@@ -133,14 +126,5 @@
     font-size: 15px;
   }
 
-  .playBtn {
-    align-self: flex-end;
-  }
 }
 
-.playIcon {
-  fill: var(--color-cobalt-glow);
-  width: 16px;
-  height: 16px;
-  margin-left: 2px;
-}

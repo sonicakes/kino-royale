@@ -43,10 +43,8 @@ export function EpisodeCard({ episode }: Props) {
         )}
       </div>
 
-      <div className={clsx(styles.playBtn, !episode.audioUrl && styles.playBtnDisabled)} aria-hidden="true">
-        <svg viewBox="0 0 16 16" className={styles.playIcon}>
-          <path d="M3 2.5l10 5.5-10 5.5V2.5z" />
-        </svg>
+      <div className={clsx(styles.listenPill, !episode.audioUrl && styles.listenPillDisabled)} aria-hidden="true">
+        {episode.audioUrl ? 'Listen →' : 'Coming Soon'}
       </div>
     </Link>
   )

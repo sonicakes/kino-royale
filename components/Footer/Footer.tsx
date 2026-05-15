@@ -27,6 +27,10 @@ export function Footer() {
         <CrownIcon size={13} />
         © {new Date().getFullYear()} <a href="https://filmladyproductions.netlify.app/" target="_blank" rel="noopener noreferrer" className={styles.copyLink}>Film Lady Productions</a>
       </span>
+
+      <p className={styles.acknowledgement}>
+        I would like to acknowledge that I live, work, and learn on the traditional lands of the Dharug and Darkinjung peoples. I pay my respects to their Elders past and present, and extend that respect to all Aboriginal and Torres Strait Islander peoples here today.
+      </p>
     </footer>
   )
 }
