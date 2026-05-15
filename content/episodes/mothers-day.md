@@ -16,7 +16,9 @@ tags:
   - list
   - top
 ---
+I would like to acknowledge that I live, work, and learn on the traditional lands of the **Dharug** and **Darkinjung** peoples. I pay my respects to their Elders past and present, and extend that respect to all Aboriginal and Torres Strait Islander peoples here today. 
 
+\*\**
 
 Can you get pregnant & give birth to a baby car, even if your one-night stand is an automatic Kia Picanto? 
 
@@ -24,9 +26,11 @@ Find out in the Film Lady’s **Special, Mother’s Day episode** where she goes
 
 **Links:** 
 
+KR website: https://kinoroyale.net/
+
 Mothers Day Cozy Watchlist: [⁠https://letterboxd.com/filmladyroyal/list/mothers-day-cozy-watchlist-2026/⁠](https://letterboxd.com/filmladyroyal/list/mothers-day-cozy-watchlist-2026/)
 
-Find me: **@filmladyroyal** on Letterboxd & Bluesky
+Find me: **@filmladyroyal** on Letterboxd, Bluesky & Instagram
 
 Email: [⁠kinoroyalepodcast@gmail.com⁠](mailto:kinoroyalepodcast@gmail.com)
 
