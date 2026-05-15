@@ -25,7 +25,7 @@ How to enable the CMS and manage episodes once the site is live on Netlify.
 
 ## Logging in to the CMS
 
-1. Go to `https://https://kino-royale.netlify.app/admin`
+1. Go to `https://kinoroyale.net/admin`
 2. Click **Login with Netlify Identity**
 3. Enter the email and password you set above
 
