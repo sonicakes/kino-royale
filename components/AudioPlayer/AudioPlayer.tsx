@@ -12,12 +12,6 @@ export function AudioPlayer({ audioUrl, title }: Props) {
   const { audioRef, isPlaying, progress, currentTime, duration, toggle, seek, volume, setVolume, isDisabled } =
     useAudioPlayer(audioUrl)
 
-  const handleProgressClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    const rect = e.currentTarget.getBoundingClientRect()
-    const percent = ((e.clientX - rect.left) / rect.width) * 100
-    seek(percent)
-  }
-
   return (
     <div className={styles.player}>
       {audioUrl && (
@@ -47,16 +41,17 @@ export function AudioPlayer({ audioUrl, title }: Props) {
           <span className={styles.comingSoon}>Audio coming soon</span>
         ) : (
           <>
-            <div
+            <input
+              type="range"
+              min={0}
+              max={100}
+              step={0.1}
+              value={progress}
+              onChange={e => seek(Number(e.target.value))}
               className={styles.progressBar}
-              onClick={handleProgressClick}
-              role="progressbar"
-              aria-valuenow={progress}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              <div className={styles.progressFill} style={{ width: `${progress}%` }} />
-            </div>
+              style={{ background: `linear-gradient(to right, var(--color-teal) ${progress}%, var(--color-navy-mid) ${progress}%)` }}
+              aria-label="Seek"
+            />
             <div className={styles.timeRow}>
               <span className={styles.time}>{currentTime}</span>
               <div className={styles.volumeGroup}>

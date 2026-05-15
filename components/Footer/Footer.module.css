@@ -76,7 +76,7 @@
   font-family: var(--font-body);
   font-size: 12px;
   font-weight: 300;
-  color: var(--color-silver);
+  color: var(--color-silver-dim);
   line-height: 1.72;
   text-align: center;
 }

@@ -49,20 +49,39 @@
 }
 
 .progressTrack {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
   height: 3px;
-  background: var(--color-navy-mid);
+  border-radius: 0;
+  outline: none;
   cursor: pointer;
-  position: relative;
+  display: block;
 }
 
-.progressTrack:hover {
-  background: var(--color-cobalt);
-}
-
-.progressFill {
-  height: 100%;
+.progressTrack::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
   background: var(--color-cobalt-glow);
-  transition: width 0.1s linear;
+  cursor: pointer;
+  margin-top: -3.5px;
+}
+
+.progressTrack::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-cobalt-glow);
+  border: none;
+  cursor: pointer;
+}
+
+.progressTrack:focus-visible {
+  outline: 2px solid var(--color-cobalt-glow);
+  outline-offset: 3px;
 }
 
 .timeRow {

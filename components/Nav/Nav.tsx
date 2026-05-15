@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './Nav.module.css'
@@ -17,8 +17,13 @@ const links = [
 export function Nav() {
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
+  const firstMenuLinkRef = useRef<HTMLAnchorElement>(null)
 
   useEffect(() => { setOpen(false) }, [pathname])
+
+  useEffect(() => {
+    if (open) firstMenuLinkRef.current?.focus()
+  }, [open])
 
   useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : ''
@@ -66,10 +71,11 @@ export function Nav() {
 
       {open && (
         <div className={styles.mobileMenu}>
-          {links.map((link) => (
+          {links.map((link, i) => (
             <Link
               key={link.href}
               href={link.href}
+              ref={i === 0 ? firstMenuLinkRef : undefined}
               className={clsx(
                 styles.mobileLink,
                 pathname === link.href && styles.mobileLinkActive,
