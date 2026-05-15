@@ -45,7 +45,7 @@ export function Hero({ audioUrl = '', title = '', duration }: Props) {
         <circle cx="720"  cy="1350" r="20" fill="none" stroke="#c1272d" strokeWidth="2" opacity="0.35" />
         <circle cx="900"  cy="1420" r="11" fill="none" stroke="#4A8AD4" strokeWidth="2" opacity="0.25" />
 
-        {/* art.svg — muted navy palette, 65% opacity so background bleeds through */}
+        {/* silhouette — blue/navy palette */}
         <g opacity="0.85">
           <path fill="#1A3A50" d="m809.13,1367.8s75.37-19.71,96.97,45.47c0,0-23.68,24.82-12.13,41.87l22.9,32.05s31.1,22.9,44.74,45.07c0,0,28.61,46.42-21.22,79.96l-29.75,19.89-137.18,68.02-84.51,46.42s-34.29,27.09-46.61,46.23c-12.32,19.14-35.43,46.99-52.86,82.61l-22.74,42.11-39.03-1s60.26-160.64,104.97-160.47l122.02-154.99,54.42-233.24Z"/>
           <path fill="#1A3A50" d="m774.43,1248.58l30.69.06s43.2,25.71,22.74,62.08l-18.44,38.15s-5.7,9.45-2.35,22.28c0,0-31.33,8.22-26.12-21.05,0,0,.17-16.89,26.94-50.49l-33.47-51.03Z"/>
@@ -156,10 +156,25 @@ export function Hero({ audioUrl = '', title = '', duration }: Props) {
           <h1 className={styles.titleKino}>Kino</h1>
           <p className={styles.titleRoyale}>Royale</p>
           <p className={styles.tagline}>
-            Admit it - you expected podcast about James Bond movies. Instead, you get discussions about dark films, TV & literature, as deep as the Thunderball goes.
+            You expected podcast about James Bond movies. Instead, you get discussions about dark films, TV & literature, as deep as the Thunderball goes. Anyhow, listen here or head to major platforms.
           </p>
            
           <HeroMiniPlayer audioUrl={audioUrl} title={title} duration={duration} />
+
+          <div className={styles.platformLinks}>
+            <a href="https://open.spotify.com/show/5Ri7xJYDE9JDel4iCdl6LA" target="_blank" rel="noopener noreferrer" className={styles.platformLink} aria-label="Listen on Spotify">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+              <span>Spotify</span>
+            </a>
+            <a href="https://podcasts.apple.com/us/podcast/kino-royale/id1896281777" target="_blank" rel="noopener noreferrer" className={styles.platformLink} aria-label="Listen on Apple Podcasts">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M10.2 0C4.5 0 0 4.5 0 10.2v3.6C0 19.5 4.5 24 10.2 24h3.6C19.5 24 24 19.5 24 13.8v-3.6C24 4.5 19.5 0 13.8 0zm1.8 3.6a5.4 5.4 0 0 1 5.4 5.4c0 2.1-1.2 3.9-3 4.8l.6 1.8c.3.9-.3 1.8-1.2 1.8H9.6c-.9 0-1.5-.9-1.2-1.8l.6-1.8a5.4 5.4 0 0 1-3-4.8A5.4 5.4 0 0 1 12 3.6zm0 1.8a3.6 3.6 0 1 0 0 7.2 3.6 3.6 0 0 0 0-7.2zm0 1.2a2.4 2.4 0 1 1 0 4.8 2.4 2.4 0 0 1 0-4.8zm-1.2 9.6h2.4v2.4l-1.2 1.2-1.2-1.2z"/></svg>
+              <span>Apple Podcasts</span>
+            </a>
+            <a href="https://www.iheart.com/podcast/1333-kino-royale-332826395/" target="_blank" rel="noopener noreferrer" className={styles.platformLink} aria-label="Listen on iHeart">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/></svg>
+              <span>iHeart</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>

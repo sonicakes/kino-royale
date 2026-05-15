@@ -35,7 +35,7 @@ export function UnholyTrinity({ episode }: Props) {
 
       {/* Royal Simulator */}
       <a
-        href={hasSimulator ? `https://royalsimulator.netlify.app/scenario/${episode.simulatorId}` : '#'}
+        href={hasSimulator ? `https://royal-simulator.netlify.app/scenarios/${episode.simulatorId}` : '#'}
         className={clsx(styles.card, styles.cobaltTop, !hasSimulator && styles.disabled)}
         target="_blank"
         rel="noopener noreferrer"

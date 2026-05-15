@@ -17,6 +17,16 @@ No user accounts, no paid CMS, no server-side logic beyond static generation.
 
 ---
 
+## Domain & Deployment
+
+- **Live URL:** `https://kinoroyale.net` — custom domain purchased on Namecheap
+- **Host:** Netlify (auto-deploys on push to `main`, ~60 seconds to live)
+- **DNS:** Namecheap nameservers replaced with Netlify's — Netlify manages DNS and auto-provisions the SSL cert
+- The Netlify subdomain (`kino-royale.netlify.app`) stays active as a fallback; `kinoroyale.net` is the canonical URL
+- **Decap CMS** (`/admin`) is unaffected by the custom domain — it authenticates via Netlify Identity (git-gateway), which is tied to the Netlify site, not the domain
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |

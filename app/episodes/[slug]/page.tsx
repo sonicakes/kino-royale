@@ -12,6 +12,11 @@ import { TargetMotif } from '@/components/TargetMotif/TargetMotif'
 import { DiamondDivider } from '@/components/DiamondDivider/DiamondDivider'
 import { Footer } from '@/components/Footer/Footer'
 
+function fmtDate(d: string) {
+  const [y, m, day] = d.split('-').map(Number)
+  return `${day} ${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][m-1]} ${String(y).slice(2)}`
+}
+
 export function generateStaticParams() {
   return getAllEpisodes().map((ep) => ({ slug: ep.slug }))
 }
@@ -125,7 +130,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                   marginBottom: 10,
                 }}
               >
-                Episode {String(episode.number).padStart(2, '0')} · {episode.duration}
+                Episode {String(episode.number).padStart(2, '0')} · {episode.duration} · {fmtDate(episode.date)}
               </p>
 
               <h1

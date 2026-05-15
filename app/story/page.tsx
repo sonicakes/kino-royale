@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Nav } from '@/components/Nav/Nav'
 import { CornerBox } from '@/components/CornerBox/CornerBox'
 import { DiamondDivider } from '@/components/DiamondDivider/DiamondDivider'
@@ -14,45 +15,56 @@ export default function StoryPage() {
       <main className="max-w-[900px] mx-auto px-4 py-10 md:px-16 md:py-16">
 
         {/* Page header */}
-        <div style={{ marginBottom: 48 }}>
-          <p
-            style={{
-              fontFamily: 'var(--font-body)',
-              fontSize: 12,
-              fontWeight: 300,
-              letterSpacing: '0.3em',
-              textTransform: 'uppercase',
-              color: 'var(--color-cobalt-glow)',
-              marginBottom: 12,
-            }}
-          >
-            Film Lady Productions
-          </p>
-          <h1
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontStyle: 'italic',
-              fontSize: 'clamp(38px, 8vw, 68px)',
-              fontWeight: 400,
-              color: 'var(--color-white)',
-              lineHeight: 0.9,
-              margin: '0 0 16px',
-            }}
-          >
-            The Story
-          </h1>
-          <p
-            style={{
-              fontFamily: 'var(--font-voice)',
-              fontStyle: 'italic',
-              fontSize: 20,
-              fontWeight: 300,
-              color: 'var(--color-silver-dim)',
-              margin: 0,
-            }}
-          >
-            Why cinema? Why a podcast? Why all of this?
-          </p>
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8 mb-12">
+          <div>
+            <p
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: 12,
+                fontWeight: 300,
+                letterSpacing: '0.3em',
+                textTransform: 'uppercase',
+                color: 'var(--color-cobalt-glow)',
+                marginBottom: 12,
+              }}
+            >
+              Film Lady Productions
+            </p>
+            <h1
+              style={{
+                fontFamily: 'var(--font-display)',
+                fontStyle: 'italic',
+                fontSize: 'clamp(38px, 8vw, 68px)',
+                fontWeight: 400,
+                color: 'var(--color-white)',
+                lineHeight: 0.9,
+                margin: '0 0 16px',
+              }}
+            >
+              The Story
+            </h1>
+            <p
+              style={{
+                fontFamily: 'var(--font-voice)',
+                fontStyle: 'italic',
+                fontSize: 20,
+                fontWeight: 400,
+                color: '#B4CCEC',
+                margin: 0,
+              }}
+            >
+              Even though this is not James Bond saga pod, I would love to hear about your favourite Bond movie & actor.
+            </p>
+          </div>
+          <div className="relative w-full md:w-[200px] md:flex-shrink-0" style={{ aspectRatio: '1 / 1' }}>
+            <Image
+              src="/cover-art-pod.png"
+              alt="Kino Royale podcast cover art"
+              fill
+              style={{ objectFit: 'cover', border: '0.5px solid var(--color-navy-mid)' }}
+              sizes="(max-width: 768px) 100vw, 200px"
+            />
+          </div>
         </div>
 
         <div
@@ -66,21 +78,49 @@ export default function StoryPage() {
         {/* Two-column layout */}
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-16">
 
-          {/* Left: Pull quote */}
-          <div>
+          {/* Left: Cover art + pull quote */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 28 }}>
+            <div style={{ position: 'relative', width: '100%', aspectRatio: '1 / 1', overflow: 'hidden', border: '0.5px solid var(--color-navy-mid)' }}>
+              <Image
+                src="/me.png"
+                alt="The Film Lady"
+                fill
+                style={{ objectFit: 'cover', objectPosition: 'bottom', filter: 'saturate(0.75) brightness(0.9)' }}
+              />
+              <div style={{
+                position: 'absolute',
+                inset: 0,
+                backgroundColor: 'var(--color-cobalt)',
+                mixBlendMode: 'color',
+                opacity: 0.4,
+                pointerEvents: 'none',
+              }} />
+            </div>
+            <p style={{
+              fontFamily: 'var(--font-body)',
+              fontSize: 11,
+              fontWeight: 300,
+              fontStyle: 'italic',
+              letterSpacing: '0.15em',
+              color: 'var(--color-silver-dim)',
+              margin: '-18px 0 0',
+              textAlign: 'right',
+            }}>
+              Gemini-modified picture by Film Lady herself
+            </p>
             <CornerBox>
               <p
                 style={{
                   fontFamily: 'var(--font-voice)',
                   fontStyle: 'italic',
                   fontSize: 26,
-                  fontWeight: 300,
-                  color: 'var(--color-silver)',
+                  fontWeight: 400,
+                  color: '#B4CCEC',
                   lineHeight: 1.5,
                   margin: 0,
                 }}
               >
-                "Cinema is not just what we watch — it's how we learn to see."
+                "Podcasting with a thick accent - what can go wrong?"
               </p>
               <p
                 style={{
@@ -112,7 +152,7 @@ export default function StoryPage() {
                 marginBottom: 16,
               }}
             >
-              About The Film Lady
+              Name is Lady. FILM LADY.
             </p>
             <p
               style={{
@@ -124,7 +164,7 @@ export default function StoryPage() {
                 marginBottom: 16,
               }}
             >
-              Kino Royale is a film criticism podcast from Sydney, Australia, hosted by the Film Lady — a writer, cinephile, and dedicated overthinker of things that were probably meant to be just entertainment.
+              Kino Royale is a dark films criticism podcast from Sydney, Australia, hosted by the Film Lady — a writer, cinephile, Imperialist Russia exile, and dedicated overthinker of things that were probably meant to be just entertainment.
             </p>
             <p
               style={{
@@ -136,15 +176,25 @@ export default function StoryPage() {
                 marginBottom: 16,
               }}
             >
-              Each episode pairs a film with a written review on the Cinefile Blog and an interactive horror scenario in the Royal Simulator. Three ways into the same film. The Unholy Trinity.
+              Sometimes an episode pairs a film with a written review on the Cinefile Blog and an interactive horror scenario in the Royal Simulator. Three ways into the same film. The Unholy Trinity. 
             </p>
+            <p 
+            style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: 17,
+                fontWeight: 300,
+                color: 'var(--color-silver)',
+                lineHeight: 1.72,
+                marginBottom: 16,
+              }}
+            >Some other times, we do one-movie deep-dives, double-bills, book VS movie reviews, or even perouse movies lists. Occasionaly, we <span className='line-through font-bold text-[#c1272d]'>f</span><span className='font-bold italic pl-px text-[#c1272d]'>m</span>uck around & talk sh*t - this is an explicit pod!</p>
             <p
               style={{
                 fontFamily: 'var(--font-voice)',
                 fontStyle: 'italic',
                 fontSize: 17,
-                fontWeight: 300,
-                color: 'var(--color-silver-dim)',
+                fontWeight: 400,
+                color: '#B4CCEC',
                 lineHeight: 1.72,
               }}
             >
@@ -217,7 +267,7 @@ export default function StoryPage() {
               marginBottom: 20,
             }}
           >
-            About Kino Royale
+            Shaken, not stirred.
           </p>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
             <p
@@ -230,7 +280,7 @@ export default function StoryPage() {
                 margin: 0,
               }}
             >
-              Kino Royale launched in late 2024 as the audio component of Film Lady Productions — a platform that approaches each film from three angles simultaneously. The podcast is where the thinking happens out loud: messy, opinionated, occasionally wrong, and always worth arguing about.
+              Kino Royale launched in late 2025 as the audio component of Film Lady Productions — a platform that approaches each film from three angles simultaneously. The podcast is where the thinking happens out loud: messy, opinionated, occasionally wrong, and always worth arguing about.
             </p>
             <p
               style={{

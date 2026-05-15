@@ -15,13 +15,14 @@
   background-color: #0F2035;
 }
 
-.number {
-  font-family: var(--font-ui);
-  font-size: 50px;
-  color: var(--color-cobalt-mid);
-  line-height: 1;
-  min-width: 56px;
+.cover {
+  position: relative;
+  width: 200px;
+  height: 200px;
   flex-shrink: 0;
+  background-color: var(--color-deep);
+  border: 0.5px solid var(--color-navy-mid);
+  overflow: hidden;
 }
 
 .body {
@@ -52,6 +53,8 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--color-cobalt-glow);
+  display: block;
+  margin: 4px 0 8px;
 }
 
 .description {
@@ -112,11 +115,14 @@
   .card {
     padding: 16px 18px;
     gap: 14px;
+    flex-direction: column;
+    align-items: stretch;
   }
 
-  .number {
-    font-size: 36px;
-    min-width: 40px;
+  .cover {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 
   .title {
@@ -125,6 +131,10 @@
 
   .description {
     font-size: 15px;
+  }
+
+  .playBtn {
+    align-self: flex-end;
   }
 }
 

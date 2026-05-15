@@ -51,7 +51,7 @@ export default function HomePage() {
               eyebrow="Written Review"
               title="Cinefile Blog"
               description="Film criticism in long form — essays, reviews, and takes worth arguing about."
-              href="https://cinefile-blog.netlify.app"
+              href="https://cinefileblog.com"
               accent="teal"
               external
             />
@@ -66,7 +66,7 @@ export default function HomePage() {
               eyebrow="Interactive Scenario"
               title="Royal Simulator"
               description="Horror scenario generator. Play the film. Make the wrong choices."
-              href="https://royalsimulator.netlify.app"
+              href="https://royal-simulator.netlify.app"
               accent="cobalt"
               external
             />

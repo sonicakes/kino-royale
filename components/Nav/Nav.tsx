@@ -11,7 +11,7 @@ const links = [
   { label: 'Home', href: '/' },
   { label: 'Episodes', href: '/episodes' },
   { label: 'The Story', href: '/story' },
-  { label: 'Film Lady', href: '/story#film-lady' },
+  { label: 'Blueprint', href: '/blueprint' },
 ]
 
 export function Nav() {
@@ -28,7 +28,14 @@ export function Nav() {
   return (
     <>
       <nav className={styles.nav}>
-        <Link href="/" className={styles.logoKino}>Kino</Link>
+        <Link href="/" className={styles.logoGroup}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/blueprint/silhouette-cover.svg" className={styles.logoSilhouette} alt="" aria-hidden="true" />
+          <div className={styles.logoText}>
+            <span className={styles.logoKino}>Kino</span>
+            <span className={styles.logoRoyale}><CrownIcon size={10} />ROYALE</span>
+          </div>
+        </Link>
         <div className={styles.links}>
           {links.map((link) => (
             <Link
@@ -45,9 +52,6 @@ export function Nav() {
           ))}
         </div>
         <Link href="/episodes" className={styles.ctaGhost}>Listen</Link>
-        <Link href="/" className={styles.logoRoyale} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-          <CrownIcon size={12} />ROYALE
-        </Link>
         <button
           className={styles.hamburger}
           onClick={() => setOpen(o => !o)}

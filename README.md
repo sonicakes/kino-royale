@@ -3,7 +3,7 @@
 Podcast website for **Film Lady Productions** — the audio home of a film criticism show pairing each episode with a written review on the Cinefile Blog and a scenario in the Royal Simulator app.
 
 **The Unholy Trinity:**
-- [Cinefile Blog](https://cinefile-blog.netlify.app) — written film reviews
+- [Cinefile Blog](https://cinefileblog.com) — written film reviews
 - **Kino Royale** — this project — podcast episodes
 - Royal Simulator — interactive horror scenario generator
 
@@ -43,7 +43,6 @@ kino-royale/
 │   ├── episodes/page.tsx       Episode archive
 │   ├── episodes/[slug]/        Individual episode pages
 │   ├── story/page.tsx          The Film Lady
-│   ├── feed.xml/route.ts       Podcast RSS feed
 │   └── globals.css             Tailwind theme + base styles
 ├── components/                 All UI components
 ├── content/episodes/           Markdown episode files (Decap CMS managed)
@@ -108,7 +107,7 @@ coverArt: /covers/ep03.jpg
 tags:
   - Horror
   - 2025
-blogUrl: https://cinefile-blog.netlify.app/your-review
+blogUrl: https://cinefileblog.com/your-review
 simulatorId: your-scenario-id
 ---
 
@@ -136,10 +135,16 @@ Visit `/admin` to manage episodes via a web form — no VS Code or git required.
 
 ---
 
+## Domain
+
+Live at **[kinoroyale.net](https://kinoroyale.net)** — a custom domain purchased on Namecheap, pointed at Netlify via custom DNS (Namecheap nameservers replaced with Netlify's). Netlify provisions the SSL certificate automatically. The Netlify subdomain (`kino-royale.netlify.app`) remains active as a fallback but the canonical URL is `kinoroyale.net`.
+
+Decap CMS at `/admin` is unaffected by the custom domain — it uses Netlify Identity (git-gateway), which is tied to the Netlify site, not the domain name.
+
+---
+
 ## Deployment
 
 Deploys to Netlify automatically on every push to `main`. Build config is in `netlify.toml`.
-
-**Before going live**, update `SITE_URL` in `app/feed.xml/route.ts` to the real domain, then submit the RSS feed to Apple Podcasts and Spotify.
 
 See `TODO.md` for all outstanding setup tasks.

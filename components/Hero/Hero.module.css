@@ -169,8 +169,8 @@
   font-family: var(--font-voice);
   font-style: italic;
   font-size: 19px;
-  font-weight: 300;
-  color: var(--color-silver);
+  font-weight: 400;
+  color: #B4CCEC;
   margin-top: 20px;
   text-align: left;
 }
@@ -212,4 +212,35 @@
 .ctaGhost:hover {
   border-color: var(--color-silver-dim);
   color: var(--color-silver);
+}
+
+.platformLinks {
+  display: flex;
+  gap: 20px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.platformLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-teal);
+  transition: color 0.15s ease;
+  line-height: 1;
+}
+
+.platformLink svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+.platformLink:hover {
+  color: var(--color-white);
 }

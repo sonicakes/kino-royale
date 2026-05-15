@@ -1,0 +1,283 @@
+.swatchGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 3px;
+}
+
+.swatch {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.swatchBlock {
+  height: 72px;
+  border: 0.5px solid rgba(255, 255, 255, 0.06);
+}
+
+.swatchName {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  color: var(--color-silver-dim);
+}
+
+.swatchHex {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: var(--color-silver-dim);
+  opacity: 0.6;
+}
+
+.swatchNote {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: #c1272d;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.fontGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+
+.fontCard {
+  background: var(--color-deep);
+  border: 0.5px solid var(--color-navy-mid);
+  padding: 32px 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fontSample {
+  flex: 1;
+}
+
+.fontMeta {
+  border-top: 0.5px solid var(--color-navy-mid);
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fontName {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: var(--color-cobalt-glow);
+}
+
+.fontRole {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: var(--color-silver-dim);
+}
+
+.fontNote {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--color-silver-dim);
+  opacity: 0.7;
+  margin-top: 4px;
+}
+
+.refGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.refCard {
+  border-left: 2px solid var(--color-cobalt-mid);
+  padding-left: 24px;
+}
+
+.silhouetteRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.artGallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.artItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.artImageSlot {
+  background: var(--color-midnight);
+  border: 0.5px solid var(--color-navy-mid);
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.artLabel {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: var(--color-cobalt-glow);
+  margin-bottom: 6px;
+}
+
+.artDesc {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--color-silver-dim);
+  line-height: 1.65;
+}
+
+.artDesc a {
+  color: var(--color-teal);
+  text-decoration: none;
+  border-bottom: 0.5px solid var(--color-teal-dim);
+  transition: opacity 0.15s ease;
+}
+
+.artDesc a:hover {
+  opacity: 0.75;
+}
+
+.imageSlot {
+  background: var(--color-navy);
+  border: 0.5px solid var(--color-navy-mid);
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  position: relative;
+}
+
+.imageSlotWide {
+  background: var(--color-navy);
+  border: 0.5px solid var(--color-navy-mid);
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  position: relative;
+}
+
+.imagePlaceholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-silver-dim);
+  opacity: 0.4;
+}
+
+.motifRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+
+.motifCard {
+  background: var(--color-deep);
+  border: 0.5px solid var(--color-navy-mid);
+  padding: 32px 28px;
+}
+
+.motifPreview {
+  background: var(--color-navy);
+  border: 0.5px solid var(--color-navy-mid);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  margin-bottom: 24px;
+}
+
+.motifLightPreview {
+  background: var(--color-midnight);
+  border: 0.5px solid var(--color-navy-mid);
+  min-height: 160px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.motifTitle {
+  font-family: var(--font-ui);
+  font-size: 15px;
+  letter-spacing: 0.2em;
+  color: var(--color-cobalt-glow);
+  margin-bottom: 12px;
+}
+
+.motifBody {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--color-silver-dim);
+  line-height: 1.72;
+}
+
+.motifDetail {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--color-silver-dim);
+  opacity: 0.65;
+  line-height: 1.6;
+  margin-top: 12px;
+  border-top: 0.5px solid var(--color-navy-mid);
+  padding-top: 12px;
+}
+
+@media (max-width: 768px) {
+  .swatchGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .fontGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .refGrid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .fontCard {
+    padding: 24px 20px 18px;
+  }
+
+  .silhouetteRow {
+    grid-template-columns: 1fr;
+  }
+
+  .artGallery {
+    grid-template-columns: 1fr;
+  }
+
+  .motifRow {
+    grid-template-columns: 1fr;
+  }
+
+  .motifCard {
+    padding: 24px 20px;
+  }
+}

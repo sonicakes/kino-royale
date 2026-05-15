@@ -39,6 +39,7 @@ function readAllEpisodes(): Episode[] {
       const { data, content } = matter(raw)
       return {
         ...(data as Omit<Episode, 'showNotes'>),
+        date: data.date instanceof Date ? data.date.toISOString().slice(0, 10) : String(data.date),
         duration: coerceDuration(data.duration),
         showNotes: content,
       }

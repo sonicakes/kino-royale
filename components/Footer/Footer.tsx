@@ -11,9 +11,8 @@ export function Footer() {
       </div>
 
       <div className={styles.links}>
-        <Link href="/episodes" className={styles.link}>Episodes</Link>
-        <Link href="/story" className={styles.link}>The Story</Link>
-        <a href="/feed.xml" className={styles.link}>RSS</a>
+        <a href="mailto:kinoroyalepodcast@gmail.com" className={styles.link}>kinoroyalepodcast@gmail.com</a>
+        <a href="https://anchor.fm/s/1105f4e3c/podcast/rss" className={styles.link} target="_blank" rel="noopener noreferrer">RSS</a>
         <a
           href="https://github.com/sonicakes/kino-royale"
           className={styles.link}
@@ -26,7 +25,7 @@ export function Footer() {
 
       <span className={styles.copy} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
         <CrownIcon size={13} />
-        © {new Date().getFullYear()} Film Lady Productions
+        © {new Date().getFullYear()} <a href="https://filmladyproductions.netlify.app/" target="_blank" rel="noopener noreferrer" className={styles.copyLink}>Film Lady Productions</a>
       </span>
     </footer>
   )
