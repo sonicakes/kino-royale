@@ -26,7 +26,8 @@ collections:
       - { label: "Description",  name: description,  widget: text,
           hint: "1–2 sentence summary shown on cards and in RSS feed" }
       - { label: "Show Notes",   name: body,         widget: markdown,
-          hint: "Full show notes. Supports Markdown formatting." }
+          hint: "Full show notes. Supports Markdown formatting.",
+          media_library: { allow_multiple: true } }
       - { label: "Audio URL",    name: audioUrl,     widget: string,
           required: false,
           hint: "Cloudflare R2 public URL, e.g. https://pub-xxxx.r2.dev/ep02.mp3. Leave blank until audio is uploaded." }
