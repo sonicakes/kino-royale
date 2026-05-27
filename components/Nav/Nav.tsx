@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
-import { CrownIcon } from '@/components/CrownIcon/CrownIcon'
 import { usePathname } from 'next/navigation'
 import styles from './Nav.module.css'
 import clsx from 'clsx'
@@ -36,7 +35,8 @@ export function Nav() {
         <Link href="/" className={styles.logoGroup}>
           <div className={styles.logoText}>
             <span className={styles.logoKino}>Kino</span>
-            <span className={styles.logoRoyale}><CrownIcon size={14} />ROYALE</span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <span className={styles.logoRoyale}><img src="/crown.svg" className={styles.logoCrown} alt="" aria-hidden="true" />ROYALE</span>
           </div>
         </Link>
         <div className={styles.links}>
