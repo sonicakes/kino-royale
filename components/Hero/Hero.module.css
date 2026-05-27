@@ -4,7 +4,6 @@
   background-color: var(--color-midnight);
   display: flex;
   align-items: center;
-  padding-bottom: 12vh;
   max-height: 100vh;
 }
 

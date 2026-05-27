@@ -152,12 +152,8 @@ export function Hero({ audioUrl = '', title = '', duration }: Props) {
 
       <div className={styles.inner}>
         <div className={styles.titleBlock}>
-          <h1 className={styles.titleKino}>
-            Kin<span className={styles.kinoO}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/drip.svg" className={styles.crownOnO} alt="" aria-hidden="true" />o
-            </span>
-          </h1>
+          <p className={styles.eyebrow}><CrownIcon size={13} />&nbsp;A Film Lady Productions Podcast</p>
+          <h1 className={styles.titleKino}>Kino</h1>
           <p className={styles.titleRoyale}>Royale</p>
           <p className={styles.tagline}>
             You expected podcast about James Bond movies. Instead, you get discussions about dark films, TV & literature, as deep as the Thunderball goes. Anyhow, listen here or head to major platforms.

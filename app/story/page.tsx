@@ -28,7 +28,7 @@ export default function StoryPage() {
                 marginBottom: 12,
               }}
             >
-              Kino Royale Productions
+              Film Lady Productions
             </p>
             <h1
               style={{

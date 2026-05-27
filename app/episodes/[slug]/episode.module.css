@@ -134,3 +134,9 @@
   border-top: 0.5px solid var(--color-navy-mid);
   margin: 2em 0;
 }
+
+.prose img {
+  max-height: 500px;
+  width: auto;
+  display: block;
+}

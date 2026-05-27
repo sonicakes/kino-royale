@@ -2,7 +2,7 @@
 
 # Kino Royale — Claude Code Instructions
 
-Kino Royale Productions podcast website. Built by Sonia (the Film Lady), Sydney, Australia.
+Film Lady Productions podcast website. Built by Sonia (the Film Lady), Sydney, Australia.
 
 ---
 
