@@ -199,10 +199,15 @@
   }
 
   .logoKino {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .logoRoyale {
-    font-size: 11px;
+    font-size: 9px;
+    letter-spacing: 0.36em;
+  }
+
+  .logoCrown {
+    height: 8px;
   }
 }
