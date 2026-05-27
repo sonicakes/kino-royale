@@ -22,11 +22,6 @@
 }
 
 
-.logoCrown {
-  height: 38px;
-  width: auto;
-}
-
 .logoText {
   display: flex;
   flex-direction: column;
