@@ -4,7 +4,23 @@ export const alt = 'Kino Royale — A Podcast About Film'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
-export default function OGImage() {
+async function fetchFont(family: string, axes: string): Promise<ArrayBuffer> {
+  const css = await fetch(
+    `https://fonts.googleapis.com/css2?family=${family}:${axes}`,
+    { headers: { 'User-Agent': 'Mozilla/5.0' } }
+  ).then(r => r.text())
+
+  const url = css.match(/src: url\((.+?)\) format/)?.[1]
+  if (!url) throw new Error(`Font URL not found for ${family}`)
+  return fetch(url).then(r => r.arrayBuffer())
+}
+
+export default async function OGImage() {
+  const [dmSerifItalic, bebasNeue] = await Promise.all([
+    fetchFont('DM+Serif+Display', 'ital@1'),
+    fetchFont('Bebas+Neue', 'wght@400'),
+  ])
+
   return new ImageResponse(
     (
       <div
@@ -18,7 +34,7 @@ export default function OGImage() {
           backgroundColor: '#020810',
         }}
       >
-        {/* Subtle cobalt glow behind crown */}
+        {/* Subtle cobalt glow */}
         <div
           style={{
             position: 'absolute',
@@ -39,10 +55,10 @@ export default function OGImage() {
 
         {/* Title */}
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '20px', gap: '0px' }}>
-          <span style={{ fontSize: '108px', fontFamily: 'serif', fontStyle: 'italic', color: '#EEF6FA', lineHeight: 1 }}>
+          <span style={{ fontSize: '108px', fontFamily: 'DM Serif Display', fontStyle: 'italic', color: '#EEF6FA', lineHeight: 1 }}>
             Kino
           </span>
-          <span style={{ fontSize: '36px', fontFamily: 'sans-serif', color: '#C8DCE0', letterSpacing: '0.48em', textTransform: 'uppercase' }}>
+          <span style={{ fontSize: '40px', fontFamily: 'Bebas Neue', color: '#C8DCE0', letterSpacing: '0.48em' }}>
             Royale
           </span>
         </div>
@@ -53,6 +69,12 @@ export default function OGImage() {
         </div>
       </div>
     ),
-    { ...size },
+    {
+      ...size,
+      fonts: [
+        { name: 'DM Serif Display', data: dmSerifItalic, style: 'italic', weight: 400 },
+        { name: 'Bebas Neue', data: bebasNeue, style: 'normal', weight: 400 },
+      ],
+    },
   )
 }
