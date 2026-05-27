@@ -164,7 +164,7 @@ export default function StoryPage() {
                 marginBottom: 16,
               }}
             >
-              Kino Royale is a dark films criticism podcast from Sydney, Australia, hosted by the Film Lady — a writer, cinephile, Imperialist Russia exile, and dedicated overthinker of things that were probably meant to be just entertainment.
+              Kino Royale is a dark films criticism podcast from Sydney, Australia, hosted by the Film Lady — a writer, cinephile, Russian exile, and dedicated overthinker of things that were probably meant to be just entertainment.
             </p>
             <p
               style={{
@@ -280,7 +280,7 @@ export default function StoryPage() {
                 margin: 0,
               }}
             >
-              Kino Royale launched in late 2025 as the audio component of Kino Royale Productions — a platform that approaches each film from three angles simultaneously. The podcast is where the thinking happens out loud: messy, opinionated, occasionally wrong, and always worth arguing about.
+              Kino Royale launched in late 2025 as the audio component of Film Lady Productions — a platform that approaches each film from three angles simultaneously. The podcast is where the thinking happens out loud: messy, opinionated, occasionally wrong, and always worth arguing about.
             </p>
             <p
               style={{
