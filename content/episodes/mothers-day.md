@@ -39,3 +39,5 @@ Movie Reviews on Cinefile Blog: [⁠https://cinefileblog.com/⁠](https://cinefi
 Discover Film Lady: [⁠https://filmladyproductions.netlify.app/⁠](https://filmladyproductions.netlify.app/)
 
 **Music** - all tracks are royalty free via Free Music Archive — CC BY.
+
+![](/covers/соня40.jpg "mum & me, somewhere in ex-USSR, early 90s")
