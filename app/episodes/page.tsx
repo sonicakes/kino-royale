@@ -37,7 +37,7 @@ export default function EpisodesPage() {
               marginBottom: 12,
             }}
           >
-            Film Lady Productions
+            Kino Royale Productions
           </p>
           <h1
             style={{

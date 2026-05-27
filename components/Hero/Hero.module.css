@@ -163,11 +163,11 @@
 
 .crownOnO {
   position: absolute;
-  width: 56px;
+  width: 42px;
   height: auto;
-  left: 50%;
-  bottom: 78%;
-  transform: translateX(-50%) rotate(-18deg);
+  top: 16px;
+  right: -9px;
+  transform: rotate(22deg);
   pointer-events: none;
   user-select: none;
 }

@@ -28,7 +28,7 @@ export default function StoryPage() {
                 marginBottom: 12,
               }}
             >
-              Film Lady Productions
+              Kino Royale Productions
             </p>
             <h1
               style={{
@@ -280,7 +280,7 @@ export default function StoryPage() {
                 margin: 0,
               }}
             >
-              Kino Royale launched in late 2025 as the audio component of Film Lady Productions — a platform that approaches each film from three angles simultaneously. The podcast is where the thinking happens out loud: messy, opinionated, occasionally wrong, and always worth arguing about.
+              Kino Royale launched in late 2025 as the audio component of Kino Royale Productions — a platform that approaches each film from three angles simultaneously. The podcast is where the thinking happens out loud: messy, opinionated, occasionally wrong, and always worth arguing about.
             </p>
             <p
               style={{
