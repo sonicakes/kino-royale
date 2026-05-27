@@ -5,7 +5,8 @@ Podcast website for **Kino Royale Productions** — the audio home of a film cri
 **The Unholy Trinity:**
 - [Cinefile Blog](https://cinefileblog.com) — written film reviews
 - **Kino Royale** — this project — podcast episodes
-- Royal Simulator — interactive horror scenario generator
+- [Royal Simulator](https://royal-simulator.netlify.app/) — interactive horror scenario generator
+- [Film Lady's Portfolio](https://filmladyproductions.netlify.app/) - Film Lady Productions Website
 
 ---
 
