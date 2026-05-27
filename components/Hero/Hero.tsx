@@ -155,7 +155,7 @@ export function Hero({ audioUrl = '', title = '', duration }: Props) {
           <h1 className={styles.titleKino}>
             Kin<span className={styles.kinoO}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/crown.svg" className={styles.crownOnO} alt="" aria-hidden="true" />o
+              <img src="/drip.svg" className={styles.crownOnO} alt="" aria-hidden="true" />o
             </span>
           </h1>
           <p className={styles.titleRoyale}>Royale</p>
