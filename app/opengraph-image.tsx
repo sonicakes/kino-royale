@@ -58,7 +58,7 @@ export default async function OGImage() {
           <span style={{ fontSize: '108px', fontFamily: 'DM Serif Display', fontStyle: 'italic', color: '#EEF6FA', lineHeight: 1 }}>
             Kino
           </span>
-          <span style={{ fontSize: '40px', fontFamily: 'Bebas Neue', color: '#C8DCE0', letterSpacing: '0.48em' }}>
+          <span style={{ fontSize: '40px', fontFamily: 'Bebas Neue', color: '#4A8AD4', letterSpacing: '0.48em' }}>
             Royale
           </span>
         </div>
