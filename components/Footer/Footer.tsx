@@ -25,7 +25,7 @@ export function Footer() {
       <span className={styles.copy} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/crown.svg" style={{ height: '13px', width: 'auto' }} alt="" aria-hidden="true" />
-        © {new Date().getFullYear()} <a href="https://filmladyproductions.netlify.app/" target="_blank" rel="noopener noreferrer" className={styles.copyLink}>Kino Royale Productions</a>
+        © {new Date().getFullYear()} <a href="https://filmladyproductions.netlify.app/" target="_blank" rel="noopener noreferrer" className={styles.copyLink}>Film Lady Productions</a>
       </span>
 
       <p className={styles.acknowledgement}>
