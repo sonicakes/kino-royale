@@ -156,6 +156,22 @@
   margin: 0;
 }
 
+.kinoO {
+  position: relative;
+  display: inline-block;
+}
+
+.crownOnO {
+  position: absolute;
+  width: 42px;
+  height: auto;
+  top: 16px;
+  right: -9px;
+  transform: rotate(22deg);
+  pointer-events: none;
+  user-select: none;
+}
+
 .titleRoyale {
   font-family: var(--font-ui);
   font-size: 42px;

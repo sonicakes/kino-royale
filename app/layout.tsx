@@ -41,6 +41,13 @@ export const metadata: Metadata = {
     description: 'Cinema criticism with a pretentious streak.',
     siteName: 'Kino Royale',
   },
+  icons: {
+    icon: [
+      { url: '/crown.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: '32x32' },
+    ],
+    apple: '/crown.svg',
+  },
 }
 
 export default function RootLayout({

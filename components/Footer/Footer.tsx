@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import styles from './Footer.module.css'
-import { CrownIcon } from '@/components/CrownIcon/CrownIcon'
 
 export function Footer() {
   return (
@@ -24,8 +23,9 @@ export function Footer() {
       </div>
 
       <span className={styles.copy} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-        <CrownIcon size={13} />
-        © {new Date().getFullYear()} <a href="https://filmladyproductions.netlify.app/" target="_blank" rel="noopener noreferrer" className={styles.copyLink}>Film Lady Productions</a>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/crown.svg" style={{ height: '13px', width: 'auto' }} alt="" aria-hidden="true" />
+        © {new Date().getFullYear()} <a href="https://filmladyproductions.netlify.app/" target="_blank" rel="noopener noreferrer" className={styles.copyLink}>Kino Royale Productions</a>
       </span>
 
       <p className={styles.acknowledgement}>

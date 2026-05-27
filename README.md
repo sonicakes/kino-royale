@@ -1,6 +1,6 @@
 # Kino Royale
 
-Podcast website for **Film Lady Productions** — the audio home of a film criticism show pairing each episode with a written review on the Cinefile Blog and a scenario in the Royal Simulator app.
+Podcast website for **Kino Royale Productions** — the audio home of a film criticism show pairing each episode with a written review on the Cinefile Blog and a scenario in the Royal Simulator app.
 
 **The Unholy Trinity:**
 - [Cinefile Blog](https://cinefileblog.com) — written film reviews

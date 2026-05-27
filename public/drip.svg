@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-120 -80 240 230">
+  <g transform="skewX(-8)">
+    <path d="M-90,60 L-90,-10 L-80,-12 L-48,18 L0,-62 L48,18 L80,-12 L90,-10 L90,60 Z" fill="#c1272d"/>
+    <rect x="-100" y="54" width="24" height="8" fill="#c1272d"/>
+    <rect x="76" y="54" width="24" height="8" fill="#c1272d"/>
+    <path d="M-46,60 L-56,105 Q-58,120 -46,120 Q-34,120 -36,105 L-46,60 Z" fill="#c1272d"/>
+    <path d="M0,60 L-10,114 Q-12,128 0,128 Q12,128 10,114 L0,60 Z" fill="#c1272d"/>
+    <path d="M46,60 L36,105 Q34,120 46,120 Q58,120 56,105 L46,60 Z" fill="#c1272d"/>
+  </g>
+</svg>

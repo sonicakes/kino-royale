@@ -5,7 +5,6 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './Nav.module.css'
 import clsx from 'clsx'
-import { CrownIcon } from '@/components/CrownIcon/CrownIcon'
 
 const links = [
   { label: 'Home', href: '/' },
@@ -34,11 +33,10 @@ export function Nav() {
     <>
       <nav className={styles.nav}>
         <Link href="/" className={styles.logoGroup}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/blueprint/silhouette-cover.svg" className={styles.logoSilhouette} alt="" aria-hidden="true" />
           <div className={styles.logoText}>
             <span className={styles.logoKino}>Kino</span>
-            <span className={styles.logoRoyale}><CrownIcon size={10} />ROYALE</span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <span className={styles.logoRoyale}><img src="/crown.svg" className={styles.logoCrown} alt="" aria-hidden="true" />ROYALE</span>
           </div>
         </Link>
         <div className={styles.links}>

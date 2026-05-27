@@ -5,8 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 32px;
-  height: 64px;
+  padding: 12px 32px;
   background-color: var(--color-deep);
   border-top: 1.5px solid transparent;
   border-image: linear-gradient(90deg, var(--color-teal), var(--color-cobalt-mid), var(--color-teal)) 1;
@@ -21,10 +20,12 @@
   flex-shrink: 0;
 }
 
-.logoSilhouette {
-  height: 64px;
+
+.logoCrown {
+  height: 12px;
   width: auto;
-  opacity: 0.92;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .logoText {
@@ -36,7 +37,7 @@
 .logoKino {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 28px;
+  font-size: 38px;
   color: var(--color-white);
   line-height: 1;
 }
@@ -129,7 +130,7 @@
 
 .mobileMenu {
   position: fixed;
-  top: 64px;
+  top: var(--nav-height, 78px);
   left: 0;
   right: 0;
   bottom: 0;
@@ -181,7 +182,7 @@
 
 @media (max-width: 768px) {
   .nav {
-    padding: 0 16px;
+    padding: 16px 16px;
     gap: 0;
   }
 
@@ -197,15 +198,16 @@
     display: flex;
   }
 
-  .logoSilhouette {
-    height: 38px;
-  }
-
   .logoKino {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .logoRoyale {
-    font-size: 11px;
+    font-size: 9px;
+    letter-spacing: 0.36em;
+  }
+
+  .logoCrown {
+    height: 8px;
   }
 }
