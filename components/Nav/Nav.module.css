@@ -5,8 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 32px;
-  height: 64px;
+  padding: 16px 32px;
   background-color: var(--color-deep);
   border-top: 1.5px solid transparent;
   border-image: linear-gradient(90deg, var(--color-teal), var(--color-cobalt-mid), var(--color-teal)) 1;
@@ -124,7 +123,7 @@
 
 .mobileMenu {
   position: fixed;
-  top: 64px;
+  top: var(--nav-height, 78px);
   left: 0;
   right: 0;
   bottom: 0;

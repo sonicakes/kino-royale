@@ -36,7 +36,7 @@ export function Nav() {
         <Link href="/" className={styles.logoGroup}>
           <div className={styles.logoText}>
             <span className={styles.logoKino}>Kino</span>
-            <span className={styles.logoRoyale}><CrownIcon size={11} />ROYALE</span>
+            <span className={styles.logoRoyale}><CrownIcon size={14} />ROYALE</span>
           </div>
         </Link>
         <div className={styles.links}>
