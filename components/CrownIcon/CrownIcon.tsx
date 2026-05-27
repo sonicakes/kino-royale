@@ -6,22 +6,24 @@ export function CrownIcon({ size = 14 }: Props) {
   return (
     <svg
       width={size}
-      height={size * 0.8}
-      viewBox="0 0 20 16"
-      fill="none"
+      height={size}
+      viewBox="-110 -90 220 220"
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
       style={{ display: 'inline-block', verticalAlign: 'middle', flexShrink: 0 }}
     >
-      {/* Crown body */}
-      <path
-        d="M0 14 L0 7 L5 10 L10 1 L15 10 L20 7 L20 14 Z"
-        fill="#c1272d"
-      />
-      {/* Tip orbs */}
-      <circle cx="0"  cy="7"  r="1.8" fill="#c1272d" />
-      <circle cx="10" cy="1"  r="1.8" fill="#c1272d" />
-      <circle cx="20" cy="7"  r="1.8" fill="#c1272d" />
+      <g transform="skewX(-5)">
+        <path d="M-90,60 L-90,-10 Q-88,-18 -80,-12 L-48,18 L0,-62 L48,18 L80,-12 Q88,-18 90,-10 L90,60 Z" fill="#c1272d"/>
+        <rect x="-100" y="54" width="24" height="8" rx="4" fill="#c1272d"/>
+        <rect x="76" y="54" width="24" height="8" rx="4" fill="#c1272d"/>
+        <path d="M-62,60 Q-62,82 -64,94 Q-65,102 -61,104 Q-57,104 -58,96 Q-59,84 -58,60 Z" fill="#c1272d"/>
+        <path d="M-18,60 Q-18,88 -20,104 Q-21,114 -17,116 Q-13,116 -14,106 Q-15,90 -14,60 Z" fill="#c1272d"/>
+        <path d="M22,60 Q22,88 20,104 Q19,114 23,116 Q27,116 26,106 Q25,90 26,60 Z" fill="#c1272d"/>
+        <path d="M62,60 Q62,80 60,90 Q59,97 63,97 Q67,97 66,90 Q65,80 66,60 Z" fill="#c1272d"/>
+        <circle cx="-90" cy="-16" r="9" fill="#c1272d"/>
+        <circle cx="0" cy="-72" r="11" fill="#c1272d"/>
+        <circle cx="90" cy="-16" r="9" fill="#c1272d"/>
+      </g>
     </svg>
   )
 }
