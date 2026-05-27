@@ -1,5 +1,5 @@
 # Kino Royale — Claude Code Build Brief
-### Kino Royale Productions · Podcast Website
+### Film Lady Productions · Podcast Website
 **Version 1.1 — Decap CMS added**
 
 ---
@@ -25,7 +25,7 @@
 
 ## 1. Project Overview
 
-**Kino Royale** is the third project under Kino Royale Productions, a creative platform run by Sonia (the Film Lady) from Sydney, Australia. It is a podcast website — the audio home of a film criticism show that pairs each episode with a written review on the Cinefile Blog and a scenario in the Royal Simulator app.
+**Kino Royale** is the third project under Film Lady Productions, a creative platform run by Sonia (the Film Lady) from Sydney, Australia. It is a podcast website — the audio home of a film criticism show that pairs each episode with a written review on the Cinefile Blog and a scenario in the Royal Simulator app.
 
 The three projects form the **Unholy Trinity**:
 - **Cinefile Blog** — `cinefile-blog.netlify.app` — written film reviews
@@ -1430,4 +1430,4 @@ kino-royale/
 ---
 
 *Document prepared for review — v1.1*
-*Kino Royale Productions · Kino Royale Podcast*
+*Film Lady Productions · Kino Royale Podcast*
