@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Bebas_Neue, DM_Serif_Display, Barlow_Condensed, Cormorant_Garamond } from 'next/font/google'
 import { IdentityWidget } from '@/components/IdentityWidget/IdentityWidget'
+import { ServiceWorkerRegistration } from '@/components/ServiceWorkerRegistration/ServiceWorkerRegistration'
 import './globals.css'
 
 const bebasNeue = Bebas_Neue({
@@ -34,8 +35,8 @@ const cormorantGaramond = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: 'Kino Royale — A Podcast About Film',
-  description: 'Cinema criticism with a pretentious streak, a royal pedigree, and absolutely no restraint.',
+  title: 'Kino Royale — Dark Film Podcast',
+  description: 'Dark film podcast hosted by Film Lady. Deep dives into dark cinema, TV and literature — as deep as Thunderball goes.',
   openGraph: {
     title: 'Kino Royale',
     description: 'Cinema criticism with a pretentious streak.',
@@ -44,7 +45,6 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/crown.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico', sizes: '32x32' },
     ],
     apple: '/crown.svg',
   },
@@ -66,6 +66,7 @@ export default function RootLayout({
       <body>
         {children}
         <IdentityWidget />
+        <ServiceWorkerRegistration />
       </body>
     </html>
   )
