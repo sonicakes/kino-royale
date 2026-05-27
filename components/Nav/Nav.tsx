@@ -34,11 +34,10 @@ export function Nav() {
     <>
       <nav className={styles.nav}>
         <Link href="/" className={styles.logoGroup}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/blueprint/silhouette-cover.svg" className={styles.logoSilhouette} alt="" aria-hidden="true" />
+          <CrownIcon size={38} />
           <div className={styles.logoText}>
             <span className={styles.logoKino}>Kino</span>
-            <span className={styles.logoRoyale}><CrownIcon size={10} />ROYALE</span>
+            <span className={styles.logoRoyale}>ROYALE</span>
           </div>
         </Link>
         <div className={styles.links}>

@@ -21,11 +21,6 @@
   flex-shrink: 0;
 }
 
-.logoSilhouette {
-  height: 64px;
-  width: auto;
-  opacity: 0.92;
-}
 
 .logoText {
   display: flex;
@@ -195,10 +190,6 @@
 
   .hamburger {
     display: flex;
-  }
-
-  .logoSilhouette {
-    height: 38px;
   }
 
   .logoKino {
