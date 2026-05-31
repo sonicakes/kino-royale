@@ -8,6 +8,7 @@ duration: 68:53
 description: "In the 7th episode, Film Lady gets obsessed about the newest
   horror fave: Obsession (2026) - 9/10 bear shrines. Listen to her post-watch
   rambles, as well as deep analysis of heavy topics no one asked for. "
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep7-obsession-ready.mp3
 coverArt: /covers/obsession-coverart.png
 tags:
   - horror
