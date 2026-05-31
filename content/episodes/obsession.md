@@ -8,6 +8,7 @@ duration: 68:53
 description: "In the 7th episode, Film Lady gets obsessed about the newest
   horror fave: Obsession (2026) - 9/10 bear shrines. Listen to her post-watch
   rambles, as well as deep analysis of heavy topics no one asked for. "
+coverArt: /covers/obsession-coverart.png
 tags:
   - horror
   - hit
@@ -32,7 +33,25 @@ Movie Reviews on Cinefile Blog: <https://cinefileblog.com/blog/obsession>
 
 Discover Film Lady: <https://filmladyproductions.netlify.app/>
 
-Music - all tracks are royalty free via Free Music Archive — **CC BY**.
+**Music** - all tracks are royalty free via Free Music Archive — **CC BY**:
+
+Amarent - Caught in the Middle (Instrumental) - Remastered
+
+Amarent - Never Let Go (Instrumental)
+
+Jake Hunter - Scary Cinematic Background Piano
+
+Mindseye - Orion - Instrumental
+
+Mindseye - Spores - Instrumental
+
+Soularflair - Call Of The Void (soundtrack, dark, creepy, scary)
+
+Soularflair - Soundscape 35 (dark, scary, mechanized drone)
+
+Soularflair - Soundscape 36 (shrill, scary, ghostly, drone)
+
+Triple5 Here - Creepy
 
 The episode was written, recorded & edited by the author using Audacity free software.
 
