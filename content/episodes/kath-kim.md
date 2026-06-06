@@ -43,6 +43,8 @@ Selected quotes via IMDb. 
 
 Checkered bags pic from Amazon: <https://www.amazon.com.au/Durable-Laundry-Shopping-Travelling-Reusable/dp/B0FX3SGXPF?th=1>
 
+Also - forgot to mention - how cool is that both K&K & Vicar of Dibley have Kylie Minogue as Guest at some point :) 
+
 **Recs:**
 
 **TV shows:**
