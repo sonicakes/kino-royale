@@ -9,6 +9,7 @@ description: Hello, revolting! Oi loik what oi see… To celebrate 11 years of
   residing in the land of OZ, Film Lady travels to Fountain Lakes to help Kath &
   Kim navigate the dramas of everyday life, laughing along to the Pilot episode
   - ‘SEX’.
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep8-kathkim-upload.mp3
 coverArt: /covers/ep8-kath-kim.png
 tags:
   - funny
