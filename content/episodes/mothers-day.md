@@ -40,4 +40,4 @@ Discover Film Lady: [⁠https://filmladyproductions.netlify.app/⁠](https://fil
 
 **Music** - all tracks are royalty free via Free Music Archive — CC BY.
 
-![](/covers/соня40.jpg "mum & me, somewhere in ex-USSR, early 90s")
+![]( "mum & me, somewhere in ex-USSR, early 90s")
