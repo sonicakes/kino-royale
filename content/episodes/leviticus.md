@@ -19,7 +19,7 @@ tags:
 
 I would like to acknowledge that I live, work, and learn on the traditional lands of the Dharug and Darkinjung peoples. I pay my respects to their Elders past and present, and extend that respect to all Aboriginal and Torres Strait Islander peoples here today. 
 
-**Content Warning:** criticism ofreligion, criticism of Russian politics, swearing (lots). 
+**Content Warning:** discussions of religion & politics, swearing (lots). 
 
 **Links:**
 
