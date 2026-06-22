@@ -89,3 +89,69 @@ Rocko’s Modern Life, 1993-96, <https://www.imdb.com/title/tt0106115/>
 Slang:
 
 *dry as a dead dingo's donger:* <https://en.wiktionary.org/wiki/dry_as_a_dead_dingo%27s_donger>
+
+**Chapters:**
+
+00:00 Acknowledgement of Country
+
+00:23 Cold (Beer) Open
+
+01:00 Welcome & Intro; Milestones!
+
+07:45 Where to find FL
+
+08:13 News
+
+14:51 Note on Leviticus & Kurosawa's Cure on Shudder
+
+20:00 Agenda
+
+23:00 Content Warning
+
+23:32 Book & Movie Overviews
+
+31:30 Book or Movie?
+
+32:27 My Story with the movie/novel
+
+34:28 Where to watch
+
+34:59 Themes - drinking culture
+
+43:09 Oz Beers I've tried
+
+45:57 Importance of Taking a Piss & Comedic Relief
+
+48:38 The HEAT
+
+49:25 hot take on WiF hot XMAS
+
+58:13 RSL - what is it
+
+1:00:59 Gamblin' in WiF, OZ
+
+01:12:12 Shortage of pretty gals in the Yabba; OZ demographics
+
+01:21:20 Elephant (kangaroo) in the room
+
+01:25:05 Ratings
+
+01:26:07 Spooks
+
+01:29:23 Ass(osiacions)
+
+01:33:33 Recs
+
+01:37:43 Is WiF queer?
+
+01:40:49 Viewing notes
+
+01:47:01 Yabba's 'Aggressive' Hospitality
+
+01:49:15 Happy End?
+
+01:54:12 Concept of Fair Go
+
+02:00:55 Upcoming on KR
+
+02:04:04 Warm Close
