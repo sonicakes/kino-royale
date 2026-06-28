@@ -1,7 +1,7 @@
 ---
 id: ep-10
 slug: wake-in-fright
-number: 13
+number: 10
 title: "Ep 10 - Wake in Fright: movie (1971) & novel (1961)"
 date: 2026-06-22
 duration: 126min
