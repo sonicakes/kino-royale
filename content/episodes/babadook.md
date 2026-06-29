@@ -58,6 +58,11 @@ Doxa on YT on new Russian textbooks for schoolkids on how to build a ‘proper�
 
 **Movie IMDB**: <https://www.imdb.com/title/tt2321549/>
 
+**Books:**
+
+* [Brothers Grimm](https://en.wikipedia.org/wiki/Brothers_Grimm) - "[Cinderella](https://en.wikipedia.org/wiki/Cinderella)", "[The Frog Prince](https://en.wikipedia.org/wiki/The_Frog_Prince_(story))", "[Hansel and Gretel](https://en.wikipedia.org/wiki/Hansel_and_Gretel)", "[Rapunzel](https://en.wikipedia.org/wiki/Rapunzel)", "[Rumpelstiltskin](https://en.wikipedia.org/wiki/Rumpelstiltskin)", and "[Snow White](https://en.wikipedia.org/wiki/Snow_White)". 
+* [Hans Christian Andersen](https://en.wikipedia.org/wiki/Hans_Christian_Andersen) - "[The Emperor's New Clothes](https://en.wikipedia.org/wiki/The_Emperor%27s_New_Clothes)", "[The Little Mermaid](https://en.wikipedia.org/wiki/The_Little_Mermaid)", "[The Nightingale](https://en.wikipedia.org/wiki/The_Nightingale_(fairy_tale))", "[The Steadfast Tin Soldier](https://en.wikipedia.org/wiki/The_Steadfast_Tin_Soldier)", "[The Red Shoes](https://en.wikipedia.org/wiki/The_Red_Shoes_(fairy_tale))", "[The Princess and the Pea](https://en.wikipedia.org/wiki/The_Princess_and_the_Pea)", "[The Snow Queen](https://en.wikipedia.org/wiki/The_Snow_Queen)", "[The Ugly Duckling](https://en.wikipedia.org/wiki/The_Ugly_Duckling)", "[The Little Match Girl](https://en.wikipedia.org/wiki/The_Little_Match_Girl)", and "[Thumbelina](https://en.wikipedia.org/wiki/Thumbelina)."  
+
 **Recs:**
 
 **Pods:**
