@@ -174,6 +174,18 @@ export function Hero({ audioUrl = '', title = '', duration }: Props) {
               <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/></svg>
               <span>iHeart</span>
             </a>
+            <a href="https://castbox.fm/channel/id7202778" target="_blank" rel="noopener noreferrer" className={styles.platformLink} aria-label="Listen on Castbox">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2.4a9.6 9.6 0 1 1 0 19.2A9.6 9.6 0 0 1 12 2.4zm0 2.4a7.2 7.2 0 1 0 0 14.4A7.2 7.2 0 0 0 12 4.8zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6zm0 2.4a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8z"/></svg>
+              <span>Castbox</span>
+            </a>
+            <a href="https://pca.st/q02q8adz" target="_blank" rel="noopener noreferrer" className={styles.platformLink} aria-label="Listen on Pocket Casts">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm0 2.585a9.415 9.415 0 1 1 0 18.83A9.415 9.415 0 0 1 12 2.585zm4.537 4.878A6.43 6.43 0 0 0 12 5.57a6.43 6.43 0 0 0-6.43 6.43 6.43 6.43 0 0 0 4.493 6.114v-2.262a4.17 4.17 0 0 1-2.232-3.852A4.17 4.17 0 0 1 12 7.83a4.17 4.17 0 0 1 4.17 4.17 4.17 4.17 0 0 1-2.233 3.852v2.262A6.43 6.43 0 0 0 18.43 12a6.43 6.43 0 0 0-1.893-4.537zm-4.537.817a3.72 3.72 0 0 0-3.72 3.72 3.72 3.72 0 0 0 2.31 3.45V13.2a1.5 1.5 0 0 1-.81-1.2 1.5 1.5 0 0 1 1.5-1.5 1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-.81 1.2v2.25a3.72 3.72 0 0 0 2.31-3.45 3.72 3.72 0 0 0-3.72-3.72z"/></svg>
+              <span>Pocket Casts</span>
+            </a>
+            <a href="https://goodpods.com/podcasts/kino-royale-738549" target="_blank" rel="noopener noreferrer" className={styles.platformLink} aria-label="Listen on Goodpods">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 3a9 9 0 1 1 0 18A9 9 0 0 1 12 3zm0 2a7 7 0 1 0 0 14A7 7 0 0 0 12 5zm.5 2v1.07A4.5 4.5 0 0 1 16.5 12.5a4.5 4.5 0 0 1-4 4.47V18h-1v-1.03A4.5 4.5 0 0 1 7.5 12.5 4.5 4.5 0 0 1 11.5 8.07V7h1zm-.5 2.5a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3zm0 1.5a1.5 1.5 0 0 1 1.5 1.5A1.5 1.5 0 0 1 12 14a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 12 11z"/></svg>
+              <span>Goodpods</span>
+            </a>
             <a href="https://anchor.fm/s/1105f4e3c/podcast/rss" target="_blank" rel="noopener noreferrer" className={styles.platformLink} aria-label="RSS feed">
               <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
               <span>RSS</span>
