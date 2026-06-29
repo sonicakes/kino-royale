@@ -7,6 +7,7 @@ date: 2026-06-29
 duration: 96min
 description: Film Lady has heard that the Broody Byronic Drama Queen, also known
   as the Mr Babadook, is single & ready to mingle! Ba-ba-ba-DOOK-DOOK-DOOK!
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep11-bbd-upload.mp3
 coverArt: /covers/babadook.png
 tags:
   - horror
