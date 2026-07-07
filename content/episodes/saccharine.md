@@ -20,11 +20,13 @@ I would like to acknowledge that I live, work, and learn on the traditional land
 
 **Desc:**
 
-Satisfy Film Lady’s sugar addiction in exploring the *Sick, Sad World* of Eating Disorders in Saccharine episode! **9/10 ED Bitches.**
+Satisfy Film Lady’s sugar addiction in exploring the *Sick, Sad World* of Eating Disorders in Saccharine episode! **9/10 Smokey Cadavers.**
 
 **CONTENT WARNING**: prolonged & detailed discussions of Eating Disorders (ED), Anorexia in particular. Please take care of yourself first!
 
 **SPOILERS:** this is an extremely *spoilerific* episode, listen at your own risk.
+
+Episode extended show notes on KR website: <https://kinoroyale.net/episodes/saccharine>
 
 Find me: **@filmladyroyal** on Letterboxd, Bluesky & Instagram.
 
@@ -38,10 +40,13 @@ Discover Film Lady: <https://filmladyproductions.netlify.app/>
 * Universfield - Creepy Tension Background
 * Universfield - Dark Mystery Atmosphere
 * Universfield - Mystery Horror
+* Universfield - Mystery Dark Background
 * Universfield - Paranormal Horror Background
 * Universfield - Spirit Horror
-* Mark Kingard - Insect Mind
+* Mark Lingard - Insect Mind
 * Triple5 Here - Creepy
+* PCxTC - Treehouse Of Horror
+* Rolemusic - ZX Spectrum Ringtone
 
 **Links:**
 
@@ -68,6 +73,8 @@ Requiem for a Dream (2000)- <https://www.imdb.com/title/tt0180093>
 
 To The Bone - movie about ED & Anorexia - (2017) - <https://www.imdb.com/title/tt5541240>
 
+Basic Instinct (1992) - <https://www.imdb.com/title/tt0103772/>
+
 **Pods:**
 
 *Maintenance Phase* by Aubrey Gordon & Michael Hobbes - eps on ‘The Food Pyramid’, ‘Ozempic’, ‘The F Factor’ & many more!
@@ -75,6 +82,8 @@ To The Bone - movie about ED & Anorexia - (2017) - <https://www.imdb.com/title/t
 *What Would You Do?* by Cinema IRL - ep 282 on Saccharine
 
 *That Was Pretty Scary* by Morbid Network - ep on Saccharine w/Natalie Erika James
+
+*Sounds like a Cult* by Studio 71
 
 **Books:**
 
