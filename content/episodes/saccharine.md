@@ -7,6 +7,7 @@ date: 2026-07-07
 duration: 130:00
 description: FL thinks about her sweet addictions & ED struggles in Natalie
   Erika James' 2026 hit Saccharine.
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep12-upload.mp3
 coverArt: /covers/saccharine.png
 tags:
   - queer
