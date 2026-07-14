@@ -7,11 +7,13 @@ date: 2026-07-14
 duration: 102min
 description: Russian discusses Russian-Canadian gay sports romance! Join FL in a
   hot game of hockey. Razdevaysya & Na Koleni &! ;)
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-13-p1.mp3
 coverArt: /covers/hr-p1.png
 tags:
   - gay
   - romance
   - spicy
+  - novel
 ---
 *Acknowledgment of Country*
 
@@ -86,3 +88,5 @@ Discover Film Lady: <https://filmladyproductions.netlify.app/>
 * Tea K Pea - light
 * YuraSoop - Beautiful Ambient
 * YuraSoop - Nature Ambient
+* Geoff Harvey - Purple Planet Music - Romance of the Isles
+* Magenta Six - Christmas 1
