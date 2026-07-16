@@ -2,7 +2,7 @@
 id: ep-14
 slug: heated-rivalry-show
 number: 14
-title: "Ep 14: Heated Rivalry: part 2 - Novel (2025)"
+title: "Ep 14: Heated Rivalry: part 2 - TV Show (2025)"
 date: 2026-07-16
 duration: 65min
 description: ‘This bitch is a cunning linguist, she loves languages!’ - Film
