@@ -4,10 +4,12 @@ slug: heated-rivalry-show
 number: 14
 title: "Ep 14: Heated Rivalry: part 2 - Novel (2025)"
 date: 2026-07-16
-duration: 68min
+duration: 65min
 description: ‘This bitch is a cunning linguist, she loves languages!’ - Film
-  Lady describing herself. Watch her ramble about the hyped-up gay sports
-  romance adaptation - ‘Heated Rivalry (2025)’.
+  Lady describing herself. Listen to a Russian straight chick ramble about the
+  hyped-up gay sports romance adaptation - ‘Heated Rivalry (2025)’. 9/10 Banana
+  Socks.
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-14-upload.mp3
 coverArt: /covers/hr-p-2.png
 tags:
   - spicy
@@ -31,17 +33,18 @@ Find me: **@filmladyroyal** on Letterboxd, Bluesky & Instagram.
 
 Email: [kinoroyalepodcast@gmail.com](mailto:kinoroyalepodcast@gmail.com)
 
+Extended Show Notes: <https://kinoroyale.net/episodes/heated-rivalry-novel>
+
 Discover Film Lady: <https://filmladyproductions.netlify.app/>
+
+**My top 100 movies list:** <https://letterboxd.com/filmladyroyal/list/my-fave-horror-movies-of-all-times/>
 
 **Music** - via Free Music Archive — **CC BY**: 
 
 * GrW - Alaska 1
-* Kirk Osamayo - (Ambient) Fleur
 * LaFaena - Sexy
 * Meydän - Away
 * Tea K Pea - light
-* YuraSoop - Beautiful Ambient
-* YuraSoop - Nature Ambient
 
 **Cold Open** - song ‘*Мальчик-Гей (Gay Boy)*’ by t.A.T.u. 
 
