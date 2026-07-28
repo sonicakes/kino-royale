@@ -20,11 +20,11 @@ tags:
 
 I would like to acknowledge that I live, work, and learn on the traditional lands of the Dharug and Darkinjung peoples. I pay my respects to their Elders past and present, and extend that respect to all Aboriginal and Torres Strait Islander peoples here today. 
 
-**Content Warning**: Body Dysmorphia, Misogynistic Themes, Blood, Body Horror
+**Content Warning**: Body Dysmorphia, Misogynistic Themes, Blood, Body Horror, French Extremity
 
 **SPOILERS:** this is an extremely *spoilerific* episode discussing characters & plot, listen at your own risk.
 
-**Question to Listeners**: Whadya reckon the Substance smells like?
+**Question to Listeners**: Whadya reckon The Substance smells like?
 
 Find me: **@filmladyroyal** on Letterboxd, Bluesky & Instagram.
 
@@ -33,6 +33,8 @@ Email: [kinoroyalepodcast@gmail.com](mailto:kinoroyalepodcast@gmail.com)
 Discover Film Lady: <https://filmladyproductions.netlify.app/>
 
 **Mentions:**
+
+*koh-rah-lee far-ZHAH* pls guys, listen to the *auteur’s* Cannes press conference how it's pronounced: <https://www.youtube.com/watch?v=ftOcGyJtNXU>
 
 [*Fast Forward (*1989–1992) ](https://www.imdb.com/title/tt0096581/)- YT: <https://youtu.be/GoBpSvm75rk?si=PBn_savhx8SdUr-M>
 
@@ -60,6 +62,20 @@ Discover Film Lady: <https://filmladyproductions.netlify.app/>
 
 The Sims ‘Hollywood’ world, *Del Sol Valley*: <https://sims.fandom.com/wiki/Del_Sol_Valley>
 
+*The Blob (1988)*: <https://www.imdb.com/title/tt0094761>
+
+**Cronenburgia:** 
+
+*Crimes of the Future (2022)*: <https://www.imdb.com/title/tt14549466/>
+
+*The Fly (1986)*: <https://www.imdb.com/title/tt0091064>
+
+*Crash (1996)*: <https://www.imdb.com/title/tt0115964>
+
+*The Shrouds (2024)*: <https://www.imdb.com/title/tt20212786>
+
+*The Little Mermaid* by Hans Christian Andersen: <https://en.wikipedia.org/wiki/The_Little_Mermaid>
+
 **Cold Open, Intermissions & Warm Close**: Belle by Notre Dame de Paris 
 
 Performed by Garou, Patrick Fiori & Daniel Lavoie
@@ -69,3 +85,19 @@ Producers Jannick Top, Serge Perathoner 
 Notre Dame de Paris (Version Intégrale),1998
 
 <https://genius.com/Garou-belle-lyrics>
+
+**Music** - via Free Music Archive — **CC BY**: 
+
+* AurosonMusic - Energetic Pop Background
+* Geoff Harvey - Purple Planet Music - French Life
+* Geoff Harvey - Purple Planet Music - French Romance
+* Geoff Harvey - Purple Planet Music - Paris Accordian
+* Geoff Harvey - Purple Planet Music - Parisian Waltz
+* Geoff Harvey - Purple Planet Music - Promenade
+* JMHBM - French Toast
+* Mr Smith - French Girls & Cigarettes
+* Music for Creators - Energetic Stock Music
+* Upbeat & Energetic Funky Groove
+* Upbeat Energetic Sport Kit
+* Soularflair - ONE PERSPECTIVE SCREAMING INTO THE VOID (dark ambient, unsettling)
+* Kirk Osamayo - Unsettling Ambience
