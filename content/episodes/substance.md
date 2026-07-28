@@ -9,6 +9,7 @@ description: Prepare to get your best self out & dress it up in 80s workout
   gear, and follow me into episode 15 - the last episode of July, the Birth
   month, for which The Substance (2024) could not have been more perfect! 9/10
   MonstroElisabethSues.
+coverArt: /covers/substance.png
 tags:
   - bodyhorror
   - french
