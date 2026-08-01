@@ -10,7 +10,7 @@ description: >
   potentially get together with Gillian Anderson. Little does she know she has
   to compete not only with Hannah Einbinder, but Little Death too! The new movie
   Teenage Sex & Death at Camp Miasma (2026) by Jane Schoenbrun gets the blood
-  pumping like nothing else does! 9/10 Flesh & Fluid Smoothies.
+  pumping like nothing else does! 9/10 Little Deaths.
 coverArt: /covers/miasma-camp.png
 tags:
   - camp
