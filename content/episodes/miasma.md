@@ -11,6 +11,7 @@ description: >
   to compete not only with Hannah Einbinder, but Little Death too! The new movie
   Teenage Sex & Death at Camp Miasma (2026) by Jane Schoenbrun gets the blood
   pumping like nothing else does! 9/10 Little Deaths.
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-16-upload.mp3
 coverArt: /covers/miasma-camp.png
 tags:
   - camp
