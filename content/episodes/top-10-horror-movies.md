@@ -2,7 +2,7 @@
 id: ep-17
 slug: top-10-horror-movies
 number: 17
-title: "WinterWeen Special: "
+title: "WinterWeen Special: My Top 10 Horror Movies"
 date: 2026-08-11
 duration: 80:00
 description: While the Northern Hemisphere is camping it out at SummerWeen,
