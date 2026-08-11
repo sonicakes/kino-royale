@@ -29,7 +29,9 @@ Find me: **@filmladyroyal** on Letterboxd, Bluesky & Instagram.
 
 Email: [⁠kinoroyalepodcast@gmail.com⁠](mailto:kinoroyalepodcast@gmail.com)[⁠](https://kinoroyale.net/episodes/substance)
 
-Discover Film Lady: [⁠https://filmladyproductions.netlify.app/⁠](https://filmladyproductions.netlify.app/)
+Discover Film Lady: [⁠https://filmladyproductions.netlify.app/](https://filmladyproductions.netlify.app/)
+
+Letterboxd List of Top 100 Horror Movies: [https://letterboxd.com/filmladyroyal/list/my-fave-horror-movies-of-all-times/⁠](https://filmladyproductions.netlify.app/)
 
 **Mentions:**
 
