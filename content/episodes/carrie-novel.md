@@ -4,7 +4,7 @@ slug: carrie-novel
 number: 18
 title: Carrie - part 1 - novel by Stephen King (1974 )
 date: 2026-08-17
-duration: 90:00
+duration: 150:00
 description: This is part 1 - ‘Blood Sport’, we are dissecting into the original
   1974 Carrie novel by Stephen King. Expect scary spoilers, deep dives &
   terrifying tangents!
