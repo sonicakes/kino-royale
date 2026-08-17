@@ -8,6 +8,7 @@ duration: 150:00
 description: This is part 1 - ‘Blood Sport’, we are dissecting into the original
   1974 Carrie novel by Stephen King. Expect scary spoilers, deep dives &
   terrifying tangents!
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-18-p1-upload.mp3
 coverArt: /covers/carrie-p1-novel.png
 tags:
   - stephenking
