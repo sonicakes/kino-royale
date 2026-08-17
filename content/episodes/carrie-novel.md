@@ -2,7 +2,7 @@
 id: ep-18
 slug: carrie-novel
 number: 18
-title: Ep 18 - Carrie - part 1 - novel by Stephen King (1974 )
+title: Carrie - part 1 - novel by Stephen King (1974 )
 date: 2026-08-17
 duration: 90:00
 description: This is part 1 - ‘Blood Sport’, we are dissecting into the original
