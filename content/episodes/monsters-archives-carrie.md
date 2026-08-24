@@ -35,26 +35,26 @@ If you’re keen to come along on this bloody ride, make sure to stash some of t
 
 **Potential Triggers**: discussion or mentions of blood, menstruation, trauma, parental abuse towards their children, bullying, violence, school systems, sexual assault, religious mania, eating disorders, depression, major depressive episodes.
 
-##### **Warm close** 
+**Warm close**: Carries poem on page 71 -: that's a five-line poem Carrie wrote as a **seventh-grade class assignment**, which her teacher kept — it's presented in the "board of inquiry" documentary sections along with background material on Carrie from seventh grade, described as a disturbing poem for a school assignment that her teacher saved.
 
-Carries poem on page 71 -: that's a five-line poem Carrie wrote as a **seventh-grade class assignment**, which her teacher kept — it's presented in the "board of inquiry" documentary sections along with background material on Carrie from seventh grade, described as a disturbing poem for a school assignment that her teacher saved.
+**Mentions:**
 
-Seed Talks - give talks links
+[Seed Talks](https://www.seedtalks.co.uk/) - I did a workshop on *Vampires & the Human Psyche* with[Katie Evans](https://www.instagram.com/mentalhealth_monsters/) 
 
-Katie Evans - Vampires & the Human Psyche
+*Evolution of Horror* pod 
 
-Evolution of Horror pod 
+*The Losers Club* ep on Monsters in the Archives
 
-The Losers Club ep on Monsters in the Archives
+*Random Horror Pod Generator #9* - their ep on Carrie
 
-Random horror pod generator #9
+Associations & Recs - see show notes from p1.
 
 **Research:** [Menstrual periods are arriving earlier for younger generations, especially among racial minority and lower-income individuals | Harvard T.H. Chan School of Public Health](https://hsph.harvard.edu/news/menstrual-periods-are-arriving-earlier-for-younger-generations-especially-among-racial-minority-and-lower-income-individuals/)
 
-**Other links in p1 show notes**
+**Other links from research also in p1 show notes.**
 
-**Music - CC BY - :**
+**Music - CC BY - via Free Music Archive :**
 
-Tiga Maine - Tiga Maine - Uhamba Nami (ft. Bhlaklyn & Lady Kay).mp3
+Tiga Maine - Tiga Maine - Uhamba Nami (ft. Bhlaklyn & Lady Kay)
 
-Soundwave Sphere - Dark Desires.mp3
+Soundwave Sphere - Dark Desires
