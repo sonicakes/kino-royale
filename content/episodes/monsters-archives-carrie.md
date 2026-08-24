@@ -4,10 +4,11 @@ slug: monsters-archives-carrie
 number: 20
 title: Carrie - part 3 - Monsters in the Archives by Caroline Bicks (2026)
 date: 2026-08-24
-duration: 61:00
+duration: 60:11
 description: This episode is part 3 (BONUS), ‘Wreckage’, where we peek behind
   the curtain to see what Monsters hide behind the Archives with Caroline
   Bicks’s 2026 exploration of Carrie’s earlier drafts & alternative plot twists!
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep18-p3-bicks-upload.mp3
 coverArt: /covers/carrie-p3-bonus.png
 tags:
   - stephenking
