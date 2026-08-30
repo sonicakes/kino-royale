@@ -9,6 +9,7 @@ description: Let’s take a night plane from Tangier to Detroit & see how much
   blood is left for our lovers in our closing August episode! Join Film Lady in
   exploration of this 2013 gem by Jim Jarmusch. 8/10 Pairs of Sunglasses at
   Night. 
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep21-lovers-left-upload.mp3
 coverArt: /covers/lovers-left-alive.png
 tags:
   - blood
