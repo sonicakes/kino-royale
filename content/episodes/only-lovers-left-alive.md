@@ -27,6 +27,12 @@ I would like to acknowledge that I live, work, and learn on the traditional land
 
 **Warm Close**: FL’s own piece of writing ‘*Strawberries Dipped in White Choc*’.
 
+LOOK AT THOSE CARPETS OMG: 
+
+![carpet-girl](/covers/carpets.jpg "me-carpets")
+
+
+
 **Music:**
 
 * Doctor Turtle - The Talons Of Adventure, The Antlers Of Romance
