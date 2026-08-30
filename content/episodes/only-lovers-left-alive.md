@@ -42,12 +42,6 @@ I would like to acknowledge that I live, work, and learn on the traditional land
 
 [Audacity](https://www.audacityteam.org/) - recording & editing - free!
 
-\-insert ghouls & freaks
-
-\-Video vestige
-
-\-Pod & pend
-
 **Pussy Riot links:**
 
 [Pussy Riot added to Russia’s list of terrorists and extremists](https://www.thebarentsobserver.com/news/pussy-riot-added-to-russias-list-of-terrorists-and-extremists/450769)
