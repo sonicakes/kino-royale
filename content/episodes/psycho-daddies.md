@@ -9,6 +9,7 @@ description: "Note: this is a preview of the episode - listen to full version on
   Spotify, Apple or wherever you catch your pods! Let's celebrate Fathers Day
   2026 (in Australia) by looking at some Psycho Daddies together! Who doesn't
   have #daddyissues, right? Not Film Lady, surely…XD"
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-22-psycho-daddies-cut.mp3
 coverArt: /covers/psycho-daddies.png
 tags:
   - psycho
