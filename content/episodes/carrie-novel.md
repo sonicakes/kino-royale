@@ -4,11 +4,12 @@ slug: carrie-novel
 number: 18
 title: Carrie - part 1 - novel by Stephen King (1974 )
 date: 2026-08-17
-duration: 150:00
-description: This is part 1 - ‘Blood Sport’, we are dissecting into the original
-  1974 Carrie novel by Stephen King. Expect scary spoilers, deep dives &
-  terrifying tangents!
-audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-18-p1-upload.mp3
+duration: 5:00
+description: "Note: this is a preview of the episode - listen to full version on
+  Spotify, Apple or wherever you catch your pods! This is part 1 - ‘Blood
+  Sport’, we are dissecting into the original 1974 Carrie novel by Stephen King.
+  Expect scary spoilers, deep dives & terrifying tangents!"
+audioUrl: ""
 coverArt: /covers/carrie-p1-novel.png
 tags:
   - stephenking
