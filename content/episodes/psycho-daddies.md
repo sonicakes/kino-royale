@@ -4,7 +4,7 @@ slug: psycho-daddies
 number: 22
 title: Psycho Daddies, or Happy Fathers Day!
 date: 2026-09-05
-duration: 102:44
+duration: 4:30
 description: "Note: this is a preview of the episode - listen to full version on
   Spotify, Apple or wherever you catch your pods! Let's celebrate Fathers Day
   2026 (in Australia) by looking at some Psycho Daddies together! Who doesn't
