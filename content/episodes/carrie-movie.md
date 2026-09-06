@@ -9,7 +9,7 @@ description: "Note: this is a preview of the episode - listen to full version on
   Spotify, Apple or wherever you catch your pods! This episode is part 2, ‘Prom
   Night’, where we’re following Brian de Palma to the epic school night of his
   1976 iconic movie adaptation."
-audioUrl: ""
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-19-upload-preview.mp3
 coverArt: /covers/carrie-p2-movie.png
 tags:
   - stephenking
