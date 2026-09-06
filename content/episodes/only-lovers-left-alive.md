@@ -4,7 +4,7 @@ slug: only-lovers-left-alive
 number: 21
 title: Only Lovers Left Alive (2013)
 date: 2026-08-30
-duration: 113:00
+duration: 4:00
 description: "Note: this is a preview of the episode - listen to full version on
   Spotify, Apple or wherever you catch your pods! Let’s take a night plane from
   Tangier to Detroit & see how much blood is left for our lovers in our closing
