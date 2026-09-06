@@ -4,10 +4,12 @@ slug: carrie-movie
 number: 19
 title: Carrie - part 2 - movie by Brian de Palma (1976)
 date: 2026-08-21
-duration: 106:36
-description: This episode is part 2, ‘Prom Night’, where we’re following Brian
-  de Palma to the epic school night of his 1976 iconic movie adaptation.
-audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-19-upload.mp3
+duration: 5:00
+description: "Note: this is a preview of the episode - listen to full version on
+  Spotify, Apple or wherever you catch your pods! This episode is part 2, ‘Prom
+  Night’, where we’re following Brian de Palma to the epic school night of his
+  1976 iconic movie adaptation."
+audioUrl: ""
 coverArt: /covers/carrie-p2-movie.png
 tags:
   - stephenking
