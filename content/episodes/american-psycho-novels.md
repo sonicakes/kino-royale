@@ -33,6 +33,58 @@ Warm close: [Nelly – Just a Dream Lyrics](https://genius.com/Nelly-just-a-drea
 
 ![](/covers/pxl_20260911_233511442.jpg)
 
-
-
 ![](/covers/pxl_20260607_004548567.mp.jpg)
+
+I keep calling Bateman Batman? Some kind of Freudian slip hehehe… Bruce Wayne is played, btw, also by Christian Bale in the movies :)
+
+**Associations:** 
+
+[Ab Fab](https://www.imdb.com/title/tt0105929/) - [Patty Stone YT](https://www.youtube.com/watch?v=gN4vkVUwEJk)
+
+[Dexter](https://www.imdb.com/title/tt0773262)
+
+[Clockwork Orange](https://www.imdb.com/title/tt0066921)
+
+**Mentioned:**
+
+*Lost Lambs* by Madeleine Cash: [Lost Lambs by Madeline Cash | Goodreads](https://www.goodreads.com/en/book/show/231127175-lost-lambs)
+
+**Sources:**
+
+Keeping Up With The Penguins,[ "American Psycho — Bret Easton Ellis"](https://keepingupwiththepenguins.com/american-psycho-bret-easton-ellis/)
+
+Dan McNeil,[ "American Psycho" — The McNeil Variations](https://www.dan-mcneil.com/american-psycho/)
+
+*Literariness*,[ "Analysis of Bret Easton Ellis's American Psycho"](https://literariness.org/2025/07/13/analysis-of-bret-easton-elliss-american-psycho/)
+
+Panova, O. Yu., "American underground spirit: Dostoevsky's Notes From Underground and 20th century USA literature," *Izvestiya Saratov University* (2021) —[ DOAJ link](https://doaj.org/article/eb7a19a382f242339e10b6f88f66c1db)
+
+*Baltimore Sun* review, "'American Psycho' is not merely gruesome, it's also dull" (1991)
+
+**Music - Free Music Archive - CC License:**
+
+* Andrew R Codeman - Crazy Bot
+* Blank & Kytt - Come Get Some
+* Blank & Kytt - Thursday & Snow (Reprise)
+* Cullah - Ooh Baby You Drive Me Crazy Blues
+* Damiano Baldoni - I'm CrAZy
+* Geoff Harvey - Purple Planet Music - Crazy Town
+* HoliznaRAPS - My Family Thinks I'm Crazy
+* Josh Woodward - Crazy Glue (Instrumental Version)
+* Mise Darling - It's Crazy!
+* Ondrosik - Crazy
+* Paweł Spychała - Crazy parrot.mp3
+
+Find me: **@filmladyroyal** on Letterboxd, Bluesky & Instagram.
+
+Email: [kinoroyalepodcast@gmail.com](mailto:kinoroyalepodcast@gmail.com)
+
+All eps & more on website: [kinoroyale.net](http://kinoroyale.net)
+
+*Don’t forget to vote for November theme - on socials or under the previous ep on Spotify (ep 22)* 
+
+**Equipment:**
+
+[JBL Quantum Stream Studio | Quad pattern premium USB microphone for streaming, recording and gaming](https://www.jbl.com.au/gaming-microphones/QUANTUM-STREAM-STUDIO.html)
+
+[Audacity](https://www.audacityteam.org/) - recording & editing by FL
