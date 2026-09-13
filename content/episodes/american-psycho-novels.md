@@ -9,6 +9,7 @@ description: >-
   Note: this is preview only, listen to full ep whenever you catch your pods :) 
 
   Would you like to have lunch at Dorsia with a fine young man named Patrick Bateman and learn about his business of mergers & aqua sessions? Join Film Lady in exploring one of the darkest, most controversial novels of all time - a 1991 novel by Bret Easton Ellis’s - American Psycho.
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/am-psycho-novel-preview.mp3
 coverArt: /covers/american-psycho-novel.png
 tags:
   - psycho
