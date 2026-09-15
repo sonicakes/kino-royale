@@ -9,7 +9,7 @@ description: >
   This is a preview only. For a full episode go to Spotify, Apple Pods or
   wherever you catch your pods!
 
-  ‘I like to dissect girls. Did you know I'm utterly insane?’ How does Pat Bateman appear on the big screen compared to the original novel? Join Film Lady in analyzing the horror-comedy adaptation of Bret Easton Ellis’s novel - a 2000 movie by Mary Harron, American Psycho.
+  How does Pat Bateman appear on the big screen compared to the original novel? Join Film Lady in analyzing the horror-comedy adaptation of Bret Easton Ellis’s novel - a 2000 movie by Mary Harron, American Psycho.
 coverArt: /covers/american-psycho-movie.png
 tags:
   - psycho
