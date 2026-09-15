@@ -10,6 +10,7 @@ description: >
   wherever you catch your pods!
 
   How does Pat Bateman appear on the big screen compared to the original novel? Join Film Lady in analyzing the horror-comedy adaptation of Bret Easton Ellis’s novel - a 2000 movie by Mary Harron, American Psycho.
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-24-preview.mp3
 coverArt: /covers/american-psycho-movie.png
 tags:
   - psycho
