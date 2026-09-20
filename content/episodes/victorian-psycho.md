@@ -4,12 +4,13 @@ slug: victorian-psycho
 number: 25
 title: Victorian Psycho, novel (2025)
 date: 2026-09-20
-duration: 3:00
+duration: 2:11
 description: >-
   Note: this is a preview only. Listen to full ep wherever you get your pods -
   Spotify, Apple, etc. 
 
   Join Film Lady in befriending one accomplished, dignified governess, Winnifred Notty (pronounced ‘Naughty’ or ‘Nutty’ depending on the context). Dear Reader, if you have only one book to read this year - this is it. Victorian Psycho (2025) by Virginia Feito is Film Lady’s new fave novel!
+audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep25-preview.mp3
 coverArt: /covers/victorian-psycho-novel.png
 tags:
   - psycho
@@ -30,7 +31,6 @@ My copy + Luce:
 
 ![my copy of the novel and dog](/covers/vic.jpg "my copy of the novel and dog")
 
-
 Watch trailer YT: [Victorian Psycho | Official Trailer | Bleecker Street](https://youtu.be/sDiFol_2j2I?si=7PXHFchEpxqHmN6J)
 
 Author website with diff covers: [Victorian Psycho — virginia feito](https://www.virginiafeito.com/victorian-psycho)
@@ -43,11 +43,7 @@ Vic Psych on goodreads: [Victorian Psycho by Virginia Feito | Goodreads](https:/
 
 Top 100 books ABC: [Radio National's Top 100 Books](https://www.abc.net.au/listen/radionational/countdown/top100books)
 
-
-
-
 ![my top OZ 100 books](/covers/top-100.png "my top OZ 100 books")
-
 
 **Associations:** 
 
@@ -80,7 +76,6 @@ Classic Female Gothics: *Jane Eyre, Rebecca, Wuthering Heights*
 * Soularflair - THE MOURNING AFTER (classical, strings, emotive)
 * Alex Morgan - Phonk House Hybrid With Classical Sample
 * Kevin MacLeod - Schmetterling
-* 
 
 Find me: **@filmladyroyal** on Letterboxd, Bluesky & Instagram.
 
