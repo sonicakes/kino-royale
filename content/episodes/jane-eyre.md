@@ -8,7 +8,7 @@ duration: 126min
 description: Join FL on the journey from Gateshead to Lowood, ending at
   Thornfield Hall. Prepare to dive into feminism, school abuse, psychological
   manipulation, and more! Jane Eyre can not get any darker.
-audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-6-je-upload.mp3
+audioUrl: ""
 coverArt: /covers/jane-eyre.png
 tags:
   - gothic
