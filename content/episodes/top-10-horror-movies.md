@@ -9,7 +9,7 @@ description: While the Northern Hemisphere is camping it out at SummerWeen,
   we’re in the Land Down Under getting the last of our pretend ‘winter’ during
   WinterWeen! Join Film Lady at her debut at production studio discussing her
   top 10 Horror Hits!
-audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep17-upload.mp3
+audioUrl: ""
 coverArt: /covers/winterween.png
 tags:
   - special
