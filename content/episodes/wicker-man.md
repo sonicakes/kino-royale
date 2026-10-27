@@ -7,7 +7,7 @@ date: 2026-04-30
 duration: 121:00
 description: In the fourth installation FL gets naked & dances around the pole.
   No, perv! The MAY pole. It's a pagan thang.
-audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/wicker-man-upload.mp3
+audioUrl: ""
 coverArt: /covers/ep04.png
 tags:
   - folk
