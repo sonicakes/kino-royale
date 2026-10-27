@@ -9,7 +9,7 @@ description: ‘This bitch is a cunning linguist, she loves languages!’ - Film
   Lady describing herself. Listen to a Russian straight chick ramble about the
   hyped-up gay sports romance adaptation - ‘Heated Rivalry (2025)’. 9/10 Banana
   Socks.
-audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep-14-upload.mp3
+audioUrl: ""
 coverArt: /covers/hr-p-2.png
 tags:
   - spicy
