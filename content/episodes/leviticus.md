@@ -8,7 +8,7 @@ duration: 115min
 description: >
   Join FL at her impressions on Leviticus, seen first-hand at Sydney Film Fest
   over the long weekend. 10/10 evil dopplegangers.
-audioUrl: https://pub-5b1d262e407440cfb6bfc9cc630e3a90.r2.dev/ep9-leviticus-upload.mp3
+audioUrl: ""
 coverArt: /covers/leviticus-cover.png
 tags:
   - queer
