@@ -28,7 +28,7 @@ export default function StoryPage() {
                 marginBottom: 12,
               }}
             >
-              Film Lady Productions
+              Kino Royale Productions
             </p>
             <h1
               style={{
@@ -204,7 +204,7 @@ export default function StoryPage() {
             {/* External links */}
             <div style={{ display: 'flex', gap: 16, marginTop: 28, flexWrap: 'wrap' }}>
               <a
-                href="https://letterboxd.com/filmladyroyal/"
+                href="https://letterboxd.com/kinoroyalepod/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -219,7 +219,7 @@ export default function StoryPage() {
                 Letterboxd →
               </a>
               <a
-                href="https://bsky.app/profile/filmladyroyal.bsky.social"
+                href="https://bsky.app/profile/kinoroyalepod.bsky.social"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -234,7 +234,7 @@ export default function StoryPage() {
                 Bluesky →
               </a>
                  <a
-                href="https://www.instagram.com/filmladyroyal/"
+                href="https://www.instagram.com/kinoroyalepod/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
